@@ -2,36 +2,36 @@
 #include "sys.h"
 	
 /*------------------------------------------------------------
-                           Ö÷º¯Êý
+                           ä¸»å‡½æ•°
 ------------------------------------------------------------*/
 int main()
 {
     
-  Stm32_Clock_Init();//ÏµÍ³Ê±ÖÓÉèÖÃ
-	RCC->APB2ENR |= 0x00000001; //¿ªÆôafioÊ±ÖÓ
-  //AFIO->MAPR = (0x00FFFFFF & AFIO->MAPR)|0x04000000;          //¹Ø±ÕJTAG 
+  Stm32_Clock_Init();//ç³»ç»Ÿæ—¶é’Ÿè®¾ç½®
+	RCC->APB2ENR |= 0x00000001; //å¼€å¯afioæ—¶é’Ÿ
+  //AFIO->MAPR = (0x00FFFFFF & AFIO->MAPR)|0x04000000;          //å…³é—­JTAG 
 				
 
-	RCC->APB2ENR|=0X0000001c;//ÏÈÊ¹ÄÜÍâÉèIO PORTa,b,cÊ±ÖÓ
+	RCC->APB2ENR|=0X0000001c;//å…ˆä½¿èƒ½å¤–è®¾IO PORTa,b,cæ—¶é’Ÿ
 	
-	GPIOB->CRH=0X33333333;    //ÍÆÍìÊä³ö
-	GPIOB->CRL=0X33333333;    //ÍÆÍìÊä³ö
-	GPIOC->CRH=0X33333333;    //ÍÆÍìÊä³ö
-	GPIOC->CRL=0X33333333;    //ÍÆÍìÊä³ö
-	GPIOD->CRH=0X33333333;    //ÍÆÍìÊä³ö
-	GPIOD->CRL=0X33333333;    //ÍÆÍìÊä³ö
-	GPIOA->CRH=0X33333333;    //ÍÆÍìÊä³ö
-	GPIOA->CRL=0X33333333;    //ÍÆÍìÊä³ö
+	GPIOB->CRH=0X33333333;    //æŽ¨æŒ½è¾“å‡º
+	GPIOB->CRL=0X33333333;    //æŽ¨æŒ½è¾“å‡º
+	GPIOC->CRH=0X33333333;    //æŽ¨æŒ½è¾“å‡º
+	GPIOC->CRL=0X33333333;    //æŽ¨æŒ½è¾“å‡º
+	GPIOD->CRH=0X33333333;    //æŽ¨æŒ½è¾“å‡º
+	GPIOD->CRL=0X33333333;    //æŽ¨æŒ½è¾“å‡º
+	GPIOA->CRH=0X33333333;    //æŽ¨æŒ½è¾“å‡º
+	GPIOA->CRL=0X33333333;    //æŽ¨æŒ½è¾“å‡º
 
 	while (1)
   {			
 	delay_ms(100);     	 
-	GPIOB->ODR=0;	  		 //È«²¿Êä³ö0
+	GPIOB->ODR=0;	  		 //å…¨éƒ¨è¾“å‡º0
 	GPIOA->ODR=0;		
 	GPIOC->ODR=0;
 	GPIOD->ODR=0;
 	delay_ms(100);
-	GPIOB->ODR=0xffffffff;	 //È«²¿Êä³ö1 
+	GPIOB->ODR=0xffffffff;	 //å…¨éƒ¨è¾“å‡º1 
 	GPIOA->ODR=0xffffffff;	  
 	GPIOC->ODR=0xffffffff;
 	GPIOD->ODR=0xffffffff;

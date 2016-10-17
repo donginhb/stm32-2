@@ -1,12 +1,12 @@
 #ifndef __SYS_H
 #define __SYS_H	   
 
-//usÑÓÊ±º¯Êı 
+//uså»¶æ—¶å‡½æ•° 
 void delay_us(unsigned int us);
-//msÑÓÊ±º¯Êı
+//mså»¶æ—¶å‡½æ•°
 void delay_ms(unsigned int ms);
-//°ÑËùÓĞÊ±ÖÓ¼Ä´æÆ÷¸´Î»
+//æŠŠæ‰€æœ‰æ—¶é’Ÿå¯„å­˜å™¨å¤ä½
 void RCC_DeInit(void);
-//Íâ²¿8M,ÔòµÃµ½72MµÄÏµÍ³Ê±ÖÓ	
+//å¤–éƒ¨8M,åˆ™å¾—åˆ°72Mçš„ç³»ç»Ÿæ—¶é’Ÿ	
 void Stm32_Clock_Init(void);
 #endif
