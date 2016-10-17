@@ -1,0 +1,17 @@
+Dependencies for Project 'LED', Target 'Target 1': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x4A028246)(--cpu Cortex-M3 -g --apcs=interwork -I F:\ARM\RV31\INC-I F:\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I F:\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include-I F:\ARM\Inc\ST\STM32F10x--list .\list\stm32f10x.lst --xref -o .\obj\stm32f10x.o --depend .\obj\stm32f10x.d)
+F (.\Source\main.c)(0x57CE1762)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\1、led -I.\Source -I.\Obj -I.\List-I F:\ARM\RV31\INC-I F:\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I F:\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include-I F:\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (D:\个人文件\桌面\1、led\Source\stm32f10x.h)(0x5517F920)
+I (F:\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (F:\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (F:\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (F:\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (F:\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\个人文件\桌面\1、led\Source\sys.h)(0x4CD6A490)
+F (.\Source\sys.c)(0x57CE14DC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\1、led -I.\Source -I.\Obj -I.\List-I F:\ARM\RV31\INC-I F:\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-I F:\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include-I F:\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+I (D:\个人文件\桌面\1、led\Source\stm32f10x.h)(0x5517F920)
+I (F:\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (F:\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (F:\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (F:\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (F:\ARM\PACK\Keil\STM32F1xx_DFP\1.0.2\Device\Include\system_stm32f10x.h)(0x4F1E2E3C)
