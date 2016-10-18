@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+X:\cp产品电路+PCB\1.生产中板子\1.Core-Board\LQFP64-扩展板\STM32核心学习板\V1.02\淘宝共享资料\V1.02\参考程序\陆航MiniSTM32 V1.0 串口1 接收中断\Project_uV4.uvproj
+Project File Date:  12/10/2013
+
+<h2>Output:</h2>
+Build target '串口1 接收中断'
+compiling stm32f10x_it.c...
+app\stm32f10x_it.c(172): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=4704 RO-data=532 RW-data=44 ZI-data=1028  
+".\Output\Obj\Project_uV4.axf" - 0 Error(s), 1 Warning(s).
+Load "X:\\cp产品电路+PCB\\1.生产中板子\\1.Core-Board\\LQFP64-扩展板\\STM32核心学习板\\V1.02\\淘宝共享资料\\V1.02\\参考程序\\陆航MiniSTM32 V1.0 串口1 接收中断\\Output\\Obj\\Project_uV4.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "X:\\cp产品电路+PCB\\1.生产中板子\\1.Core-Board\\LQFP64-扩展板\\STM32核心学习板\\V1.02\\淘宝共享资料\\V1.02\\参考程序\\陆航MiniSTM32 V1.0 串口1 接收中断\\Output\\Obj\\Project_uV4.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "X:\\cp产品电路+PCB\\1.生产中板子\\1.Core-Board\\LQFP64-扩展板\\STM32核心学习板\\V1.02\\淘宝共享资料\\V1.02\\参考程序\\陆航MiniSTM32 V1.0 串口1 接收中断\\Output\\Obj\\Project_uV4.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "X:\\cp产品电路+PCB\\1.生产中板子\\1.Core-Board\\LQFP64-扩展板\\STM32核心学习板\\V1.02\\淘宝共享资料\\V1.02\\参考程序\\陆航MiniSTM32 V1.0 串口1 接收中断\\Output\\Obj\\Project_uV4.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
