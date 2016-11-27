@@ -1,0 +1,14 @@
+.\Obj\mem.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\core\mem.c
+.\Obj\mem.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/opt.h
+.\Obj\mem.o: ..\USER\LWIP\lwipopts.h
+.\Obj\mem.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/debug.h
+.\Obj\mem.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/arch.h
+.\Obj\mem.o: ..\USER\LWIP\arch/cc.h
+.\Obj\mem.o: C:\Keil\ARM\RV31\INC\stdio.h
+.\Obj\mem.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/def.h
+.\Obj\mem.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/mem.h
+.\Obj\mem.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/sys.h
+.\Obj\mem.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/stats.h
+.\Obj\mem.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/memp.h
+.\Obj\mem.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/memp_std.h
+.\Obj\mem.o: C:\Keil\ARM\RV31\INC\string.h

@@ -1,0 +1,83 @@
+
+<ApplicationBuild Header="Virtual_COM_Port" Extern=".\Virtual_COM_Port.rapp" Path=".\Virtual_COM_Port.rapp" OutputFile="obj\Virtual_COM_Port.elf" Config="Standard" sate="98" >
+	<Group Header="Application files" Marker="-1" OutputFile="" sate="0" >
+		<NodeC Path="..\..\source\hw_config.c" Header="hw_config.c" Marker="-1" OutputFile="obj\hw_config.o" sate="0" />
+		<NodeC Path="..\..\source\main.c" Header="main.c" Marker="-1" OutputFile="obj\main.o" sate="0" />
+		<NodeC Path="..\..\source\stm32f10x_it.c" Header="stm32f10x_it.c" Marker="-1" OutputFile="obj\stm32f10x_it.o" sate="0" />
+		<NodeC Path="..\..\source\usb_desc.c" Header="usb_desc.c" Marker="-1" OutputFile="obj\usb_desc.o" sate="0" />
+		<NodeC Path="..\..\source\usb_endp.c" Header="usb_endp.c" Marker="-1" OutputFile="obj\usb_endp.o" sate="0" />
+		<NodeC Path="..\..\source\usb_istr.c" Header="usb_istr.c" Marker="-1" OutputFile="obj\usb_istr.o" sate="0" />
+		<NodeC Path="..\..\source\usb_prop.c" Header="usb_prop.c" Marker="-1" OutputFile="obj\usb_prop.o" sate="0" />
+		<NodeC Path="..\..\source\usb_pwr.c" Header="usb_pwr.c" Marker="-1" OutputFile="obj\usb_pwr.o" sate="0" />
+																		
+	</Group>
+	<Group Header="USBlib" Marker="-1" OutputFile="" sate="0" >
+		<NodeC Path="..\..\..\..\library\src\usb_core.c" Header="usb_core.c" Marker="-1" OutputFile="obj\usb_core.o" sate="0" />
+		<NodeC Path="..\..\..\..\library\src\usb_init.c" Header="usb_init.c" Marker="-1" OutputFile="obj\usb_init.o" sate="0" />
+		<NodeC Path="..\..\..\..\library\src\usb_int.c" Header="usb_int.c" Marker="-1" OutputFile="obj\usb_int.o" sate="0" />
+		<NodeC Path="..\..\..\..\library\src\usb_mem.c" Header="usb_mem.c" Marker="-1" OutputFile="obj\usb_mem.o" sate="0" />
+		<NodeC Path="..\..\..\..\library\src\usb_regs.c" Header="usb_regs.c" Marker="-1" OutputFile="obj\usb_regs.o" sate="0" />
+																		
+	</Group>
+	<Group Header="RIDE" Marker="-1" OutputFile="" sate="96" >
+		<NodeASM Path=".\cortexm3_macro.s" Header="cortexm3_macro.s" Marker="-1" OutputFile="obj\cortexm3_macro.o" sate="0" />
+									
+	</Group>
+	<Group Header="FWLib" Marker="-1" OutputFile="" sate="96" >
+		<NodeC Path="..\..\..\..\..\FWLib\library\src\stm32f10x_usart.c" Header="stm32f10x_usart.c" Marker="-1" OutputFile="obj\stm32f10x_usart.o" sate="0" />
+		<NodeC Path="..\..\..\..\..\FWLib\library\src\stm32f10x_flash.c" Header="stm32f10x_flash.c" Marker="-1" OutputFile="obj\stm32f10x_flash.o" sate="0" />
+		<NodeC Path="..\..\..\..\..\FWLib\library\src\stm32f10x_gpio.c" Header="stm32f10x_gpio.c" Marker="-1" OutputFile="obj\stm32f10x_gpio.o" sate="0" />
+		<NodeC Path="..\..\..\..\..\FWLib\library\src\stm32f10x_lib.c" Header="stm32f10x_lib.c" Marker="-1" OutputFile="obj\stm32f10x_lib.o" sate="0" />
+		<NodeC Path="..\..\..\..\..\FWLib\library\src\stm32f10x_nvic.c" Header="stm32f10x_nvic.c" Marker="-1" OutputFile="obj\stm32f10x_nvic.o" sate="0" />
+		<NodeC Path="..\..\..\..\..\FWLib\library\src\stm32f10x_rcc.c" Header="stm32f10x_rcc.c" Marker="-1" OutputFile="obj\stm32f10x_rcc.o" sate="0" />
+									
+	</Group>
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ARM" />
+																																																													
+				</Section>
+				<Section Header="Directories" >
+					<Property Header="OutDir" Value="obj" Removable="1" />
+					<Property Header="ListDir" Value="lst" Removable="1" />
+					<Property Header="IncDir" Value="..\..\..\..\..\FWLib\library\inc;.\..\..\..\..\library\inc;.\..\..\include" Removable="1" />
+																																		
+				</Section>
+																										
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F103VBT6" />
+																																																													
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\\GNU.config" Removable="1" />
+																																																													
+				</Section>
+				<Section Header="DebugARM" >
+					<Property Header="DebugTool" Value="RLINK_CORTEX" Removable="1" />
+																																																													
+				</Section>
+																																															
+			</Set>
+			<Set Header="LD" >
+				<Section Header="LIB" >
+					<Property Header="SMALLP" Value="0" Removable="1" />
+					<Property Header="UART0PUTC" Value="0" Removable="1" />
+					<Property Header="STLIB" Value="0" Removable="1" />
+																									
+				</Section>
+																			
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-O2" Removable="1" />
+							
+				</Section>
+					
+			</Set>
+		</Config>
+	</Options>
+</ApplicationBuild>

@@ -1,0 +1,450 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+Z:\~cp产品电路+PCB\1.生产中板子\2.Eth-Board\STM32F103RCT6+ENC28J60\淘宝共享资料\实验52 ENC28J60网络模块实验\USER\ENC28J60.uvproj
+Project File Date:  08/14/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling timer.c...
+compiling uip.c...
+compiling uip_arp.c...
+compiling uip-fw.c...
+compiling uiplib.c...
+compiling uip-neighbor.c...
+compiling uip-split.c...
+compiling clock-arch.c...
+compiling tapdev.c...
+compiling tcp_client_demo.c...
+compiling tcp_demo.c...
+compiling tcp_server_demo.c...
+compiling httpd.c...
+compiling httpd-cgi.c...
+compiling httpd-fs.c...
+linking...
+Program Size: Code=47458 RO-data=9566 RW-data=2280 ZI-data=8192  
+FromELF: creating hex file...
+"..\OBJ\ENC28J60.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\ENC28J60.AXF" 
+Set JLink Project File to "Z:\~cp产品电路+PCB\1.生产中板子\2.Eth-Board\STM32F103RCT6+ENC28J60\淘宝共享资料\实验52 ENC28J60网络模块实验\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 12345678 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.280V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling tcp_demo.c...
+linking...
+Program Size: Code=47462 RO-data=9566 RW-data=2280 ZI-data=8192  
+FromELF: creating hex file...
+"..\OBJ\ENC28J60.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\ENC28J60.AXF" 
+Set JLink Project File to "Z:\~cp产品电路+PCB\1.生产中板子\2.Eth-Board\STM32F103RCT6+ENC28J60\淘宝共享资料\实验52 ENC28J60网络模块实验\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 12345678 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.280V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling httpd.c...
+..\uIP-1.0\apps\webserver\httpd.c(351): warning:  #223-D: function "printf" declared implicitly
+..\uIP-1.0\apps\webserver\httpd.c:      { printf("if(uip_closed() || uip_aborted() || uip_timedout())//异常处理 ");
+..\uIP-1.0\apps\webserver\httpd.c:        ^
+..\uIP-1.0\apps\webserver\httpd.c(362): warning:  #223-D: function "printf" declared implicitly
+..\uIP-1.0\apps\webserver\httpd.c:      {       printf("else if(s!=NULL) ");
+..\uIP-1.0\apps\webserver\httpd.c:              ^
+..\uIP-1.0\apps\webserver\httpd.c: ..\uIP-1.0\apps\webserver\httpd.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=47562 RO-data=9566 RW-data=2280 ZI-data=8192  
+FromELF: creating hex file...
+"..\OBJ\ENC28J60.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling httpd.c...
+..\uIP-1.0\apps\webserver\httpd.c(351): warning:  #223-D: function "printf" declared implicitly
+..\uIP-1.0\apps\webserver\httpd.c:      { printf("if(uip_closed() || uip_aborted() || uip_timedout())//异常处理 ");
+..\uIP-1.0\apps\webserver\httpd.c:        ^
+..\uIP-1.0\apps\webserver\httpd.c(353): warning:  #223-D: function "printf" declared implicitly
+..\uIP-1.0\apps\webserver\httpd.c:      {       printf("else if(uip_connected())//连接成功 ");
+..\uIP-1.0\apps\webserver\httpd.c:              ^
+..\uIP-1.0\apps\webserver\httpd.c(362): warning:  #223-D: function "printf" declared implicitly
+..\uIP-1.0\apps\webserver\httpd.c:      {       printf("else if(s!=NULL) ");
+..\uIP-1.0\apps\webserver\httpd.c:              ^
+..\uIP-1.0\apps\webserver\httpd.c: ..\uIP-1.0\apps\webserver\httpd.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=47602 RO-data=9566 RW-data=2280 ZI-data=8192  
+FromELF: creating hex file...
+"..\OBJ\ENC28J60.axf" - 0 Error(s), 3 Warning(s).
+Load "..\\OBJ\\ENC28J60.AXF" 
+Set JLink Project File to "Z:\~cp产品电路+PCB\1.生产中板子\2.Eth-Board\STM32F103RCT6+ENC28J60\淘宝共享资料\实验52 ENC28J60网络模块实验\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 12345678 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.280V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling httpd.c...
+..\uIP-1.0\apps\webserver\httpd.c(351): warning:  #223-D: function "printf" declared implicitly
+..\uIP-1.0\apps\webserver\httpd.c:      { printf("if(uip_closed() || uip_aborted() || uip_timedout())//异常处理 ");
+..\uIP-1.0\apps\webserver\httpd.c:        ^
+..\uIP-1.0\apps\webserver\httpd.c(353): warning:  #223-D: function "printf" declared implicitly
+..\uIP-1.0\apps\webserver\httpd.c:      {       printf("else if(uip_connected())//连接成功 ");
+..\uIP-1.0\apps\webserver\httpd.c:              ^
+..\uIP-1.0\apps\webserver\httpd.c(363): warning:  #223-D: function "printf" declared implicitly
+..\uIP-1.0\apps\webserver\httpd.c:      {       printf("else if(s!=NULL) ");
+..\uIP-1.0\apps\webserver\httpd.c:              ^
+..\uIP-1.0\apps\webserver\httpd.c: ..\uIP-1.0\apps\webserver\httpd.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=47642 RO-data=9566 RW-data=2280 ZI-data=8192  
+FromELF: creating hex file...
+"..\OBJ\ENC28J60.axf" - 0 Error(s), 3 Warning(s).
+Load "..\\OBJ\\ENC28J60.AXF" 
+Set JLink Project File to "Z:\~cp产品电路+PCB\1.生产中板子\2.Eth-Board\STM32F103RCT6+ENC28J60\淘宝共享资料\实验52 ENC28J60网络模块实验\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 12345678 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.280V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling httpd.c...
+..\uIP-1.0\apps\webserver\httpd.c(351): warning:  #223-D: function "printf" declared implicitly
+..\uIP-1.0\apps\webserver\httpd.c:      { printf("if(uip_closed() || uip_aborted() || uip_timedout())//异常处理 ");
+..\uIP-1.0\apps\webserver\httpd.c:        ^
+..\uIP-1.0\apps\webserver\httpd.c(353): warning:  #223-D: function "printf" declared implicitly
+..\uIP-1.0\apps\webserver\httpd.c:      {       printf("else if(uip_connected())//连接成功 ");
+..\uIP-1.0\apps\webserver\httpd.c:              ^
+..\uIP-1.0\apps\webserver\httpd.c(363): warning:  #223-D: function "printf" declared implicitly
+..\uIP-1.0\apps\webserver\httpd.c:      {       printf("else if(s!=NULL) ");
+..\uIP-1.0\apps\webserver\httpd.c:              ^
+..\uIP-1.0\apps\webserver\httpd.c(371): warning:  #223-D: function "printf" declared implicitly
+..\uIP-1.0\apps\webserver\httpd.c:      }else {uip_abort();     printf("uip_abort(); ");}        
+..\uIP-1.0\apps\webserver\httpd.c:                              ^
+..\uIP-1.0\apps\webserver\httpd.c: ..\uIP-1.0\apps\webserver\httpd.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=47694 RO-data=9566 RW-data=2280 ZI-data=8192  
+FromELF: creating hex file...
+"..\OBJ\ENC28J60.axf" - 0 Error(s), 4 Warning(s).
+Load "..\\OBJ\\ENC28J60.AXF" 
+Set JLink Project File to "Z:\~cp产品电路+PCB\1.生产中板子\2.Eth-Board\STM32F103RCT6+ENC28J60\淘宝共享资料\实验52 ENC28J60网络模块实验\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 12345678 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.280V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling httpd.c...
+linking...
+Program Size: Code=47462 RO-data=9566 RW-data=2280 ZI-data=8192  
+FromELF: creating hex file...
+"..\OBJ\ENC28J60.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\ENC28J60.AXF" 
+Set JLink Project File to "Z:\~cp产品电路+PCB\1.生产中板子\2.Eth-Board\STM32F103RCT6+ENC28J60\淘宝共享资料\实验52 ENC28J60网络模块实验\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 12345678 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.280V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+linking...
+Program Size: Code=47462 RO-data=9566 RW-data=2280 ZI-data=8192  
+FromELF: creating hex file...
+"..\OBJ\ENC28J60.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\ENC28J60.AXF" 
+Set JLink Project File to "Z:\~cp产品电路+PCB\1.生产中板子\2.Eth-Board\STM32F103RCT6+ENC28J60\淘宝共享资料\实验52 ENC28J60网络模块实验\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 12345678 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.280V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
+Build target 'Target 1'
+compiling httpd-fs.c...
+..\uIP-1.0\apps\webserver\httpd-fs.c(47): error:  #20: identifier "HTTPD_FS_NUMFILES" is undefined
+..\uIP-1.0\apps\webserver\httpd-fs.c:   static u16_t count[HTTPD_FS_NUMFILES];
+..\uIP-1.0\apps\webserver\httpd-fs.c:                      ^
+..\uIP-1.0\apps\webserver\httpd-fs.c(81): error:  #20: identifier "HTTPD_FS_ROOT" is undefined
+..\uIP-1.0\apps\webserver\httpd-fs.c:     for(f = (struct httpd_fsdata_file_noconst *)HTTPD_FS_ROOT;
+..\uIP-1.0\apps\webserver\httpd-fs.c:                                                 ^
+..\uIP-1.0\apps\webserver\httpd-fs.c(120): error:  #20: identifier "HTTPD_FS_ROOT" is undefined
+..\uIP-1.0\apps\webserver\httpd-fs.c:     for(f = (struct httpd_fsdata_file_noconst *)HTTPD_FS_ROOT;
+..\uIP-1.0\apps\webserver\httpd-fs.c:                                                 ^
+..\uIP-1.0\apps\webserver\httpd-fs.c: ..\uIP-1.0\apps\webserver\httpd-fs.c: 0 warnings, 3 errors
+Target not created
+Build target 'Target 1'
+compiling httpd-fs.c...
+linking...
+Program Size: Code=47454 RO-data=4758 RW-data=1880 ZI-data=8176  
+FromELF: creating hex file...
+"..\OBJ\ENC28J60.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\ENC28J60.AXF" 
+Set JLink Project File to "Z:\~cp产品电路+PCB\1.生产中板子\2.Eth-Board\STM32F103RCT6+ENC28J60\淘宝共享资料\实验52 ENC28J60网络模块实验\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N : 12345678 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.280V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 1, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...

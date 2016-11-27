@@ -1,0 +1,33 @@
+
+T0AA0 000:125 SEGGER J-Link V4.76d Log File (0025ms, 0149ms total)
+T0AA0 000:125 DLL Compiled: Sep 13 2013 16:35:06 (0026ms, 0150ms total)
+T0AA0 000:125 Logging started @ 2014-10-31 21:37 (0027ms, 0151ms total)
+T0AA0 000:152 JLINK_SetWarnOutHandler(...) (0001ms, 0152ms total)
+T0AA0 000:153 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Jul 17 2013 11:24:15
+Hardware: V8.00
+S/N: 12345678
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0086ms, 0238ms total)
+T0AA0 000:239 JLINK_SetErrorOutHandler(...) (0001ms, 0239ms total)
+T0AA0 000:240 JLINK_ExecCommand("ProjectFile = "W:\1.淘宝资料共享\淘宝【共享资料】-最小系统[STM32]\2.STM32F030F4P6最小系统\共享文件\4.程序\1.出厂程序\LED-PA4\Proj\JLinkSettings.ini"", ...)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0000ms total)
+              Device "UNSPECIFIED" selected (0 KB flash, 0 KB RAM).  returns 0x00 (0010ms, 0249ms total)
+T0AA0 000:252 JLINK_ExecCommand("Device = STM32F030F4", ...)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0001ms, 0001ms total)
+              Device "UNSPECIFIED" selected (0 KB flash, 0 KB RAM).  returns 0x00 (0005ms, 0255ms total)
+T0AA0 000:258 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0256ms total)
+T0AA0 000:259 JLINK_GetHardwareVersion()  returns 0x13880 (0001ms, 0257ms total)
+T0AA0 000:260 JLINK_GetDLLVersion()  returns 47604 (0001ms, 0258ms total)
+T0AA0 000:261 JLINK_GetFirmwareString(...) (0001ms, 0259ms total)
+T0AA0 000:269 JLINK_GetDLLVersion()  returns 47604 (0001ms, 0260ms total)
+T0AA0 000:270 JLINK_GetCompileDateTime() (0001ms, 0261ms total)
+T0AA0 000:273 JLINK_GetFirmwareString(...) (0001ms, 0262ms total)
+T0AA0 000:277 JLINK_GetHardwareVersion()  returns 0x13880 (0001ms, 0263ms total)
+T0AA0 000:308 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0019ms, 0283ms total)
+T0AA0 000:327 JLINK_SetSpeed(2000) (0005ms, 0288ms total)
+T0AA0 000:332 JLINK_GetId()
+  ***** Error: Supply voltage too low (1 Volt is required, Measured: 0.0 Volt).
+Please check target power.  returns 0x00000000 (0006ms, 0294ms total)
+T0AA0 001:665 JLINK_Close() (0027ms, 0321ms total)
+T0AA0 001:694 JLINK_Close() (0001ms, 0322ms total)
+T0AA0 001:697 JLINK_Close() (0001ms, 0323ms total)

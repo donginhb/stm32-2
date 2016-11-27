@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\output\obj\main.o" ".\output\obj\led.o" ".\output\obj\delay.o" ".\output\obj\stm32f10x_it.o" ".\output\obj\stm32f10x_gpio.o" ".\output\obj\stm32f10x_rcc.o" ".\output\obj\core_cm3.o" ".\output\obj\system_stm32f10x.o" ".\output\obj\startup_stm32f10x_md.o" --strict --scatter ".\Output\Obj\Project_uV4.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Output\List\Project_uV4.map" -o ".\Output\Obj\Project_uV4.axf"

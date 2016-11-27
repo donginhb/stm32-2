@@ -1,0 +1,13 @@
+.\Obj\stats.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\core\stats.c
+.\Obj\stats.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/opt.h
+.\Obj\stats.o: ..\USER\LWIP\lwipopts.h
+.\Obj\stats.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/debug.h
+.\Obj\stats.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/arch.h
+.\Obj\stats.o: ..\USER\LWIP\arch/cc.h
+.\Obj\stats.o: C:\Keil\ARM\RV31\INC\stdio.h
+.\Obj\stats.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/def.h
+.\Obj\stats.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/stats.h
+.\Obj\stats.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/mem.h
+.\Obj\stats.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/memp.h
+.\Obj\stats.o: ..\USER\LWIP\lwip-1.4.0.rc1\src\include\lwip/memp_std.h
+.\Obj\stats.o: C:\Keil\ARM\RV31\INC\string.h
