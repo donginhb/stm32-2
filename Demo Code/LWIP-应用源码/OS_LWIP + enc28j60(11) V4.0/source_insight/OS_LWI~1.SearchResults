@@ -1,2 +1,0 @@
----- not all data sent Matches (1 in 1 files) ----
-Tcp.c (d:\debug_stm32\os_lwip + enc28j60(6)\user\lwip\lwip-1.4.0.rc2\src\core):      LWIP_DEBUGF(TCP_DEBUG, ("tcp_pcb_purge: not all data sent\n"));

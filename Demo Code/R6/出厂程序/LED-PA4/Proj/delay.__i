@@ -1,1 +1,0 @@
--c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\ST_Lib\inc -I..\ST_Lib\src -I..\System\CMSIS -I..\System\startup -I..\User -I..\My_Lib\delay -I..\My_Lib\LED -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\STMicroelectronics" -DUSE_STDPERIPH_DRIVER -DSTM32F0XX_LD -o "delay.o" --omf_browse "delay.crf" --depend "delay.d" "..\My_Lib\delay\delay.c"
