@@ -1,9 +1,0 @@
-/*需要编译库文件清单*/
-1，stm32f10x_exti.c 
-2，stm32f10x_flash.c
-3，stm32f10x_gpio.c
-4，stm32f10x_lib.c
-5，stm32f10x_nvic.c
-6，stm32f10x_rcc.c
-7，stm32f10x_systick.c
-8，stm32f10x_tim.c
