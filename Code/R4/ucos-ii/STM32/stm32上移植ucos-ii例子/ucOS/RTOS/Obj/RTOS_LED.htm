@@ -1,0 +1,2120 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [..\Obj\RTOS_LED.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image ..\Obj\RTOS_LED.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, RVCT3.1 [Build 934]: Last Updated: Mon May 25 17:25:45 2009
+<BR><P>
+<H3>Maximum Stack Usage =        192 bytes + Unknown(Functions without stacksize, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+__main &rArr; __rt_entry &rArr; main &rArr; OSInit &rArr; OSTmr_Init &rArr; OSTmr_InitTask &rArr; OSTaskCreateExt &rArr; OS_TCBInit
+<P>
+<H3>
+Functions with no stack information
+</H3><UL>
+ <LI><a href="#[bbe250]">__WFI</a>
+ <LI><a href="#[bbe208]">__WFE</a>
+ <LI><a href="#[bbe1c0]">__SEV</a>
+ <LI><a href="#[bbe178]">__ISB</a>
+ <LI><a href="#[bbe130]">__DSB</a>
+ <LI><a href="#[bbe0e8]">__DMB</a>
+ <LI><a href="#[bbe0a0]">__SVC</a>
+ <LI><a href="#[bbe058]">__MRS_CONTROL</a>
+ <LI><a href="#[bbe010]">__MSR_CONTROL</a>
+ <LI><a href="#[bbdfc8]">__MRS_PSP</a>
+ <LI><a href="#[bbdf80]">__MSR_PSP</a>
+ <LI><a href="#[bbdf38]">__MRS_MSP</a>
+ <LI><a href="#[bbdef0]">__MSR_MSP</a>
+ <LI><a href="#[bbdea8]">__RESETPRIMASK</a>
+ <LI><a href="#[bbde60]">__SETPRIMASK</a>
+ <LI><a href="#[bbde18]">__READ_PRIMASK</a>
+ <LI><a href="#[bbddd0]">__SETFAULTMASK</a>
+ <LI><a href="#[bbdd88]">__RESETFAULTMASK</a>
+ <LI><a href="#[bbdd40]">__READ_FAULTMASK</a>
+ <LI><a href="#[bbdcf8]">__BASEPRICONFIG</a>
+ <LI><a href="#[bbdcb0]">__GetBASEPRI</a>
+ <LI><a href="#[bbdc68]">__REV_HalfWord</a>
+ <LI><a href="#[bbdc20]">__REV_Word</a>
+ <LI><a href="#[bbd768]">__user_initial_stackheap</a>
+ <LI><a href="#[bb8cb0]">OS_CPU_SR_Save</a>
+ <LI><a href="#[bb8c68]">OS_CPU_SR_Restore</a>
+ <LI><a href="#[bb8c20]">OSStartHighRdy</a>
+ <LI><a href="#[bb8bd8]">OSCtxSw</a>
+ <LI><a href="#[bb8b90]">OSIntCtxSw</a>
+ <LI><a href="#[bbcd90]">OS_CPU_PendSVHandler</a>
+</UL>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[bbd7b0]">Reset_Handler</a>
+ <LI><a href="#[bbcdd8]">NMIException</a>
+ <LI><a href="#[bbcf88]">HardFaultException</a>
+ <LI><a href="#[bbce20]">MemManageException</a>
+ <LI><a href="#[bbd648]">BusFaultException</a>
+ <LI><a href="#[bbc400]">UsageFaultException</a>
+ <LI><a href="#[bbcb08]">SVCHandler</a>
+ <LI><a href="#[bbd258]">DebugMonitor</a>
+ <LI><a href="#[bbcd90]">OS_CPU_PendSVHandler</a>
+ <LI><a href="#[bbcac0]">SysTickHandler</a>
+ <LI><a href="#[bbc3b8]">WWDG_IRQHandler</a>
+ <LI><a href="#[bbcd48]">PVD_IRQHandler</a>
+ <LI><a href="#[bbca78]">TAMPER_IRQHandler</a>
+ <LI><a href="#[bbcc70]">RTC_IRQHandler</a>
+ <LI><a href="#[bbd018]">FLASH_IRQHandler</a>
+ <LI><a href="#[bbcd00]">RCC_IRQHandler</a>
+ <LI><a href="#[bbd210]">EXTI0_IRQHandler</a>
+ <LI><a href="#[bbd180]">EXTI1_IRQHandler</a>
+ <LI><a href="#[bbd138]">EXTI2_IRQHandler</a>
+ <LI><a href="#[bbd0f0]">EXTI3_IRQHandler</a>
+ <LI><a href="#[bbd0a8]">EXTI4_IRQHandler</a>
+ <LI><a href="#[bbd570]">DMA1_Channel1_IRQHandler</a>
+ <LI><a href="#[bbd528]">DMA1_Channel2_IRQHandler</a>
+ <LI><a href="#[bbd4e0]">DMA1_Channel3_IRQHandler</a>
+ <LI><a href="#[bbd498]">DMA1_Channel4_IRQHandler</a>
+ <LI><a href="#[bbd450]">DMA1_Channel5_IRQHandler</a>
+ <LI><a href="#[bbd408]">DMA1_Channel6_IRQHandler</a>
+ <LI><a href="#[bbd3c0]">DMA1_Channel7_IRQHandler</a>
+ <LI><a href="#[bbd6d8]">ADC1_2_IRQHandler</a>
+ <LI><a href="#[bbc490]">USB_HP_CAN_TX_IRQHandler</a>
+ <LI><a href="#[bbc448]">USB_LP_CAN_RX0_IRQHandler</a>
+ <LI><a href="#[bbd600]">CAN_RX1_IRQHandler</a>
+ <LI><a href="#[bbd5b8]">CAN_SCE_IRQHandler</a>
+ <LI><a href="#[bbd060]">EXTI9_5_IRQHandler</a>
+ <LI><a href="#[bbca30]">TIM1_BRK_IRQHandler</a>
+ <LI><a href="#[bbc958]">TIM1_UP_IRQHandler</a>
+ <LI><a href="#[bbc9a0]">TIM1_TRG_COM_IRQHandler</a>
+ <LI><a href="#[bbc9e8]">TIM1_CC_IRQHandler</a>
+ <LI><a href="#[bbc910]">TIM2_IRQHandler</a>
+ <LI><a href="#[bbc8c8]">TIM3_IRQHandler</a>
+ <LI><a href="#[bbc880]">TIM4_IRQHandler</a>
+ <LI><a href="#[bbcef8]">I2C1_EV_IRQHandler</a>
+ <LI><a href="#[bbcf40]">I2C1_ER_IRQHandler</a>
+ <LI><a href="#[bbce68]">I2C2_EV_IRQHandler</a>
+ <LI><a href="#[bbceb0]">I2C2_ER_IRQHandler</a>
+ <LI><a href="#[bbcbe0]">SPI1_IRQHandler</a>
+ <LI><a href="#[bbcb98]">SPI2_IRQHandler</a>
+ <LI><a href="#[bbc5b0]">USART1_IRQHandler</a>
+ <LI><a href="#[bbc568]">USART2_IRQHandler</a>
+ <LI><a href="#[bbc520]">USART3_IRQHandler</a>
+ <LI><a href="#[bbd1c8]">EXTI15_10_IRQHandler</a>
+ <LI><a href="#[bbccb8]">RTCAlarm_IRQHandler</a>
+ <LI><a href="#[bbc4d8]">USBWakeUp_IRQHandler</a>
+ <LI><a href="#[bbc760]">TIM8_BRK_IRQHandler</a>
+ <LI><a href="#[bbc688]">TIM8_UP_IRQHandler</a>
+ <LI><a href="#[bbc6d0]">TIM8_TRG_COM_IRQHandler</a>
+ <LI><a href="#[bbc718]">TIM8_CC_IRQHandler</a>
+ <LI><a href="#[bbd690]">ADC3_IRQHandler</a>
+ <LI><a href="#[bbcfd0]">FSMC_IRQHandler</a>
+ <LI><a href="#[bbcc28]">SDIO_IRQHandler</a>
+ <LI><a href="#[bbc838]">TIM5_IRQHandler</a>
+ <LI><a href="#[bbcb50]">SPI3_IRQHandler</a>
+ <LI><a href="#[bbc640]">UART4_IRQHandler</a>
+ <LI><a href="#[bbc5f8]">UART5_IRQHandler</a>
+ <LI><a href="#[bbc7f0]">TIM6_IRQHandler</a>
+ <LI><a href="#[bbc7a8]">TIM7_IRQHandler</a>
+ <LI><a href="#[bbd378]">DMA2_Channel1_IRQHandler</a>
+ <LI><a href="#[bbd330]">DMA2_Channel2_IRQHandler</a>
+ <LI><a href="#[bbd2e8]">DMA2_Channel3_IRQHandler</a>
+ <LI><a href="#[bbd2a0]">DMA2_Channel4_5_IRQHandler</a>
+ <LI><a href="#[1047040]">__main</a>
+ <LI><a href="#[bb89e0]">OSTaskSwHook</a>
+ <LI><a href="#[10448c8]">__I_use_semihosting</a>
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[1047040]"></a>__main</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, __main.o(!!!main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 192 + Unknown Stack Size
+<LI>Call Chain = __main &rArr; __rt_entry &rArr; main &rArr; OSInit &rArr; OSTmr_Init &rArr; OSTmr_InitTask &rArr; OSTaskCreateExt &rArr; OS_TCBInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1046d88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[1041d40]"></a>__scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[1041cf8]"></a>__scatterload_rt2</STRONG> (Thumb, 44 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1046d88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[1041cb0]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[1041c68]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[1041a28]"></a>__scatterload_copy</STRONG> (Thumb, 26 bytes, Stack size unknown bytes, __scatter_copy.o(!!handler_copy), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1041a28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1041a28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
+</UL>
+
+<P><STRONG><a name="[10418c0]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
+
+<P><STRONG><a name="[1045800]"></a>__ARM_argv_veneer</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, lib_init.o(.emb_text))
+<BR><BR>[Calls]<UL><LI><a href="#[1043e98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_get_argv
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
+</UL>
+
+<P><STRONG><a name="[bbf458]"></a>main</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176 + Unknown Stack Size
+<LI>Call Chain = main &rArr; OSInit &rArr; OSTmr_Init &rArr; OSTmr_InitTask &rArr; OSTaskCreateExt &rArr; OS_TCBInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bbf1d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreate
+<LI><a href="#[bbf260]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSStart
+<LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1046d88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[bbe250]"></a>__WFI</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbe208]"></a>__WFE</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbe1c0]"></a>__SEV</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbe178]"></a>__ISB</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbe130]"></a>__DSB</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbe0e8]"></a>__DMB</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbe0a0]"></a>__SVC</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbe058]"></a>__MRS_CONTROL</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbe010]"></a>__MSR_CONTROL</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbdfc8]"></a>__MRS_PSP</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbdf80]"></a>__MSR_PSP</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbdf38]"></a>__MRS_MSP</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbdef0]"></a>__MSR_MSP</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbdea8]"></a>__RESETPRIMASK</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1053c58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_RESETPRIMASK
+</UL>
+
+<P><STRONG><a name="[bbde60]"></a>__SETPRIMASK</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1053ca0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SETPRIMASK
+</UL>
+
+<P><STRONG><a name="[bbde18]"></a>__READ_PRIMASK</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbddd0]"></a>__SETFAULTMASK</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1053c10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SETFAULTMASK
+</UL>
+
+<P><STRONG><a name="[bbdd88]"></a>__RESETFAULTMASK</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1053bc8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_RESETFAULTMASK
+</UL>
+
+<P><STRONG><a name="[bbdd40]"></a>__READ_FAULTMASK</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbdcf8]"></a>__BASEPRICONFIG</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1053b80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_BASEPRICONFIG
+</UL>
+
+<P><STRONG><a name="[bbdcb0]"></a>__GetBASEPRI</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1053b38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_GetBASEPRI
+</UL>
+
+<P><STRONG><a name="[bbdc68]"></a>__REV_HalfWord</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbdc20]"></a>__REV_Word</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, cortexm3_macro.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbd7b0]"></a>Reset_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_vector.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd768]"></a>__user_initial_stackheap</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, stm32f10x_vector.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[10467c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[bb9658]"></a>Interrupt_Config</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, bsp.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb9460]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SystemHandlerPriorityConfig
+<LI><a href="#[bb94a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_PriorityGroupConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[bb9610]"></a>GPIO_Config</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, bsp.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb9418]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+<LI><a href="#[bb94f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinRemapConfig
+<LI><a href="#[bb9538]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[bbf410]"></a>BSP_Init</STRONG> (Thumb, 122 bytes, Stack size 8 bytes, bsp.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb90b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_WaitForHSEStartUp
+<LI><a href="#[bb9100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_SYSCLKConfig
+<LI><a href="#[bb9148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_PLLConfig
+<LI><a href="#[bb9190]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_PLLCmd
+<LI><a href="#[bb91d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_PCLK2Config
+<LI><a href="#[bb9220]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_PCLK1Config
+<LI><a href="#[bb9268]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_HSEConfig
+<LI><a href="#[bb92b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_HCLKConfig
+<LI><a href="#[bb92f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetSYSCLKSource
+<LI><a href="#[bb9340]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetFlagStatus
+<LI><a href="#[bb93d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_DeInit
+<LI><a href="#[bb9580]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_SetLatency
+<LI><a href="#[bb95c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_PrefetchBufferCmd
+<LI><a href="#[bb9610]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Config
+<LI><a href="#[bb9658]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Interrupt_Config
+<LI><a href="#[bbaa98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bc10c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TaskCreate
+</UL>
+
+<P><STRONG><a name="[bb8cb0]"></a>OS_CPU_SR_Save</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, os_cpu_a.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bb4608]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDly
+<LI><a href="#[bb4650]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskStkChk
+<LI><a href="#[bb4698]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskNameSet
+<LI><a href="#[bb46e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreateExt
+<LI><a href="#[bb4728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TCBInit
+<LI><a href="#[bb4968]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeTick
+<LI><a href="#[bb49b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedUnlock
+<LI><a href="#[bb49f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedLock
+<LI><a href="#[bb4a40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSIntExit
+<LI><a href="#[bb4b18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TaskIdle
+<LI><a href="#[bb4b60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TaskStat
+<LI><a href="#[bb4bf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSEventPendMulti
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb4d10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSEventNameSet
+<LI><a href="#[bb4da0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSEventNameGet
+<LI><a href="#[bbcac0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTickHandler
+<LI><a href="#[bbf188]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskSuspend
+<LI><a href="#[bbf1d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreate
+<LI><a href="#[bbf218]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSStatInit
+<LI><a href="#[1068588]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeSet
+<LI><a href="#[10685d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeGet
+<LI><a href="#[1068618]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDlyResume
+<LI><a href="#[10690a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskQuery
+<LI><a href="#[10690e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskResume
+<LI><a href="#[1069130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskNameGet
+<LI><a href="#[1069178]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskDelReq
+<LI><a href="#[10691c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskDel
+<LI><a href="#[1069250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskChangePrio
+<LI><a href="#[1069c90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemSet
+<LI><a href="#[1069cd8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemQuery
+<LI><a href="#[1069d20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPost
+<LI><a href="#[1069d68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPendAbort
+<LI><a href="#[1069db0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPend
+<LI><a href="#[1069df8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemDel
+<LI><a href="#[1069e40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemCreate
+<LI><a href="#[1069e88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemAccept
+<LI><a href="#[106a880]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQQuery
+<LI><a href="#[106a8c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPostOpt
+<LI><a href="#[106a910]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPostFront
+<LI><a href="#[106a958]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPost
+<LI><a href="#[106a9a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPendAbort
+<LI><a href="#[106a9e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPend
+<LI><a href="#[106aa30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQFlush
+<LI><a href="#[106aa78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQDel
+<LI><a href="#[106aac0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQCreate
+<LI><a href="#[106ab08]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQAccept
+<LI><a href="#[106c230]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemQuery
+<LI><a href="#[106c278]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemPut
+<LI><a href="#[106c2c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemNameSet
+<LI><a href="#[106c308]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemNameGet
+<LI><a href="#[106c350]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemGet
+<LI><a href="#[106c398]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemCreate
+<LI><a href="#[106d960]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagQuery
+<LI><a href="#[106d9a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagPost
+<LI><a href="#[106d9f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagPendGetFlagsRdy
+<LI><a href="#[106da38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagPend
+<LI><a href="#[106da80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagNameSet
+<LI><a href="#[106dac8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagNameGet
+<LI><a href="#[106db10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagDel
+<LI><a href="#[106dba0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagCreate
+<LI><a href="#[106dbe8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagAccept
+</UL>
+
+<P><STRONG><a name="[bb8c68]"></a>OS_CPU_SR_Restore</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, os_cpu_a.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bb4608]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDly
+<LI><a href="#[bb4650]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskStkChk
+<LI><a href="#[bb4698]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskNameSet
+<LI><a href="#[bb46e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreateExt
+<LI><a href="#[bb4728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TCBInit
+<LI><a href="#[bb4968]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeTick
+<LI><a href="#[bb49b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedUnlock
+<LI><a href="#[bb49f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedLock
+<LI><a href="#[bb4a40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSIntExit
+<LI><a href="#[bb4b18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TaskIdle
+<LI><a href="#[bb4b60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TaskStat
+<LI><a href="#[bb4bf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSEventPendMulti
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb4d10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSEventNameSet
+<LI><a href="#[bb4da0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSEventNameGet
+<LI><a href="#[bbcac0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTickHandler
+<LI><a href="#[bbf188]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskSuspend
+<LI><a href="#[bbf1d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreate
+<LI><a href="#[bbf218]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSStatInit
+<LI><a href="#[1068588]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeSet
+<LI><a href="#[10685d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeGet
+<LI><a href="#[1068618]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDlyResume
+<LI><a href="#[10690a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskQuery
+<LI><a href="#[10690e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskResume
+<LI><a href="#[1069130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskNameGet
+<LI><a href="#[1069178]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskDelReq
+<LI><a href="#[10691c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskDel
+<LI><a href="#[1069250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskChangePrio
+<LI><a href="#[1069c90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemSet
+<LI><a href="#[1069cd8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemQuery
+<LI><a href="#[1069d20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPost
+<LI><a href="#[1069d68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPendAbort
+<LI><a href="#[1069db0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPend
+<LI><a href="#[1069df8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemDel
+<LI><a href="#[1069e40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemCreate
+<LI><a href="#[1069e88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemAccept
+<LI><a href="#[106a880]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQQuery
+<LI><a href="#[106a8c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPostOpt
+<LI><a href="#[106a910]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPostFront
+<LI><a href="#[106a958]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPost
+<LI><a href="#[106a9a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPendAbort
+<LI><a href="#[106a9e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPend
+<LI><a href="#[106aa30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQFlush
+<LI><a href="#[106aa78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQDel
+<LI><a href="#[106aac0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQCreate
+<LI><a href="#[106ab08]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQAccept
+<LI><a href="#[106c230]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemQuery
+<LI><a href="#[106c278]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemPut
+<LI><a href="#[106c2c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemNameSet
+<LI><a href="#[106c308]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemNameGet
+<LI><a href="#[106c350]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemGet
+<LI><a href="#[106c398]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemCreate
+<LI><a href="#[106d960]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagQuery
+<LI><a href="#[106d9a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagPost
+<LI><a href="#[106d9f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagPendGetFlagsRdy
+<LI><a href="#[106da38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagPend
+<LI><a href="#[106da80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagNameSet
+<LI><a href="#[106dac8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagNameGet
+<LI><a href="#[106db10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagDel
+<LI><a href="#[106dba0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagCreate
+<LI><a href="#[106dbe8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagAccept
+</UL>
+
+<P><STRONG><a name="[bb8c20]"></a>OSStartHighRdy</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, os_cpu_a.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bbf260]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSStart
+</UL>
+
+<P><STRONG><a name="[bb8bd8]"></a>OSCtxSw</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, os_cpu_a.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+</UL>
+
+<P><STRONG><a name="[bb8b90]"></a>OSIntCtxSw</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, os_cpu_a.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bb4a40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSIntExit
+</UL>
+
+<P><STRONG><a name="[bbcd90]"></a>OS_CPU_PendSVHandler</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, os_cpu_a.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bb7f78]"></a>OSInitHookBegin</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, os_cpu_c.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+
+<P><STRONG><a name="[bb7f30]"></a>OSInitHookEnd</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, os_cpu_c.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+
+<P><STRONG><a name="[bb7ee8]"></a>OSTaskCreateHook</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, os_cpu_c.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bb4728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TCBInit
+</UL>
+
+<P><STRONG><a name="[bb7ea0]"></a>OSTaskDelHook</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, os_cpu_c.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[10691c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskDel
+</UL>
+
+<P><STRONG><a name="[bb7e58]"></a>OSTaskIdleHook</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, os_cpu_c.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bb4b18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TaskIdle
+</UL>
+
+<P><STRONG><a name="[bb7e10]"></a>OSTaskStatHook</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, os_cpu_c.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bb4b60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TaskStat
+</UL>
+
+<P><STRONG><a name="[bb7dc8]"></a>OSTaskStkInit</STRONG> (Thumb, 154 bytes, Stack size 16 bytes, os_cpu_c.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = OSTaskStkInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb46e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreateExt
+<LI><a href="#[bbf1d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreate
+</UL>
+
+<P><STRONG><a name="[bb89e0]"></a>OSTaskSwHook</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, os_cpu_c.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> os_cpu_a.o(.text)
+</UL>
+<P><STRONG><a name="[bb7d80]"></a>OSTCBInitHook</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, os_cpu_c.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bb4728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TCBInit
+</UL>
+
+<P><STRONG><a name="[bb7d38]"></a>OSTimeTickHook</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, os_cpu_c.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88 + Unknown Stack Size
+<LI>Call Chain = OSTimeTickHook &rArr; OSTmrSignal &rArr; OSSemPost &rArr; OS_EventTaskRdy &rArr; OS_EventTaskRemoveMulti
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb7cf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrSignal
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb4968]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeTick
+</UL>
+
+<P><STRONG><a name="[bb6578]"></a>OSDebugInit</STRONG> (Thumb, 94 bytes, Stack size 0 bytes, os_dbg.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+
+<P><STRONG><a name="[bb4de8]"></a>OS_StrCopy</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, os_core.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bb4698]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskNameSet
+<LI><a href="#[bb4d10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSEventNameSet
+<LI><a href="#[bb4da0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSEventNameGet
+<LI><a href="#[1067798]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrNameGet
+<LI><a href="#[1067828]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrCreate
+<LI><a href="#[1069130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskNameGet
+<LI><a href="#[106c2c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemNameSet
+<LI><a href="#[106c308]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemNameGet
+<LI><a href="#[106da80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagNameSet
+<LI><a href="#[106dac8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagNameGet
+</UL>
+
+<P><STRONG><a name="[bb4da0]"></a>OSEventNameGet</STRONG> (Thumb, 100 bytes, Stack size 24 bytes, os_core.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4de8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrCopy
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[bb4d58]"></a>OS_StrLen</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, os_core.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bb4698]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskNameSet
+<LI><a href="#[bb4d10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSEventNameSet
+<LI><a href="#[1067828]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrCreate
+<LI><a href="#[106c2c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSMemNameSet
+<LI><a href="#[106da80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagNameSet
+</UL>
+
+<P><STRONG><a name="[bb4d10]"></a>OSEventNameSet</STRONG> (Thumb, 118 bytes, Stack size 24 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24 + Unknown Stack Size
+<LI>Call Chain = OSEventNameSet
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4d58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrLen
+<LI><a href="#[bb4de8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrCopy
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb45c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Init
+</UL>
+
+<P><STRONG><a name="[bb4cc8]"></a>OS_EventTaskRemoveMulti</STRONG> (Thumb, 56 bytes, Stack size 20 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = OS_EventTaskRemoveMulti
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb4848]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRdy
+<LI><a href="#[bb4bf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSEventPendMulti
+<LI><a href="#[10691c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskDel
+</UL>
+
+<P><STRONG><a name="[bb4c80]"></a>OS_Sched</STRONG> (Thumb, 86 bytes, Stack size 8 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = OS_Sched
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb5d60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_SchedNew
+<LI><a href="#[bb8bd8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSCtxSw
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb4608]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDly
+<LI><a href="#[bb46e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreateExt
+<LI><a href="#[bb49b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSchedUnlock
+<LI><a href="#[bb4bf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSEventPendMulti
+<LI><a href="#[bbf188]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskSuspend
+<LI><a href="#[bbf1d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreate
+<LI><a href="#[1068618]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDlyResume
+<LI><a href="#[10690e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskResume
+<LI><a href="#[10691c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskDel
+<LI><a href="#[1069250]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskChangePrio
+<LI><a href="#[1069d20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPost
+<LI><a href="#[1069d68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPendAbort
+<LI><a href="#[1069db0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPend
+<LI><a href="#[1069df8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemDel
+<LI><a href="#[106a8c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPostOpt
+<LI><a href="#[106a910]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPostFront
+<LI><a href="#[106a958]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPost
+<LI><a href="#[106a9a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPendAbort
+<LI><a href="#[106a9e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPend
+<LI><a href="#[106aa78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQDel
+<LI><a href="#[106d9a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagPost
+<LI><a href="#[106da38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagPend
+<LI><a href="#[106db10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagDel
+</UL>
+
+<P><STRONG><a name="[bb4c38]"></a>OS_EventTaskWaitMulti</STRONG> (Thumb, 136 bytes, Stack size 16 bytes, os_core.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bb4bf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSEventPendMulti
+</UL>
+
+<P><STRONG><a name="[bb4bf0]"></a>OSEventPendMulti</STRONG> (Thumb, 778 bytes, Stack size 56 bytes, os_core.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4c38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskWaitMulti
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb4cc8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRemoveMulti
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[bb4ba8]"></a>OS_TaskStatStkChk</STRONG> (Thumb, 54 bytes, Stack size 24 bytes, os_core.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4650]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskStkChk
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb4b60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TaskStat
+</UL>
+
+<P><STRONG><a name="[bb4b60]"></a>OS_TaskStat</STRONG> (Thumb, 116 bytes, Stack size 8 bytes, os_core.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4608]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDly
+<LI><a href="#[bb4ba8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TaskStatStkChk
+<LI><a href="#[bb7e10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskStatHook
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+<LI><a href="#[bbf188]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskSuspend
+</UL>
+
+<P><STRONG><a name="[bb4b18]"></a>OS_TaskIdle</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, os_core.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb7e58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskIdleHook
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[bb4ad0]"></a>OS_MemClr</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, os_core.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bb44e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_QInit
+<LI><a href="#[bb4530]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_MemInit
+<LI><a href="#[bb4578]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_FlagInit
+<LI><a href="#[bb45c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Init
+<LI><a href="#[bb5c40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_InitTCBList
+<LI><a href="#[bb5c88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_InitEventList
+</UL>
+
+<P><STRONG><a name="[bbf2a8]"></a>OSInit</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168 + Unknown Stack Size
+<LI>Call Chain = OSInit &rArr; OSTmr_Init &rArr; OSTmr_InitTask &rArr; OSTaskCreateExt &rArr; OS_TCBInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb44e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_QInit
+<LI><a href="#[bb4530]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_MemInit
+<LI><a href="#[bb4578]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_FlagInit
+<LI><a href="#[bb45c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Init
+<LI><a href="#[bb5bb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_InitMisc
+<LI><a href="#[bb5bf8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_InitRdyList
+<LI><a href="#[bb5c40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_InitTCBList
+<LI><a href="#[bb5c88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_InitEventList
+<LI><a href="#[bb5cd0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_InitTaskIdle
+<LI><a href="#[bb5d18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_InitTaskStat
+<LI><a href="#[bb6578]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSDebugInit
+<LI><a href="#[bb7f30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInitHookEnd
+<LI><a href="#[bb7f78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInitHookBegin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf458]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[bb4a88]"></a>OSIntEnter</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, os_core.o(.text), UNUSED)
+
+<P><STRONG><a name="[bb4a40]"></a>OSIntExit</STRONG> (Thumb, 244 bytes, Stack size 8 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = OSIntExit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb5d60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_SchedNew
+<LI><a href="#[bb8b90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSIntCtxSw
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbcac0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTickHandler
+</UL>
+
+<P><STRONG><a name="[bb49f8]"></a>OSSchedLock</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, os_core.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[bb49b0]"></a>OSSchedUnlock</STRONG> (Thumb, 84 bytes, Stack size 8 bytes, os_core.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[bbf260]"></a>OSStart</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = OSStart
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb5d60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_SchedNew
+<LI><a href="#[bb8c20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSStartHighRdy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf458]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[bbf218]"></a>OSStatInit</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, os_core.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4608]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDly
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bc10c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TaskCreate
+</UL>
+
+<P><STRONG><a name="[bb4968]"></a>OSTimeTick</STRONG> (Thumb, 210 bytes, Stack size 16 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104 + Unknown Stack Size
+<LI>Call Chain = OSTimeTick &rArr; OSTimeTickHook &rArr; OSTmrSignal &rArr; OSSemPost &rArr; OS_EventTaskRdy &rArr; OS_EventTaskRemoveMulti
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb7d38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeTickHook
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbcac0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTickHandler
+</UL>
+
+<P><STRONG><a name="[bb4920]"></a>OSVersion</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, os_core.o(.text), UNUSED)
+
+<P><STRONG><a name="[bb48d8]"></a>OS_Dummy</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, os_core.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[10691c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskDel
+</UL>
+
+<P><STRONG><a name="[bb4890]"></a>OS_EventTaskRemove</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = OS_EventTaskRemove
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb4848]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRdy
+<LI><a href="#[10691c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskDel
+<LI><a href="#[1069db0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPend
+<LI><a href="#[106a9e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPend
+</UL>
+
+<P><STRONG><a name="[bb4848]"></a>OS_EventTaskRdy</STRONG> (Thumb, 146 bytes, Stack size 36 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = OS_EventTaskRdy &rArr; OS_EventTaskRemoveMulti
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4890]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRemove
+<LI><a href="#[bb4cc8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRemoveMulti
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1069d20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPost
+<LI><a href="#[1069d68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPendAbort
+<LI><a href="#[1069df8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemDel
+<LI><a href="#[106a8c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPostOpt
+<LI><a href="#[106a910]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPostFront
+<LI><a href="#[106a958]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPost
+<LI><a href="#[106a9a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPendAbort
+<LI><a href="#[106aa78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQDel
+</UL>
+
+<P><STRONG><a name="[bb4800]"></a>OS_EventTaskWait</STRONG> (Thumb, 112 bytes, Stack size 8 bytes, os_core.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1069db0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPend
+<LI><a href="#[106a9e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQPend
+</UL>
+
+<P><STRONG><a name="[bb47b8]"></a>OS_EventWaitListInit</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, os_core.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1069e40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemCreate
+<LI><a href="#[106aac0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSQCreate
+</UL>
+
+<P><STRONG><a name="[bb4770]"></a>OS_MemCopy</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, os_core.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[10690a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskQuery
+</UL>
+
+<P><STRONG><a name="[bb4728]"></a>OS_TCBInit</STRONG> (Thumb, 394 bytes, Stack size 40 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40 + Unknown Stack Size
+<LI>Call Chain = OS_TCBInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb7d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTCBInitHook
+<LI><a href="#[bb7ee8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreateHook
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb46e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreateExt
+<LI><a href="#[bbf1d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreate
+</UL>
+
+<P><STRONG><a name="[106dbe8]"></a>OSFlagAccept</STRONG> (Thumb, 260 bytes, Stack size 40 bytes, os_flag.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106dba0]"></a>OSFlagCreate</STRONG> (Thumb, 94 bytes, Stack size 24 bytes, os_flag.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106db58]"></a>OS_FlagUnlink</STRONG> (Thumb, 34 bytes, Stack size 12 bytes, os_flag.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bb3d18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_FlagTaskRdy
+<LI><a href="#[10691c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskDel
+<LI><a href="#[106da38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagPend
+</UL>
+
+<P><STRONG><a name="[106db10]"></a>OSFlagDel</STRONG> (Thumb, 218 bytes, Stack size 32 bytes, os_flag.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb3d18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_FlagTaskRdy
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106dac8]"></a>OSFlagNameGet</STRONG> (Thumb, 82 bytes, Stack size 24 bytes, os_flag.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4de8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrCopy
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106da80]"></a>OSFlagNameSet</STRONG> (Thumb, 100 bytes, Stack size 24 bytes, os_flag.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4d58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrLen
+<LI><a href="#[bb4de8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrCopy
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106da38]"></a>OSFlagPend</STRONG> (Thumb, 650 bytes, Stack size 72 bytes, os_flag.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb3cd0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_FlagBlock
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+<LI><a href="#[106db58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_FlagUnlink
+</UL>
+
+<P><STRONG><a name="[106d9f0]"></a>OSFlagPendGetFlagsRdy</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, os_flag.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106d9a8]"></a>OSFlagPost</STRONG> (Thumb, 330 bytes, Stack size 48 bytes, os_flag.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb3d18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_FlagTaskRdy
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106d960]"></a>OSFlagQuery</STRONG> (Thumb, 48 bytes, Stack size 24 bytes, os_flag.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[bb4578]"></a>OS_FlagInit</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, os_flag.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = OS_FlagInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4ad0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_MemClr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+
+<P><STRONG><a name="[106c398]"></a>OSMemCreate</STRONG> (Thumb, 126 bytes, Stack size 40 bytes, os_mem.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106c350]"></a>OSMemGet</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, os_mem.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106c308]"></a>OSMemNameGet</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, os_mem.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4de8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrCopy
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106c2c0]"></a>OSMemNameSet</STRONG> (Thumb, 82 bytes, Stack size 24 bytes, os_mem.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4d58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrLen
+<LI><a href="#[bb4de8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrCopy
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106c278]"></a>OSMemPut</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, os_mem.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106c230]"></a>OSMemQuery</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, os_mem.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[bb4530]"></a>OS_MemInit</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, os_mem.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = OS_MemInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4ad0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_MemClr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+
+<P><STRONG><a name="[106ab08]"></a>OSQAccept</STRONG> (Thumb, 90 bytes, Stack size 24 bytes, os_q.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106aac0]"></a>OSQCreate</STRONG> (Thumb, 154 bytes, Stack size 24 bytes, os_q.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb47b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventWaitListInit
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106aa78]"></a>OSQDel</STRONG> (Thumb, 250 bytes, Stack size 32 bytes, os_q.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4848]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRdy
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106aa30]"></a>OSQFlush</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, os_q.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106a9e8]"></a>OSQPend</STRONG> (Thumb, 302 bytes, Stack size 32 bytes, os_q.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4800]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskWait
+<LI><a href="#[bb4890]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRemove
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106a9a0]"></a>OSQPendAbort</STRONG> (Thumb, 126 bytes, Stack size 24 bytes, os_q.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4848]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRdy
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106a958]"></a>OSQPost</STRONG> (Thumb, 114 bytes, Stack size 24 bytes, os_q.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4848]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRdy
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106a910]"></a>OSQPostFront</STRONG> (Thumb, 138 bytes, Stack size 24 bytes, os_q.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4848]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRdy
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106a8c8]"></a>OSQPostOpt</STRONG> (Thumb, 182 bytes, Stack size 24 bytes, os_q.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4848]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRdy
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[106a880]"></a>OSQQuery</STRONG> (Thumb, 100 bytes, Stack size 32 bytes, os_q.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[bb44e8]"></a>OS_QInit</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, os_q.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = OS_QInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4ad0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_MemClr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+
+<P><STRONG><a name="[1069e88]"></a>OSSemAccept</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, os_sem.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[1069e40]"></a>OSSemCreate</STRONG> (Thumb, 78 bytes, Stack size 16 bytes, os_sem.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16 + Unknown Stack Size
+<LI>Call Chain = OSSemCreate
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb47b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventWaitListInit
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb45c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Init
+</UL>
+
+<P><STRONG><a name="[1069df8]"></a>OSSemDel</STRONG> (Thumb, 224 bytes, Stack size 32 bytes, os_sem.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4848]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRdy
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[1069db0]"></a>OSSemPend</STRONG> (Thumb, 232 bytes, Stack size 24 bytes, os_sem.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4800]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskWait
+<LI><a href="#[bb4890]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRemove
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1067bd0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Task
+<LI><a href="#[1067cf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Lock
+</UL>
+
+<P><STRONG><a name="[1069d68]"></a>OSSemPendAbort</STRONG> (Thumb, 126 bytes, Stack size 24 bytes, os_sem.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4848]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRdy
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[1069d20]"></a>OSSemPost</STRONG> (Thumb, 88 bytes, Stack size 16 bytes, os_sem.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72 + Unknown Stack Size
+<LI>Call Chain = OSSemPost &rArr; OS_EventTaskRdy &rArr; OS_EventTaskRemoveMulti
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4848]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRdy
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb7cf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrSignal
+<LI><a href="#[1067d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Unlock
+</UL>
+
+<P><STRONG><a name="[1069cd8]"></a>OSSemQuery</STRONG> (Thumb, 82 bytes, Stack size 32 bytes, os_sem.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[1069c90]"></a>OSSemSet</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, os_sem.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[1069250]"></a>OSTaskChangePrio</STRONG> (Thumb, 426 bytes, Stack size 56 bytes, os_task.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[bbf1d0]"></a>OSTaskCreate</STRONG> (Thumb, 148 bytes, Stack size 48 bytes, os_task.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88 + Unknown Stack Size
+<LI>Call Chain = OSTaskCreate &rArr; OS_TCBInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TCBInit
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb7dc8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskStkInit
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf458]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[bc10c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TaskCreate
+</UL>
+
+<P><STRONG><a name="[1069208]"></a>OS_TaskStkClr</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, os_task.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bb46e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreateExt
+</UL>
+
+<P><STRONG><a name="[bb46e0]"></a>OSTaskCreateExt</STRONG> (Thumb, 176 bytes, Stack size 64 bytes, os_task.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104 + Unknown Stack Size
+<LI>Call Chain = OSTaskCreateExt &rArr; OS_TCBInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TCBInit
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb7dc8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskStkInit
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+<LI><a href="#[1069208]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TaskStkClr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb5cd0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_InitTaskIdle
+<LI><a href="#[bb5d18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_InitTaskStat
+<LI><a href="#[1067b88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_InitTask
+</UL>
+
+<P><STRONG><a name="[10691c0]"></a>OSTaskDel</STRONG> (Thumb, 356 bytes, Stack size 24 bytes, os_task.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4890]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRemove
+<LI><a href="#[bb48d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Dummy
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb4cc8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_EventTaskRemoveMulti
+<LI><a href="#[bb7ea0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskDelHook
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+<LI><a href="#[106db58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_FlagUnlink
+</UL>
+
+<P><STRONG><a name="[1069178]"></a>OSTaskDelReq</STRONG> (Thumb, 100 bytes, Stack size 24 bytes, os_task.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[1069130]"></a>OSTaskNameGet</STRONG> (Thumb, 116 bytes, Stack size 32 bytes, os_task.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4de8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrCopy
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[bb4698]"></a>OSTaskNameSet</STRONG> (Thumb, 136 bytes, Stack size 32 bytes, os_task.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32 + Unknown Stack Size
+<LI>Call Chain = OSTaskNameSet
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4d58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrLen
+<LI><a href="#[bb4de8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrCopy
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb5cd0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_InitTaskIdle
+<LI><a href="#[bb5d18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_InitTaskStat
+<LI><a href="#[1067b88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_InitTask
+</UL>
+
+<P><STRONG><a name="[10690e8]"></a>OSTaskResume</STRONG> (Thumb, 154 bytes, Stack size 16 bytes, os_task.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[bb4650]"></a>OSTaskStkChk</STRONG> (Thumb, 134 bytes, Stack size 32 bytes, os_task.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb4ba8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TaskStatStkChk
+</UL>
+
+<P><STRONG><a name="[bbf188]"></a>OSTaskSuspend</STRONG> (Thumb, 152 bytes, Stack size 24 bytes, os_task.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb4b60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TaskStat
+<LI><a href="#[bc10c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TaskCreate
+</UL>
+
+<P><STRONG><a name="[10690a0]"></a>OSTaskQuery</STRONG> (Thumb, 82 bytes, Stack size 24 bytes, os_task.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_MemCopy
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[bb4608]"></a>OSTimeDly</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, os_time.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb4b60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_TaskStat
+<LI><a href="#[bbf140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDlyHMSM
+<LI><a href="#[bbf218]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSStatInit
+</UL>
+
+<P><STRONG><a name="[bbf140]"></a>OSTimeDlyHMSM</STRONG> (Thumb, 114 bytes, Stack size 32 bytes, os_time.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4608]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDly
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bc1108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TaskLed1
+<LI><a href="#[bc1150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TaskLed2
+</UL>
+
+<P><STRONG><a name="[1068618]"></a>OSTimeDlyResume</STRONG> (Thumb, 168 bytes, Stack size 16 bytes, os_time.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[10685d0]"></a>OSTimeGet</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, os_time.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[1068588]"></a>OSTimeSet</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, os_time.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+
+<P><STRONG><a name="[1067828]"></a>OSTmrCreate</STRONG> (Thumb, 168 bytes, Stack size 40 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4d58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrLen
+<LI><a href="#[bb4de8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrCopy
+<LI><a href="#[1067cf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Lock
+<LI><a href="#[1067d38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Alloc
+<LI><a href="#[1067d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Unlock
+</UL>
+
+<P><STRONG><a name="[10677e0]"></a>OSTmrDel</STRONG> (Thumb, 126 bytes, Stack size 16 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1067c60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Unlink
+<LI><a href="#[1067ca8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Free
+<LI><a href="#[1067cf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Lock
+<LI><a href="#[1067d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Unlock
+</UL>
+
+<P><STRONG><a name="[1067798]"></a>OSTmrNameGet</STRONG> (Thumb, 116 bytes, Stack size 24 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb4de8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_StrCopy
+<LI><a href="#[1067cf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Lock
+<LI><a href="#[1067d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Unlock
+</UL>
+
+<P><STRONG><a name="[1067750]"></a>OSTmrRemainGet</STRONG> (Thumb, 166 bytes, Stack size 16 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1067cf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Lock
+<LI><a href="#[1067d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Unlock
+</UL>
+
+<P><STRONG><a name="[1067708]"></a>OSTmrStateGet</STRONG> (Thumb, 88 bytes, Stack size 16 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1067cf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Lock
+<LI><a href="#[1067d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Unlock
+</UL>
+
+<P><STRONG><a name="[10676c0]"></a>OSTmrStart</STRONG> (Thumb, 158 bytes, Stack size 16 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1067c18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Link
+<LI><a href="#[1067c60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Unlink
+<LI><a href="#[1067cf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Lock
+<LI><a href="#[1067d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Unlock
+</UL>
+
+<P><STRONG><a name="[1067678]"></a>OSTmrStop</STRONG> (Thumb, 200 bytes, Stack size 24 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1067c60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Unlink
+<LI><a href="#[1067cf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Lock
+<LI><a href="#[1067d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Unlock
+</UL>
+
+<P><STRONG><a name="[bb7cf0]"></a>OSTmrSignal</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, os_tmr.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80 + Unknown Stack Size
+<LI>Call Chain = OSTmrSignal &rArr; OSSemPost &rArr; OS_EventTaskRdy &rArr; OS_EventTaskRemoveMulti
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1069d20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPost
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb7d38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeTickHook
+</UL>
+
+<P><STRONG><a name="[bb45c0]"></a>OSTmr_Init</STRONG> (Thumb, 162 bytes, Stack size 24 bytes, os_tmr.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160 + Unknown Stack Size
+<LI>Call Chain = OSTmr_Init &rArr; OSTmr_InitTask &rArr; OSTaskCreateExt &rArr; OS_TCBInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4ad0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_MemClr
+<LI><a href="#[bb4d10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSEventNameSet
+<LI><a href="#[1067b88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_InitTask
+<LI><a href="#[1069e40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemCreate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+
+<P><STRONG><a name="[bb9580]"></a>FLASH_SetLatency</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[105e848]"></a>FLASH_HalfCycleAccessCmd</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[bb95c8]"></a>FLASH_PrefetchBufferCmd</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[105e800]"></a>FLASH_Unlock</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[105e7b8]"></a>FLASH_Lock</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[105e770]"></a>FLASH_GetStatus</STRONG> (Thumb, 50 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[105e728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[105e728]"></a>FLASH_WaitForLastOperation</STRONG> (Thumb, 42 bytes, Stack size 4 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[105e770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_GetStatus
+<LI><a href="#[105ec80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[105e4a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_UserOptionByteConfig
+<LI><a href="#[105e4e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ReadOutProtection
+<LI><a href="#[105e530]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_EnableWriteProtection
+<LI><a href="#[105e578]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ProgramOptionByteData
+<LI><a href="#[105e5c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ProgramHalfWord
+<LI><a href="#[105e608]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ProgramWord
+<LI><a href="#[105e650]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_EraseOptionBytes
+<LI><a href="#[105e698]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_EraseAllPages
+<LI><a href="#[105e6e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_ErasePage
+</UL>
+
+<P><STRONG><a name="[105e6e0]"></a>FLASH_ErasePage</STRONG> (Thumb, 76 bytes, Stack size 12 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[105e728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[105e698]"></a>FLASH_EraseAllPages</STRONG> (Thumb, 72 bytes, Stack size 8 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[105e728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[105e650]"></a>FLASH_EraseOptionBytes</STRONG> (Thumb, 142 bytes, Stack size 8 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[105e728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[105e608]"></a>FLASH_ProgramWord</STRONG> (Thumb, 100 bytes, Stack size 16 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[105e728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[105e5c0]"></a>FLASH_ProgramHalfWord</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[105e728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[105e578]"></a>FLASH_ProgramOptionByteData</STRONG> (Thumb, 72 bytes, Stack size 16 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[105e728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[105e530]"></a>FLASH_EnableWriteProtection</STRONG> (Thumb, 188 bytes, Stack size 28 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[105e728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[105e4e8]"></a>FLASH_ReadOutProtection</STRONG> (Thumb, 178 bytes, Stack size 12 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[105e728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[105e4a0]"></a>FLASH_UserOptionByteConfig</STRONG> (Thumb, 90 bytes, Stack size 20 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[105e728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+
+<P><STRONG><a name="[105e458]"></a>FLASH_GetUserOptionByte</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[105e410]"></a>FLASH_GetWriteProtectionOptionByte</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[105e3c8]"></a>FLASH_GetReadOutProtectionStatus</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[105e380]"></a>FLASH_GetPrefetchBufferStatus</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[105e338]"></a>FLASH_ITConfig</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[105e2f0]"></a>FLASH_GetFlagStatus</STRONG> (Thumb, 42 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[105e2a8]"></a>FLASH_ClearFlag</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+
+<P><STRONG><a name="[105c320]"></a>GPIO_DeInit</STRONG> (Thumb, 188 bytes, Stack size 8 bytes, stm32f10x_gpio.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1065f90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphResetCmd
+</UL>
+
+<P><STRONG><a name="[105c2d8]"></a>GPIO_AFIODeInit</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, stm32f10x_gpio.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1065f90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphResetCmd
+</UL>
+
+<P><STRONG><a name="[bb9538]"></a>GPIO_Init</STRONG> (Thumb, 270 bytes, Stack size 20 bytes, stm32f10x_gpio.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bb9610]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Config
+</UL>
+
+<P><STRONG><a name="[105c290]"></a>GPIO_StructInit</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[105c248]"></a>GPIO_ReadInputDataBit</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[105c200]"></a>GPIO_ReadInputData</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbf3c8]"></a>GPIO_ReadOutputDataBit</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bc1150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TaskLed2
+</UL>
+
+<P><STRONG><a name="[105c1b8]"></a>GPIO_ReadOutputData</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbf338]"></a>GPIO_SetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bc1108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TaskLed1
+</UL>
+
+<P><STRONG><a name="[bbf380]"></a>GPIO_ResetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bc1108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TaskLed1
+</UL>
+
+<P><STRONG><a name="[bbf2f0]"></a>GPIO_WriteBit</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bc1150]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TaskLed2
+</UL>
+
+<P><STRONG><a name="[105c170]"></a>GPIO_Write</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[105c128]"></a>GPIO_PinLockConfig</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[105c0e0]"></a>GPIO_EventOutputConfig</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[105c098]"></a>GPIO_EventOutputCmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[bb94f0]"></a>GPIO_PinRemapConfig</STRONG> (Thumb, 104 bytes, Stack size 20 bytes, stm32f10x_gpio.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bb9610]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Config
+</UL>
+
+<P><STRONG><a name="[105c050]"></a>GPIO_EXTILineConfig</STRONG> (Thumb, 60 bytes, Stack size 12 bytes, stm32f10x_gpio.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbcdd8]"></a>NMIException</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbcf88]"></a>HardFaultException</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbce20]"></a>MemManageException</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd648]"></a>BusFaultException</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc400]"></a>UsageFaultException</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd258]"></a>DebugMonitor</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbcb08]"></a>SVCHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[1057c58]"></a>PendSVC</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text), UNUSED)
+
+<P><STRONG><a name="[bbcac0]"></a>SysTickHandler</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, stm32f10x_it.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112 + Unknown Stack Size
+<LI>Call Chain = SysTickHandler &rArr; OSTimeTick &rArr; OSTimeTickHook &rArr; OSTmrSignal &rArr; OSSemPost &rArr; OS_EventTaskRdy &rArr; OS_EventTaskRemoveMulti
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4968]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeTick
+<LI><a href="#[bb4a40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSIntExit
+<LI><a href="#[bb8c68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Restore
+<LI><a href="#[bb8cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_CPU_SR_Save
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc3b8]"></a>WWDG_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbcd48]"></a>PVD_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbca78]"></a>TAMPER_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbcc70]"></a>RTC_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd018]"></a>FLASH_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbcd00]"></a>RCC_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd210]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd180]"></a>EXTI1_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd138]"></a>EXTI2_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd0f0]"></a>EXTI3_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd0a8]"></a>EXTI4_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd570]"></a>DMA1_Channel1_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd528]"></a>DMA1_Channel2_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd4e0]"></a>DMA1_Channel3_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd498]"></a>DMA1_Channel4_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd450]"></a>DMA1_Channel5_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd408]"></a>DMA1_Channel6_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd3c0]"></a>DMA1_Channel7_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd6d8]"></a>ADC1_2_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc490]"></a>USB_HP_CAN_TX_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc448]"></a>USB_LP_CAN_RX0_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd600]"></a>CAN_RX1_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd5b8]"></a>CAN_SCE_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd060]"></a>EXTI9_5_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbca30]"></a>TIM1_BRK_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc958]"></a>TIM1_UP_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc9a0]"></a>TIM1_TRG_COM_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc9e8]"></a>TIM1_CC_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc910]"></a>TIM2_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc8c8]"></a>TIM3_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc880]"></a>TIM4_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbcef8]"></a>I2C1_EV_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbcf40]"></a>I2C1_ER_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbce68]"></a>I2C2_EV_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbceb0]"></a>I2C2_ER_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbcbe0]"></a>SPI1_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbcb98]"></a>SPI2_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc5b0]"></a>USART1_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc568]"></a>USART2_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc520]"></a>USART3_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd1c8]"></a>EXTI15_10_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbccb8]"></a>RTCAlarm_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc4d8]"></a>USBWakeUp_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc760]"></a>TIM8_BRK_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc688]"></a>TIM8_UP_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc6d0]"></a>TIM8_TRG_COM_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc718]"></a>TIM8_CC_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd690]"></a>ADC3_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbcfd0]"></a>FSMC_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbcc28]"></a>SDIO_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc838]"></a>TIM5_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbcb50]"></a>SPI3_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc640]"></a>UART4_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc5f8]"></a>UART5_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc7f0]"></a>TIM6_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbc7a8]"></a>TIM7_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd378]"></a>DMA2_Channel1_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd330]"></a>DMA2_Channel2_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd2e8]"></a>DMA2_Channel3_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[bbd2a0]"></a>DMA2_Channel4_5_IRQHandler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> stm32f10x_vector.o(RESET)
+</UL>
+<P><STRONG><a name="[1053dc0]"></a>NVIC_DeInit</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053d78]"></a>NVIC_SCBDeInit</STRONG> (Thumb, 92 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[bb94a8]"></a>NVIC_PriorityGroupConfig</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bb9658]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Interrupt_Config
+</UL>
+
+<P><STRONG><a name="[1053d30]"></a>NVIC_Init</STRONG> (Thumb, 154 bytes, Stack size 20 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053ce8]"></a>NVIC_StructInit</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053ca0]"></a>NVIC_SETPRIMASK</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, stm32f10x_nvic.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bbde60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__SETPRIMASK
+</UL>
+
+<P><STRONG><a name="[1053c58]"></a>NVIC_RESETPRIMASK</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, stm32f10x_nvic.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bbdea8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__RESETPRIMASK
+</UL>
+
+<P><STRONG><a name="[1053c10]"></a>NVIC_SETFAULTMASK</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, stm32f10x_nvic.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bbddd0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__SETFAULTMASK
+</UL>
+
+<P><STRONG><a name="[1053bc8]"></a>NVIC_RESETFAULTMASK</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, stm32f10x_nvic.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bbdd88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__RESETFAULTMASK
+</UL>
+
+<P><STRONG><a name="[1053b80]"></a>NVIC_BASEPRICONFIG</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, stm32f10x_nvic.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bbdcf8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__BASEPRICONFIG
+</UL>
+
+<P><STRONG><a name="[1053b38]"></a>NVIC_GetBASEPRI</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, stm32f10x_nvic.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bbdcb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__GetBASEPRI
+</UL>
+
+<P><STRONG><a name="[1053af0]"></a>NVIC_GetCurrentPendingIRQChannel</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053aa8]"></a>NVIC_GetIRQChannelPendingBitStatus</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053a60]"></a>NVIC_SetIRQChannelPendingBit</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053a18]"></a>NVIC_ClearIRQChannelPendingBit</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[10539d0]"></a>NVIC_GetCurrentActiveHandler</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053988]"></a>NVIC_GetIRQChannelActiveBitStatus</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053940]"></a>NVIC_GetCPUID</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[10538f8]"></a>NVIC_SetVectorTable</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[10538b0]"></a>NVIC_GenerateSystemReset</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053868]"></a>NVIC_GenerateCoreReset</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053820]"></a>NVIC_SystemLPConfig</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[10537d8]"></a>NVIC_SystemHandlerConfig</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[bb9460]"></a>NVIC_SystemHandlerPriorityConfig</STRONG> (Thumb, 98 bytes, Stack size 20 bytes, stm32f10x_nvic.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bb9658]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Interrupt_Config
+</UL>
+
+<P><STRONG><a name="[1053790]"></a>NVIC_GetSystemHandlerPendingBitStatus</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053748]"></a>NVIC_SetSystemHandlerPendingBit</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053700]"></a>NVIC_ClearSystemHandlerPendingBit</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[10536b8]"></a>NVIC_GetSystemHandlerActiveBitStatus</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053670]"></a>NVIC_GetFaultHandlerSources</STRONG> (Thumb, 66 bytes, Stack size 12 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[1053628]"></a>NVIC_GetFaultAddress</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, stm32f10x_nvic.o(.text), UNUSED)
+
+<P><STRONG><a name="[bb93d0]"></a>RCC_DeInit</STRONG> (Thumb, 62 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[bb9268]"></a>RCC_HSEConfig</STRONG> (Thumb, 70 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[bb9340]"></a>RCC_GetFlagStatus</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bb90b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_WaitForHSEStartUp
+<LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[bb90b8]"></a>RCC_WaitForHSEStartUp</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb9340]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetFlagStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[1051970]"></a>RCC_AdjustHSICalibrationValue</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1051928]"></a>RCC_HSICmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[bb9148]"></a>RCC_PLLConfig</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[bb9190]"></a>RCC_PLLCmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[bb9100]"></a>RCC_SYSCLKConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[bb92f8]"></a>RCC_GetSYSCLKSource</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[bb92b0]"></a>RCC_HCLKConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[bb9220]"></a>RCC_PCLK1Config</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[bb91d8]"></a>RCC_PCLK2Config</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[10518e0]"></a>RCC_ITConfig</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1051898]"></a>RCC_USBCLKConfig</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1051850]"></a>RCC_ADCCLKConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1051808]"></a>RCC_LSEConfig</STRONG> (Thumb, 50 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[10517c0]"></a>RCC_LSICmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1051778]"></a>RCC_RTCCLKConfig</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1051730]"></a>RCC_RTCCLKCmd</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[bb9388]"></a>RCC_GetClocksFreq</STRONG> (Thumb, 194 bytes, Stack size 12 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbaa98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Config
+</UL>
+
+<P><STRONG><a name="[10516e8]"></a>RCC_AHBPeriphClockCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[bb9418]"></a>RCC_APB2PeriphClockCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bb9610]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Config
+</UL>
+
+<P><STRONG><a name="[10516a0]"></a>RCC_APB1PeriphClockCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1065f90]"></a>RCC_APB2PeriphResetCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[105c2d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_AFIODeInit
+<LI><a href="#[105c320]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_DeInit
+</UL>
+
+<P><STRONG><a name="[1063d28]"></a>RCC_APB1PeriphResetCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1064f10]"></a>RCC_BackupResetCmd</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1051658]"></a>RCC_ClockSecuritySystemCmd</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1051610]"></a>RCC_MCOConfig</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[10515c8]"></a>RCC_ClearFlag</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1051580]"></a>RCC_GetITStatus</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[1051538]"></a>RCC_ClearITPendingBit</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_rcc.o(.text), UNUSED)
+
+<P><STRONG><a name="[bb9070]"></a>SysTick_CLKSourceConfig</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, stm32f10x_systick.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbaa98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Config
+</UL>
+
+<P><STRONG><a name="[bb8f98]"></a>SysTick_SetReload</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_systick.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbaa98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Config
+</UL>
+
+<P><STRONG><a name="[bb9028]"></a>SysTick_CounterCmd</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, stm32f10x_systick.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbaa98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Config
+</UL>
+
+<P><STRONG><a name="[bb8fe0]"></a>SysTick_ITConfig</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, stm32f10x_systick.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[bbaa98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Config
+</UL>
+
+<P><STRONG><a name="[104d060]"></a>SysTick_GetCounter</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_systick.o(.text), UNUSED)
+
+<P><STRONG><a name="[104d018]"></a>SysTick_GetFlagStatus</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, stm32f10x_systick.o(.text), UNUSED)
+
+<P><STRONG><a name="[1047310]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stkheap2.o(.text), UNUSED)
+
+<P><STRONG><a name="[10472c8]"></a>__rt_stackheap_init</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, stkheap2.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24 + Unknown Stack Size
+<LI>Call Chain = __rt_stackheap_init &rArr; __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1046368]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_stackheap_storage
+<LI><a href="#[10467c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1046d88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[1047280]"></a>__rt_heap_extend</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, stkheap2.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[10471a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_heap_extend (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[1046d88]"></a>__rt_entry</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, kernel.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 192 + Unknown Stack Size
+<LI>Call Chain = __rt_entry &rArr; main &rArr; OSInit &rArr; OSTmr_Init &rArr; OSTmr_InitTask &rArr; OSTaskCreateExt &rArr; OS_TCBInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bbf458]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[1044bf8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_platform_post_lib_init
+<LI><a href="#[1044d68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_platform_post_stackheap_init
+<LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
+<LI><a href="#[1045d20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+<LI><a href="#[10472c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_stackheap_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1041cf8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
+<LI><a href="#[1047040]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[1046d40]"></a>__rt_exit</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, kernel.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = __rt_exit &rArr; __rt_lib_shutdown
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1045728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
+<LI><a href="#[1046cf8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_abort
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1045d20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+
+<P><STRONG><a name="[1046cf8]"></a>__rt_abort</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, kernel.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[10461b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1046d40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit
+</UL>
+
+<P><STRONG><a name="[10467c8]"></a>__user_setup_stackheap</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, sys_stackheap_outer.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bbd768]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_initial_stackheap
+<LI><a href="#[1045ed8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_perproc_libspace
+</UL>
+<BR>[Called By]<UL><LI><a href="#[10472c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_stackheap_init
+</UL>
+
+<P><STRONG><a name="[1046368]"></a>__rt_stackheap_storage</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, rt_stackheap_storage_intlibspace.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[10472c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_stackheap_init
+</UL>
+
+<P><STRONG><a name="[10461b0]"></a>_sys_exit</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, sys_exit.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1046cf8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_abort
+</UL>
+
+<P><STRONG><a name="[1045f20]"></a>__user_libspace</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[1045ed8]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[10467c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[1045e90]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[1045d20]"></a>exit</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, exit.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = exit &rArr; __rt_exit &rArr; __rt_lib_shutdown
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1045c90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_call_atexit_fns (Weak Reference)
+<LI><a href="#[1046d40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1046d88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[1045770]"></a>__rt_lib_init</STRONG> (Thumb, 174 bytes, Stack size 40 bytes, lib_init.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = __rt_lib_init &rArr; _fp_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1043cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_init
+<LI><a href="#[1044510]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_locale
+<LI><a href="#[1045140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_signal_init (Weak Reference)
+<LI><a href="#[1045188]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_rand_init (Weak Reference)
+<LI><a href="#[10451d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_initio (Weak Reference)
+<LI><a href="#[1045218]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_init_user_alloc (Weak Reference)
+<LI><a href="#[1045260]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_init_alloc (Weak Reference)
+<LI><a href="#[10452a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_getenv_init (Weak Reference)
+<LI><a href="#[10452f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_get_lc_time (Weak Reference)
+<LI><a href="#[1045338]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_get_lc_numeric (Weak Reference)
+<LI><a href="#[1045380]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_get_lc_monetary (Weak Reference)
+<LI><a href="#[10453c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_get_lc_ctype (Weak Reference)
+<LI><a href="#[1045410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_get_lc_collate (Weak Reference)
+<LI><a href="#[1045458]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_trap_init (Weak Reference)
+<LI><a href="#[10454a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_clock_init (Weak Reference)
+<LI><a href="#[10454e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_atexit_init (Weak Reference)
+<LI><a href="#[1045578]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cpp_initialize__aeabi_ (Weak Reference)
+<LI><a href="#[10455c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__alloca_initialize (Weak Reference)
+<LI><a href="#[1045608]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__Heap_DescSize (Weak Reference)
+<LI><a href="#[1045650]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_exceptions_init (Weak Reference)
+<LI><a href="#[1045800]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_argv_veneer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1046d88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[1045728]"></a>__rt_lib_shutdown</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, lib_init.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __rt_lib_shutdown
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10450b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_terminateio (Weak Reference)
+<LI><a href="#[10450f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_terminate_user_alloc (Weak Reference)
+<LI><a href="#[1045530]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_finalize (Weak Reference)
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1046d40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit
+</UL>
+
+<P><STRONG><a name="[1044d68]"></a>_platform_post_stackheap_init</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, boardinit2.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1046d88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[1044bf8]"></a>_platform_post_lib_init</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, boardinit3.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = _platform_post_lib_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1046d88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[10448c8]"></a>__I_use_semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> sys_exit.o(.text)
+</UL>
+<P><STRONG><a name="[1044880]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[1044510]"></a>__rt_locale</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, rt_locale_intlibspace.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
+</UL>
+
+<P><STRONG><a name="[1043e98]"></a>__ARM_get_argv</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, no_argv.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1045800]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_argv_veneer
+</UL>
+
+<P><STRONG><a name="[1043738]"></a>__rt_fp_status_addr</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, rt_fp_status_addr_intlibspace.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[1043cb0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_fp_init
+</UL>
+
+<P><STRONG><a name="[1043cb0]"></a>_fp_init</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, fpinit.o(x$fpl$fpinit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = _fp_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1043738]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_fp_status_addr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
+</UL>
+
+<P><STRONG><a name="[1043c68]"></a>__fplib_config_pureend_doubles</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[bc1150]"></a>TaskLed2</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, main.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bbf140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDlyHMSM
+<LI><a href="#[bbf2f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_WriteBit
+<LI><a href="#[bbf3c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ReadOutputDataBit
+</UL>
+
+<P><STRONG><a name="[bc1108]"></a>TaskLed1</STRONG> (Thumb, 72 bytes, Stack size 8 bytes, main.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bbf140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTimeDlyHMSM
+<LI><a href="#[bbf338]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
+<LI><a href="#[bbf380]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
+</UL>
+
+<P><STRONG><a name="[bc10c0]"></a>TaskCreate</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, main.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bbf188]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskSuspend
+<LI><a href="#[bbf1d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreate
+<LI><a href="#[bbf218]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSStatInit
+<LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[bbaa98]"></a>SysTick_Config</STRONG> (Thumb, 46 bytes, Stack size 32 bytes, bsp.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[bb8f98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_SetReload
+<LI><a href="#[bb8fe0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_ITConfig
+<LI><a href="#[bb9028]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_CounterCmd
+<LI><a href="#[bb9070]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_CLKSourceConfig
+<LI><a href="#[bb9388]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetClocksFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf410]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[bb5d60]"></a>OS_SchedNew</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, os_core.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bb4a40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSIntExit
+<LI><a href="#[bb4c80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_Sched
+<LI><a href="#[bbf260]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSStart
+</UL>
+
+<P><STRONG><a name="[bb5d18]"></a>OS_InitTaskStat</STRONG> (Thumb, 56 bytes, Stack size 32 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136 + Unknown Stack Size
+<LI>Call Chain = OS_InitTaskStat &rArr; OSTaskCreateExt &rArr; OS_TCBInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4698]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskNameSet
+<LI><a href="#[bb46e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreateExt
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+
+<P><STRONG><a name="[bb5cd0]"></a>OS_InitTaskIdle</STRONG> (Thumb, 56 bytes, Stack size 32 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136 + Unknown Stack Size
+<LI>Call Chain = OS_InitTaskIdle &rArr; OSTaskCreateExt &rArr; OS_TCBInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4698]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskNameSet
+<LI><a href="#[bb46e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreateExt
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+
+<P><STRONG><a name="[bb5c88]"></a>OS_InitEventList</STRONG> (Thumb, 70 bytes, Stack size 12 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = OS_InitEventList
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4ad0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_MemClr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+
+<P><STRONG><a name="[bb5c40]"></a>OS_InitTCBList</STRONG> (Thumb, 88 bytes, Stack size 12 bytes, os_core.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = OS_InitTCBList
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4ad0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_MemClr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+
+<P><STRONG><a name="[bb5bf8]"></a>OS_InitRdyList</STRONG> (Thumb, 46 bytes, Stack size 0 bytes, os_core.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+
+<P><STRONG><a name="[bb5bb0]"></a>OS_InitMisc</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, os_core.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[bbf2a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSInit
+</UL>
+
+<P><STRONG><a name="[bb3d18]"></a>OS_FlagTaskRdy</STRONG> (Thumb, 82 bytes, Stack size 20 bytes, os_flag.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[106db58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OS_FlagUnlink
+</UL>
+<BR>[Called By]<UL><LI><a href="#[106d9a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagPost
+<LI><a href="#[106db10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagDel
+</UL>
+
+<P><STRONG><a name="[bb3cd0]"></a>OS_FlagBlock</STRONG> (Thumb, 150 bytes, Stack size 20 bytes, os_flag.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[106da38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSFlagPend
+</UL>
+
+<P><STRONG><a name="[1067d80]"></a>OSTmr_Unlock</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1069d20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPost
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1067678]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrStop
+<LI><a href="#[10676c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrStart
+<LI><a href="#[1067708]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrStateGet
+<LI><a href="#[1067750]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrRemainGet
+<LI><a href="#[1067798]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrNameGet
+<LI><a href="#[10677e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrDel
+<LI><a href="#[1067828]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrCreate
+<LI><a href="#[1067bd0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Task
+</UL>
+
+<P><STRONG><a name="[1067d38]"></a>OSTmr_Alloc</STRONG> (Thumb, 50 bytes, Stack size 0 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1067828]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrCreate
+</UL>
+
+<P><STRONG><a name="[1067cf0]"></a>OSTmr_Lock</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1069db0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPend
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1067678]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrStop
+<LI><a href="#[10676c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrStart
+<LI><a href="#[1067708]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrStateGet
+<LI><a href="#[1067750]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrRemainGet
+<LI><a href="#[1067798]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrNameGet
+<LI><a href="#[10677e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrDel
+<LI><a href="#[1067828]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrCreate
+<LI><a href="#[1067bd0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Task
+</UL>
+
+<P><STRONG><a name="[1067ca8]"></a>OSTmr_Free</STRONG> (Thumb, 66 bytes, Stack size 0 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[10677e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrDel
+</UL>
+
+<P><STRONG><a name="[1067c60]"></a>OSTmr_Unlink</STRONG> (Thumb, 62 bytes, Stack size 12 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1067678]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrStop
+<LI><a href="#[10676c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrStart
+<LI><a href="#[10677e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrDel
+<LI><a href="#[1067bd0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Task
+</UL>
+
+<P><STRONG><a name="[1067c18]"></a>OSTmr_Link</STRONG> (Thumb, 98 bytes, Stack size 16 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[10676c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmrStart
+<LI><a href="#[1067bd0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Task
+</UL>
+
+<P><STRONG><a name="[1067bd0]"></a>OSTmr_Task</STRONG> (Thumb, 116 bytes, Stack size 32 bytes, os_tmr.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[1067c18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Link
+<LI><a href="#[1067c60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Unlink
+<LI><a href="#[1067cf0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Lock
+<LI><a href="#[1067d80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Unlock
+<LI><a href="#[1069db0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSSemPend
+</UL>
+
+<P><STRONG><a name="[1067b88]"></a>OSTmr_InitTask</STRONG> (Thumb, 56 bytes, Stack size 32 bytes, os_tmr.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136 + Unknown Stack Size
+<LI>Call Chain = OSTmr_InitTask &rArr; OSTaskCreateExt &rArr; OS_TCBInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb4698]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskNameSet
+<LI><a href="#[bb46e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTaskCreateExt
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb45c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;OSTmr_Init
+</UL>
+
+<P><STRONG><a name="[105ec80]"></a>delay</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, stm32f10x_flash.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[105e728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FLASH_WaitForLastOperation
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3>
+<P><STRONG><a name="[1045650]"></a>__ARM_exceptions_init</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[1045608]"></a>__Heap_DescSize</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[10455c0]"></a>__alloca_initialize</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[1045578]"></a>__cpp_initialize__aeabi_</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[1045530]"></a>__cxa_finalize</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[10471a8]"></a>__user_heap_extend</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED, UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[1047280]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_heap_extend (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[10454e8]"></a>_atexit_init</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[1045c90]"></a>_call_atexit_fns</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045d20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[10454a0]"></a>_clock_init</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[1045458]"></a>_fp_trap_init</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[1045410]"></a>_get_lc_collate</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[10453c8]"></a>_get_lc_ctype</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[1045380]"></a>_get_lc_monetary</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[1045338]"></a>_get_lc_numeric</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[10452f0]"></a>_get_lc_time</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[10452a8]"></a>_getenv_init</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[1045260]"></a>_init_alloc</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[1045218]"></a>_init_user_alloc</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[10451d0]"></a>_initio</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[1045188]"></a>_rand_init</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[1045140]"></a>_signal_init</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045770]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[10450f8]"></a>_terminate_user_alloc</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown (Weak Reference)
+</UL>
+
+<P><STRONG><a name="[10450b0]"></a>_terminateio</STRONG> (Unknown, 0 bytes, Stack size 0 bytes, UNDEFINED)
+<BR><BR>[Called By]<UL><LI><a href="#[1045728]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown (Weak Reference)
+</UL>
+<HR></body></html>

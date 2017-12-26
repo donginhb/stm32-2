@@ -1,0 +1,14 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Keil\ARM\Examples\ST\STM32F10xUSBLib\Demos\JoyStickMouse\project\JoyStickMouse.uvproj
+Project File Date:  05/07/2010
+
+<h2>Output:</h2>
+Build target 'STM3210E-EVAL'
+linking...
+Program Size: Code=6824 RO-data=536 RW-data=300 ZI-data=1052  
+FromELF: creating hex file...
+".\Obj\STM3210E-EVAL.axf" - 0 Error(s), 0 Warning(s).

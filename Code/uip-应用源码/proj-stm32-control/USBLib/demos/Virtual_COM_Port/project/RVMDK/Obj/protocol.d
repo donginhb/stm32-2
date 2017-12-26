@@ -1,0 +1,13 @@
+.\Obj\protocol.o: ..\..\source\protocol.c
+.\Obj\protocol.o: ..\..\include\protocol.h
+.\Obj\protocol.o: ..\..\..\..\..\FWLib\library\inc\stm32f10x_lib.h
+.\Obj\protocol.o: ..\..\..\..\..\FWLib\library\inc\stm32f10x_map.h
+.\Obj\protocol.o: ..\..\include\stm32f10x_conf.h
+.\Obj\protocol.o: ..\..\..\..\..\FWLib\library\inc\stm32f10x_type.h
+.\Obj\protocol.o: ..\..\..\..\..\FWLib\library\inc\cortexm3_macro.h
+.\Obj\protocol.o: ..\..\..\..\..\FWLib\library\inc\stm32f10x_flash.h
+.\Obj\protocol.o: ..\..\..\..\..\FWLib\library\inc\stm32f10x_gpio.h
+.\Obj\protocol.o: ..\..\..\..\..\FWLib\library\inc\stm32f10x_nvic.h
+.\Obj\protocol.o: ..\..\..\..\..\FWLib\library\inc\stm32f10x_rcc.h
+.\Obj\protocol.o: ..\..\..\..\..\FWLib\library\inc\stm32f10x_usart.h
+.\Obj\protocol.o: ..\..\include\DES.h

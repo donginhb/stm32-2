@@ -1,0 +1,1 @@
+-c -cpu Cortex-M3 -g -O0 -apcs /interwork -I..\BSP -I..\FWlib\inc -I..\App -I..\OS\uCOS-II\Source -I..\OS\uCOS-II\Ports -o "..\Obj\main.o" "..\App\main.c"

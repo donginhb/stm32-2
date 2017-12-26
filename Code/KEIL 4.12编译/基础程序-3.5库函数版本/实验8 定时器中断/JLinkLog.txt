@@ -1,0 +1,30 @@
+
+T0C3C 000:265 SEGGER J-Link V4.15n (beta) Log File (0014ms, 0250ms total)
+T0C3C 000:265 DLL Compiled: Jun 18 2010 19:55:09 (0016ms, 0250ms total)
+T0C3C 000:265 Logging started @ 2013-02-25 20:13 (0017ms, 0250ms total)
+T0C3C 000:283 JLINK_SetWarnOutHandler(...) (0001ms, 0268ms total)
+T0C3C 000:284 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Jan 31 2011 18:34:52
+Hardware: V8.00
+S/N: 805306163
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0167ms, 0269ms total)
+T0C3C 000:451 JLINK_SetErrorOutHandler(...) (0002ms, 0436ms total)
+T0C3C 000:456 JLINK_ExecCommand("ProjectFile = "X:\cp产品电路+PCB\MiniStm32开发板\DM9000  TFT转接板V5.0 120320\陆航MiniSTM32 V1.0 初级 (库函数)\project模版\JLinkSettings.ini"", ...)  returns 0x00 (0009ms, 0439ms total)
+T0C3C 000:470 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 0449ms total)
+T0C3C 000:481 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0014ms, 0449ms total)
+T0C3C 000:496 JLINK_SetSpeed(2000) (0010ms, 0464ms total)
+T0C3C 000:507 JLINK_GetHardwareVersion()  returns 0x13880 (0001ms, 0475ms total)
+T0C3C 000:508 JLINK_GetDLLVersion()  returns 41514 (0001ms, 0476ms total)
+T0C3C 000:510 JLINK_GetFirmwareString(...) (0000ms, 0478ms total)
+T0C3C 000:511 JLINK_GetDLLVersion()  returns 41514 (0000ms, 0479ms total)
+T0C3C 000:512 JLINK_GetCompileDateTime() (0000ms, 0480ms total)
+T0C3C 000:513 JLINK_GetFirmwareString(...) (0000ms, 0481ms total)
+T0C3C 000:514 JLINK_GetHardwareVersion()  returns 0x13880 (0006ms, 0482ms total)
+T0C3C 000:522 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0001ms, 0489ms total)
+T0C3C 000:524 JLINK_Reset()RESET (pin 15) high, but should be low. Please check target hardware.
+  ***** Error: Supply voltage too low (1 Volt is required, Measured: 0.0 Volt).
+Please check target power.No matching core found. (0241ms, 0491ms total)
+T0C3C 000:765 JLINK_JTAG_StoreRaw(..., 0x108 Bits)  returns 0x00 (0003ms, 0732ms total)
+T0C3C 000:768 JLINK_JTAG_GetU32(BitPos = 227) >0x108 TIF>  returns 0x00000000 (0006ms, 0735ms total)
+T0C3C 000:776 JLINK_GetCompileDateTime() (0002ms, 0741ms total)
+T0C3C 003:502 JLINK_Close() (0058ms, 0743ms total)

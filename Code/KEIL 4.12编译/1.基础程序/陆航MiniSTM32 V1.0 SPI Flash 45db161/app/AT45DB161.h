@@ -1,0 +1,5 @@
+#define  AT45DB161D_FLASH_ID    0x1F260000
+
+extern u32 FLASH_ID;
+
+

@@ -1,0 +1,10 @@
+.\Obj\usb_int.o: ..\..\..\..\..\..\RV31\LIB\ST\STM32F10x\USB\usb_int.c
+.\Obj\usb_int.o: ..\..\..\..\..\..\INC\ST\STM32F10x\USB\usb_lib.h
+.\Obj\usb_int.o: ..\..\..\..\..\..\INC\ST\STM32F10x\USB\usb_type.h
+.\Obj\usb_int.o: ..\include\usb_conf.h
+.\Obj\usb_int.o: ..\..\..\..\..\..\INC\ST\STM32F10x\USB\usb_regs.h
+.\Obj\usb_int.o: ..\..\..\..\..\..\INC\ST\STM32F10x\USB\usb_def.h
+.\Obj\usb_int.o: ..\..\..\..\..\..\INC\ST\STM32F10x\USB\usb_core.h
+.\Obj\usb_int.o: ..\..\..\..\..\..\INC\ST\STM32F10x\USB\usb_init.h
+.\Obj\usb_int.o: ..\..\..\..\..\..\INC\ST\STM32F10x\USB\usb_mem.h
+.\Obj\usb_int.o: ..\..\..\..\..\..\INC\ST\STM32F10x\USB\usb_int.h

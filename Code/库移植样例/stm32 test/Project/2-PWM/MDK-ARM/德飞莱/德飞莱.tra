@@ -1,0 +1,55 @@
+*** Creating Trace Output File '.\肅滄應\肅滄應.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\肅滄應\stm32f10x_it.o"'
+### List of Objects: adding '".\肅滄應\main.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_rcc.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_gpio.o"'
+### List of Objects: adding '".\肅滄應\misc.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_exti.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_spi.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_fsmc.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_usart.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_sdio.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_dma.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_i2c.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_adc.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_bkp.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_can.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_cec.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_crc.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_dac.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_dbgmcu.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_flash.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_iwdg.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_pwr.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_rtc.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_tim.o"'
+### List of Objects: adding '".\肅滄應\stm32f10x_wwdg.o"'
+### List of Objects: adding '".\肅滄應\core_cm3.o"'
+### List of Objects: adding '".\肅滄應\system_stm32f10x.o"'
+### List of Objects: adding '".\肅滄應\stm32_eval.o"'
+### List of Objects: adding '".\肅滄應\stm32_eval_spi_sd.o"'
+### List of Objects: adding '".\肅滄應\stm32_eval_i2c_tsensor.o"'
+### List of Objects: adding '".\肅滄應\stm32_eval_spi_flash.o"'
+### List of Objects: adding '".\肅滄應\stm32100e_eval_lcd.o"'
+### List of Objects: adding '".\肅滄應\stm32100e_eval_ioe.o"'
+### List of Objects: adding '".\肅滄應\stm32100e_eval_cec.o"'
+### List of Objects: adding '".\肅滄應\stm32100e_eval_fsmc_onenand.o"'
+### List of Objects: adding '".\肅滄應\stm32100e_eval_fsmc_sram.o"'
+### List of Objects: adding '".\肅滄應\startup_stm32f10x_hd_vl.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\肅滄應\stm32f10x_it.o" ".\肅滄應\main.o" ".\肅滄應\stm32f10x_rcc.o" ".\肅滄應\stm32f10x_gpio.o" ".\肅滄應\misc.o" ".\肅滄應\stm32f10x_exti.o" ".\肅滄應\stm32f10x_spi.o" ".\肅滄應\stm32f10x_fsmc.o" ".\肅滄應\stm32f10x_usart.o" ".\肅滄應\stm32f10x_sdio.o" ".\肅滄應\stm32f10x_dma.o" ".\肅滄應\stm32f10x_i2c.o" ".\肅滄應\stm32f10x_adc.o" ".\肅滄應\stm32f10x_bkp.o" ".\肅滄應\stm32f10x_can.o" ".\肅滄應\stm32f10x_cec.o" ".\肅滄應\stm32f10x_crc.o" ".\肅滄應\stm32f10x_dac.o" ".\肅滄應\stm32f10x_dbgmcu.o" ".\肅滄應\stm32f10x_flash.o" ".\肅滄應\stm32f10x_iwdg.o" ".\肅滄應\stm32f10x_pwr.o" ".\肅滄應\stm32f10x_rtc.o" ".\肅滄應\stm32f10x_tim.o" ".\肅滄應\stm32f10x_wwdg.o" ".\肅滄應\core_cm3.o" ".\肅滄應\system_stm32f10x.o" ".\肅滄應\stm32_eval.o" ".\肅滄應\stm32_eval_spi_sd.o" ".\肅滄應\stm32_eval_i2c_tsensor.o" ".\肅滄應\stm32_eval_spi_flash.o" ".\肅滄應\stm32100e_eval_lcd.o" ".\肅滄應\stm32100e_eval_ioe.o" ".\肅滄應\stm32100e_eval_cec.o" ".\肅滄應\stm32100e_eval_fsmc_onenand.o" ".\肅滄應\stm32100e_eval_fsmc_sram.o" ".\肅滄應\startup_stm32f10x_hd_vl.o" --library_type=microlib --strict --scatter ".\肅滄應\肅滄應.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\肅滄應\肅滄應.map" -o ".\肅滄應\肅滄應.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\肅滄應\肅滄應.axf'
+### ADS-LD Command File: '.\肅滄應\肅滄應.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\肅滄應\肅滄應.lnp', Handle=0x000002D4
+### Writing '.lnp' file
+### ADS-LD Command file '.\肅滄應\肅滄應.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
