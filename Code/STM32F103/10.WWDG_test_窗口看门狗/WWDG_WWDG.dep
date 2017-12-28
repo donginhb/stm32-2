@@ -1,0 +1,5 @@
+Dependencies for Project 'WWDG', Target 'WWDG': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x4F2B43AC)(--cpu Cortex-M3 -g --apcs=interwork -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\ST\STM32F10x" --list ".\listing\STM32F10x.lst" --xref -o ".\obj\STM32F10x.o" --depend ".\obj\STM32F10x.d")
+F (.\main.c)(0x4F2B43AC)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\listing\\" -I..\..\library\inc -I..\..\library\src -I..\uvsion -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\ST\STM32F10x" -o ".\obj\main.o" --list_dir ".\\listing\\" --list --omf_browse ".\obj\main.crf" --depend ".\obj\main.d")
+F (.\stm32f10x_it.c)(0x4F2B43AC)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\listing\\" -I..\..\library\inc -I..\..\library\src -I..\uvsion -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\ST\STM32F10x -o ".\obj\stm32f10x_it.o" --list_dir ".\\listing\\" --list --omf_browse ".\obj\stm32f10x_it.crf" --depend ".\obj\stm32f10x_it.d")
+F (E:\Boards\M3\okstm32v100\Ê¾Àý³ÌÐò\common\STM32F10xR.LIB)(0x00000000)()

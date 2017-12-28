@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\List\\" -I.\usb_library\inc -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DVECT_TAB_FLASH -o ".\Obj\usb_mem.o" --list_dir ".\\List\\" --list --omf_browse ".\Obj\usb_mem.crf" --depend ".\Obj\usb_mem.d" "usb_library\src\usb_mem.c"

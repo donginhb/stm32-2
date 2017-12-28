@@ -1,0 +1,1 @@
+-c --device DARMSTM -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave -I..\common\library -I..\common\usb_library -I "d:\Keil\ARM\INC\ST\STM32F10x" -o ".\output\main.o" --omf_browse ".\output\main.crf" --depend ".\output\main.d" "main.c"

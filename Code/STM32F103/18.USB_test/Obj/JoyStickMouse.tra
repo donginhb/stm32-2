@@ -1,0 +1,33 @@
+*** Creating Trace Output File '.\Obj\JoyStickMouse.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\stm32f10x.o"'
+### List of Objects: adding '".\obj\stm32f10x_it.o"'
+### List of Objects: adding '".\obj\usb_desc.o"'
+### List of Objects: adding '".\obj\usb_istr.o"'
+### List of Objects: adding '".\obj\usb_prop.o"'
+### List of Objects: adding '".\obj\usb_pwr.o"'
+### List of Objects: adding '".\obj\hw_config.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\usb_core.o"'
+### List of Objects: adding '".\obj\usb_init.o"'
+### List of Objects: adding '".\obj\usb_int.o"'
+### List of Objects: adding '".\obj\usb_mem.o"'
+### List of Objects: adding '".\obj\usb_regs.o"'
+### List of Objects: adding '"..\ÉóºË¹ý\common\STM32F10xD.LIB"'
+### List of Objects: adding '"..\ÉóºË¹ý\common\STM32F10xR.LIB"'
+### ADS-LD Command completed:
+".\obj\stm32f10x.o" ".\obj\stm32f10x_it.o" ".\obj\usb_desc.o" ".\obj\usb_istr.o" ".\obj\usb_prop.o" ".\obj\usb_pwr.o" ".\obj\hw_config.o" ".\obj\main.o" ".\obj\usb_core.o" ".\obj\usb_init.o" ".\obj\usb_int.o" ".\obj\usb_mem.o" ".\obj\usb_regs.o" "..\ÉóºË¹ý\common\STM32F10xD.LIB" "..\ÉóºË¹ý\common\STM32F10xR.LIB" --library_type=microlib --device DARMSTM --strict --scatter ".\Obj\JoyStickMouse.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\JoyStickMouse.map" -o ".\Obj\JoyStickMouse.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\JoyStickMouse.axf'
+### ADS-LD Command File: '.\Obj\JoyStickMouse.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\JoyStickMouse.lnp', Handle=0x000002D8
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\JoyStickMouse.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

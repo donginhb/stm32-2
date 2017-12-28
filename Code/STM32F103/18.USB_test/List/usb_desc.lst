@@ -1,0 +1,1613 @@
+L 1 "usb_desc.c"
+N/******************** (C) COPYRIGHT 2007 STMicroelectronics ********************
+N* File Name          : usb_desc.c
+N* Author             : MCD Application Team
+N* Version            : V1.0
+N* Date               : 10/08/2007
+N* Description        : Descriptors for Joystick Mouse Demo
+N********************************************************************************
+N* THE PRESENT SOFTWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+N* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE TIME.
+N* AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY DIRECT,
+N* INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE
+N* CONTENT OF SUCH SOFTWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING
+N* INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+N*******************************************************************************/
+N
+N/* Includes ------------------------------------------------------------------*/
+N#include "usb_lib.h"
+L 1 ".\usb_library\inc\usb_lib.h" 1
+N/******************** (C) COPYRIGHT 2007 STMicroelectronics ********************
+N* File Name          : usb_lib.h
+N* Author             : MCD Application Team
+N* Version            : V1.0
+N* Date               : 10/08/2007
+N* Description        : USB library include files
+N********************************************************************************
+N* THE PRESENT SOFTWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+N* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE TIME.
+N* AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY DIRECT,
+N* INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE
+N* CONTENT OF SUCH SOFTWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING
+N* INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+N*******************************************************************************/
+N
+N/* Define to prevent recursive inclusion -------------------------------------*/
+N#ifndef __USB_LIB_H
+N#define __USB_LIB_H
+N
+N/* Includes ------------------------------------------------------------------*/
+N#include "usb_type.h"
+L 1 ".\usb_library\inc\usb_type.h" 1
+N/******************** (C) COPYRIGHT 2007 STMicroelectronics ********************
+N* File Name          : usb_type.h
+N* Author             : MCD Application Team
+N* Version            : V1.0
+N* Date               : 10/08/2007
+N* Description        : Type definitions used by the USB Library
+N********************************************************************************
+N* THE PRESENT SOFTWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+N* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE TIME.
+N* AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY DIRECT,
+N* INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE
+N* CONTENT OF SUCH SOFTWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING
+N* INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+N*******************************************************************************/
+N
+N/* Define to prevent recursive inclusion -------------------------------------*/
+N#ifndef __USB_TYPE_H
+N#define __USB_TYPE_H
+N
+N/* Includes ------------------------------------------------------------------*/
+N#include "usb_conf.h"
+L 1 ".\usb_library\inc\usb_conf.h" 1
+N/******************** (C) COPYRIGHT 2007 STMicroelectronics ********************
+N* File Name          : usb_conf.h
+N* Author             : MCD Application Team
+N* Version            : V1.0
+N* Date               : 10/08/2007
+N* Description        : Joystick Mouse demo configuration file
+N********************************************************************************
+N* THE PRESENT SOFTWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+N* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE TIME.
+N* AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY DIRECT,
+N* INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE
+N* CONTENT OF SUCH SOFTWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING
+N* INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+N*******************************************************************************/
+N
+N/* Define to prevent recursive inclusion -------------------------------------*/
+N#ifndef __USB_CONF_H
+N#define __USB_CONF_H
+N
+N/* Includes ------------------------------------------------------------------*/
+N/* Exported types ------------------------------------------------------------*/
+N/* Exported constants --------------------------------------------------------*/
+N/* Exported macro ------------------------------------------------------------*/
+N/* Exported functions ------------------------------------------------------- */
+N/* External variables --------------------------------------------------------*/
+N/*-------------------------------------------------------------*/
+N/* EP_NUM */
+N/* defines how many endpoints are used by the device */
+N/*-------------------------------------------------------------*/
+N#define EP_NUM     (2)
+N
+N/*-------------------------------------------------------------*/
+N/* --------------   Buffer Description Table  -----------------*/
+N/*-------------------------------------------------------------*/
+N/* buffer table base address */
+N/* buffer table base address */
+N#define BTABLE_ADDRESS      (0x00)
+N
+N/* EP0  */
+N/* rx/tx buffer base address */
+N#define ENDP0_RXADDR        (0x18)
+N#define ENDP0_TXADDR        (0x58)
+N
+N/* EP1  */
+N/* tx buffer base address */
+N#define ENDP1_TXADDR        (0x100)
+N
+N
+N/*-------------------------------------------------------------*/
+N/* -------------------   ISTR events  -------------------------*/
+N/*-------------------------------------------------------------*/
+N/* IMR_MSK */
+N/* mask defining which events has to be handled */
+N/* by the device application software */
+N#define IMR_MSK (CNTR_CTRM  | CNTR_WKUPM | CNTR_SUSPM | CNTR_ERRM  | CNTR_SOFM \
+N                 | CNTR_ESOFM | CNTR_RESETM )
+X#define IMR_MSK (CNTR_CTRM  | CNTR_WKUPM | CNTR_SUSPM | CNTR_ERRM  | CNTR_SOFM                  | CNTR_ESOFM | CNTR_RESETM )
+N
+N/* CTR service routines */
+N/* associated to defined endpoints */
+N#define  EP1_IN_Callback   NOP_Process
+N#define  EP2_IN_Callback   NOP_Process
+N#define  EP3_IN_Callback   NOP_Process
+N#define  EP4_IN_Callback   NOP_Process
+N#define  EP5_IN_Callback   NOP_Process
+N#define  EP6_IN_Callback   NOP_Process
+N#define  EP7_IN_Callback   NOP_Process
+N
+N#define  EP1_OUT_Callback   NOP_Process
+N#define  EP2_OUT_Callback   NOP_Process
+N#define  EP3_OUT_Callback   NOP_Process
+N#define  EP4_OUT_Callback   NOP_Process
+N#define  EP5_OUT_Callback   NOP_Process
+N#define  EP6_OUT_Callback   NOP_Process
+N#define  EP7_OUT_Callback   NOP_Process
+N
+N#endif /*__USB_CONF_H*/
+N
+N/******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/
+N
+L 22 ".\usb_library\inc\usb_type.h" 2
+N
+N/* Exported types ------------------------------------------------------------*/
+N/* Exported constants --------------------------------------------------------*/
+N#ifndef NULL
+N#define NULL ((void *)0)
+N#endif
+N
+N#ifndef __STM32F10x_TYPE_H
+N
+Ntypedef signed long      s32;
+Ntypedef signed short     s16;
+Ntypedef signed char      s8;
+N
+Ntypedef volatile signed long      vs32;
+Ntypedef volatile signed short     vs16;
+Ntypedef volatile signed char      vs8;
+N
+Ntypedef unsigned long       u32;
+Ntypedef unsigned short      u16;
+Ntypedef unsigned char       u8;
+N
+Ntypedef unsigned long  const    uc32;  /* Read Only */
+Ntypedef unsigned short const    uc16;  /* Read Only */
+Ntypedef unsigned char  const    uc8;   /* Read Only */
+N
+Ntypedef volatile unsigned long      vu32;
+Ntypedef volatile unsigned short     vu16;
+Ntypedef volatile unsigned char      vu8;
+N
+Ntypedef volatile unsigned long  const    vuc32;  /* Read Only */
+Ntypedef volatile unsigned short const    vuc16;  /* Read Only */
+Ntypedef volatile unsigned char  const    vuc8;   /* Read Only */
+N
+N
+Ntypedef enum
+N{
+N  FALSE = 0, TRUE  = !FALSE
+N}
+Nbool;
+N
+Ntypedef enum { RESET = 0, SET   = !RESET } FlagStatus, ITStatus;
+N
+Ntypedef enum { DISABLE = 0, ENABLE  = !DISABLE} FunctionalState;
+N
+Ntypedef enum { ERROR = 0, SUCCESS  = !ERROR} ErrorStatus;
+N#endif
+N
+N/* Exported macro ------------------------------------------------------------*/
+N/* Exported functions ------------------------------------------------------- */
+N/* External variables --------------------------------------------------------*/
+N
+N#endif /* __USB_TYPE_H */
+N
+N/******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/
+L 22 ".\usb_library\inc\usb_lib.h" 2
+N#include "usb_regs.h"
+L 1 ".\usb_library\inc\usb_regs.h" 1
+N/******************** (C) COPYRIGHT 2007 STMicroelectronics ********************
+N* File Name          : usb_regs.h
+N* Author             : MCD Application Team
+N* Version            : V1.0
+N* Date               : 10/08/2007
+N* Description        : Interface prototype functions to USB cell registers
+N********************************************************************************
+N* THE PRESENT SOFTWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+N* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE TIME.
+N* AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY DIRECT,
+N* INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE
+N* CONTENT OF SUCH SOFTWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING
+N* INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+N*******************************************************************************/
+N
+N/* Define to prevent recursive inclusion -------------------------------------*/
+N#ifndef __USB_REGS_H
+N#define __USB_REGS_H
+N
+N/* Includes ------------------------------------------------------------------*/
+N/* Exported types ------------------------------------------------------------*/
+Ntypedef enum _EP_DBUF_DIR
+N{
+N  /* double buffered endpoint direction */
+N  EP_DBUF_ERR,
+N  EP_DBUF_OUT,
+N  EP_DBUF_IN
+N}EP_DBUF_DIR;
+N
+N/* endpoint buffer number */
+Nenum EP_BUF_NUM
+N{
+N  EP_NOBUF,
+N  EP_BUF0,
+N  EP_BUF1
+N};
+N
+N/* Exported constants --------------------------------------------------------*/
+N#define RegBase  (0x40005C00L)  /* USB_IP Peripheral Registers base address */
+N#define PMAAddr  (0x40006000L)  /* USB_IP Packet Memory Area base address   */
+N
+N/******************************************************************************/
+N/*                         General registers                                  */
+N/******************************************************************************/
+N
+N/* Control register */
+N#define CNTR    ((volatile unsigned *)(RegBase + 0x40))
+N/* Interrupt status register */
+N#define ISTR    ((volatile unsigned *)(RegBase + 0x44))
+N/* Frame number register */
+N#define FNR     ((volatile unsigned *)(RegBase + 0x48))
+N/* Device address register */
+N#define DADDR   ((volatile unsigned *)(RegBase + 0x4C))
+N/* Buffer Table address register */
+N#define BTABLE  ((volatile unsigned *)(RegBase + 0x50))
+N/******************************************************************************/
+N/*                         Endpoint registers                                 */
+N/******************************************************************************/
+N#define EP0REG  ((volatile unsigned *)(RegBase)) /* endpoint 0 register address */
+N
+N/* endpoints enumeration */
+N#define ENDP0   ((u8)0)
+N#define ENDP1   ((u8)1)
+N#define ENDP2   ((u8)2)
+N#define ENDP3   ((u8)3)
+N#define ENDP4   ((u8)4)
+N#define ENDP5   ((u8)5)
+N#define ENDP6   ((u8)6)
+N#define ENDP7   ((u8)7)
+N/******************************************************************************/
+N/*                       ISTR interrupt events                                */
+N/******************************************************************************/
+N#define ISTR_CTR    (0x8000) /* Correct TRansfer (clear-only bit) */
+N#define ISTR_DOVR   (0x4000) /* DMA OVeR/underrun (clear-only bit) */
+N#define ISTR_ERR    (0x2000) /* ERRor (clear-only bit) */
+N#define ISTR_WKUP   (0x1000) /* WaKe UP (clear-only bit) */
+N#define ISTR_SUSP   (0x0800) /* SUSPend (clear-only bit) */
+N#define ISTR_RESET  (0x0400) /* RESET (clear-only bit) */
+N#define ISTR_SOF    (0x0200) /* Start Of Frame (clear-only bit) */
+N#define ISTR_ESOF   (0x0100) /* Expected Start Of Frame (clear-only bit) */
+N
+N
+N#define ISTR_DIR    (0x0010)  /* DIRection of transaction (read-only bit)  */
+N#define ISTR_EP_ID  (0x000F)  /* EndPoint IDentifier (read-only bit)  */
+N
+N#define CLR_CTR    (~ISTR_CTR)   /* clear Correct TRansfer bit */
+N#define CLR_DOVR   (~ISTR_DOVR)  /* clear DMA OVeR/underrun bit*/
+N#define CLR_ERR    (~ISTR_ERR)   /* clear ERRor bit */
+N#define CLR_WKUP   (~ISTR_WKUP)  /* clear WaKe UP bit     */
+N#define CLR_SUSP   (~ISTR_SUSP)  /* clear SUSPend bit     */
+N#define CLR_RESET  (~ISTR_RESET) /* clear RESET bit      */
+N#define CLR_SOF    (~ISTR_SOF)   /* clear Start Of Frame bit   */
+N#define CLR_ESOF   (~ISTR_ESOF)  /* clear Expected Start Of Frame bit */
+N
+N/******************************************************************************/
+N/*             CNTR control register bits definitions                         */
+N/******************************************************************************/
+N#define CNTR_CTRM   (0x8000) /* Correct TRansfer Mask */
+N#define CNTR_DOVRM  (0x4000) /* DMA OVeR/underrun Mask */
+N#define CNTR_ERRM   (0x2000) /* ERRor Mask */
+N#define CNTR_WKUPM  (0x1000) /* WaKe UP Mask */
+N#define CNTR_SUSPM  (0x0800) /* SUSPend Mask */
+N#define CNTR_RESETM (0x0400) /* RESET Mask   */
+N#define CNTR_SOFM   (0x0200) /* Start Of Frame Mask */
+N#define CNTR_ESOFM  (0x0100) /* Expected Start Of Frame Mask */
+N
+N
+N#define CNTR_RESUME (0x0010) /* RESUME request */
+N#define CNTR_FSUSP  (0x0008) /* Force SUSPend */
+N#define CNTR_LPMODE (0x0004) /* Low-power MODE */
+N#define CNTR_PDWN   (0x0002) /* Power DoWN */
+N#define CNTR_FRES   (0x0001) /* Force USB RESet */
+N
+N/******************************************************************************/
+N/*                FNR Frame Number Register bit definitions                   */
+N/******************************************************************************/
+N#define FNR_RXDP (0x8000) /* status of D+ data line */
+N#define FNR_RXDM (0x4000) /* status of D- data line */
+N#define FNR_LCK  (0x2000) /* LoCKed */
+N#define FNR_LSOF (0x1800) /* Lost SOF */
+N#define FNR_FN  (0x07FF) /* Frame Number */
+N/******************************************************************************/
+N/*               DADDR Device ADDRess bit definitions                         */
+N/******************************************************************************/
+N#define DADDR_EF (0x80)
+N#define DADDR_ADD (0x7F)
+N/******************************************************************************/
+N/*                            Endpoint register                               */
+N/******************************************************************************/
+N/* bit positions */
+N#define EP_CTR_RX      (0x8000) /* EndPoint Correct TRansfer RX */
+N#define EP_DTOG_RX     (0x4000) /* EndPoint Data TOGGLE RX */
+N#define EPRX_STAT      (0x3000) /* EndPoint RX STATus bit field */
+N#define EP_SETUP       (0x0800) /* EndPoint SETUP */
+N#define EP_T_FIELD     (0x0600) /* EndPoint TYPE */
+N#define EP_KIND        (0x0100) /* EndPoint KIND */
+N#define EP_CTR_TX      (0x0080) /* EndPoint Correct TRansfer TX */
+N#define EP_DTOG_TX     (0x0040) /* EndPoint Data TOGGLE TX */
+N#define EPTX_STAT      (0x0030) /* EndPoint TX STATus bit field */
+N#define EPADDR_FIELD   (0x000F) /* EndPoint ADDRess FIELD */
+N
+N/* EndPoint REGister MASK (no toggle fields) */
+N#define EPREG_MASK     (EP_CTR_RX|EP_SETUP|EP_T_FIELD|EP_KIND|EP_CTR_TX|EPADDR_FIELD)
+N
+N/* EP_TYPE[1:0] EndPoint TYPE */
+N#define EP_TYPE_MASK   (0x0600) /* EndPoint TYPE Mask */
+N#define EP_BULK        (0x0000) /* EndPoint BULK */
+N#define EP_CONTROL     (0x0200) /* EndPoint CONTROL */
+N#define EP_ISOCHRONOUS (0x0400) /* EndPoint ISOCHRONOUS */
+N#define EP_INTERRUPT   (0x0600) /* EndPoint INTERRUPT */
+N#define EP_T_MASK      (~EP_T_FIELD & EPREG_MASK)
+N
+N
+N/* EP_KIND EndPoint KIND */
+N#define EPKIND_MASK    (~EP_KIND & EPREG_MASK)
+N
+N/* STAT_TX[1:0] STATus for TX transfer */
+N#define EP_TX_DIS      (0x0000) /* EndPoint TX DISabled */
+N#define EP_TX_STALL    (0x0010) /* EndPoint TX STALLed */
+N#define EP_TX_NAK      (0x0020) /* EndPoint TX NAKed */
+N#define EP_TX_VALID    (0x0030) /* EndPoint TX VALID */
+N#define EPTX_DTOG1     (0x0010) /* EndPoint TX Data TOGgle bit1 */
+N#define EPTX_DTOG2     (0x0020) /* EndPoint TX Data TOGgle bit2 */
+N#define EPTX_DTOGMASK  (EPTX_STAT|EPREG_MASK)
+N
+N/* STAT_RX[1:0] STATus for RX transfer */
+N#define EP_RX_DIS      (0x0000) /* EndPoint RX DISabled */
+N#define EP_RX_STALL    (0x1000) /* EndPoint RX STALLed */
+N#define EP_RX_NAK      (0x2000) /* EndPoint RX NAKed */
+N#define EP_RX_VALID    (0x3000) /* EndPoint RX VALID */
+N#define EPRX_DTOG1     (0x1000) /* EndPoint RX Data TOGgle bit1 */
+N#define EPRX_DTOG2     (0x2000) /* EndPoint RX Data TOGgle bit1 */
+N#define EPRX_DTOGMASK  (EPRX_STAT|EPREG_MASK)
+N/* Exported macro ------------------------------------------------------------*/
+N/* SetCNTR */
+N#define _SetCNTR(wRegValue)  (*CNTR   = (u16)wRegValue)
+N
+N/* SetISTR */
+N#define _SetISTR(wRegValue)  (*ISTR   = (u16)wRegValue)
+N
+N/* SetDADDR */
+N#define _SetDADDR(wRegValue) (*DADDR  = (u16)wRegValue)
+N
+N/* SetBTABLE */
+N#define _SetBTABLE(wRegValue)(*BTABLE = (u16)(wRegValue & 0xFFF8))
+N
+N/* GetCNTR */
+N#define _GetCNTR()   ((u16) *CNTR)
+N
+N/* GetISTR */
+N#define _GetISTR()   ((u16) *ISTR)
+N
+N/* GetFNR */
+N#define _GetFNR()    ((u16) *FNR)
+N
+N/* GetDADDR */
+N#define _GetDADDR()  ((u16) *DADDR)
+N
+N/* GetBTABLE */
+N#define _GetBTABLE() ((u16) *BTABLE)
+N
+N/* SetENDPOINT */
+N#define _SetENDPOINT(bEpNum,wRegValue)  (*(EP0REG + bEpNum)= \
+N    (u16)wRegValue)
+X#define _SetENDPOINT(bEpNum,wRegValue)  (*(EP0REG + bEpNum)=     (u16)wRegValue)
+N
+N/* GetENDPOINT */
+N#define _GetENDPOINT(bEpNum)        ((u16)(*(EP0REG + bEpNum)))
+N
+N/*******************************************************************************
+N* Macro Name     : SetEPType
+N* Description    : sets the type in the endpoint register(bits EP_TYPE[1:0])
+N* Input          : bEpNum: Endpoint Number. 
+N*                  wType
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _SetEPType(bEpNum,wType) (_SetENDPOINT(bEpNum,\
+N                                  ((_GetENDPOINT(bEpNum) & EP_T_MASK) | wType)))
+X#define _SetEPType(bEpNum,wType) (_SetENDPOINT(bEpNum,                                  ((_GetENDPOINT(bEpNum) & EP_T_MASK) | wType)))
+N
+N/*******************************************************************************
+N* Macro Name     : GetEPType
+N* Description    : gets the type in the endpoint register(bits EP_TYPE[1:0]) 
+N* Input          : bEpNum: Endpoint Number. 
+N* Output         : None.
+N* Return         : Endpoint Type
+N*******************************************************************************/
+N#define _GetEPType(bEpNum) (_GetENDPOINT(bEpNum) & EP_T_FIELD)
+N
+N/*******************************************************************************
+N* Macro Name     : SetEPTxStatus
+N* Description    : sets the status for tx transfer (bits STAT_TX[1:0]).
+N* Input          : bEpNum: Endpoint Number. 
+N*                  wState: new state
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _SetEPTxStatus(bEpNum,wState) {\
+N    register u16 _wRegVal;       \
+N    _wRegVal = _GetENDPOINT(bEpNum) & EPTX_DTOGMASK;\
+N    /* toggle first bit ? */     \
+N    if((EPTX_DTOG1 & wState)!= 0)      \
+N      _wRegVal ^= EPTX_DTOG1;        \
+N    /* toggle second bit ?  */         \
+N    if((EPTX_DTOG2 & wState)!= 0)      \
+N      _wRegVal ^= EPTX_DTOG2;        \
+N    _SetENDPOINT(bEpNum, _wRegVal);    \
+N  } /* _SetEPTxStatus */
+X#define _SetEPTxStatus(bEpNum,wState) {    register u16 _wRegVal;           _wRegVal = _GetENDPOINT(bEpNum) & EPTX_DTOGMASK;              if((EPTX_DTOG1 & wState)!= 0)            _wRegVal ^= EPTX_DTOG1;                          if((EPTX_DTOG2 & wState)!= 0)            _wRegVal ^= EPTX_DTOG2;            _SetENDPOINT(bEpNum, _wRegVal);      }  
+N
+N/*******************************************************************************
+N* Macro Name     : SetEPRxStatus
+N* Description    : sets the status for rx transfer (bits STAT_TX[1:0])
+N* Input          : bEpNum: Endpoint Number. 
+N*                  wState: new state.
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _SetEPRxStatus(bEpNum,wState) {\
+N    register u16 _wRegVal;   \
+N    \
+N    _wRegVal = _GetENDPOINT(bEpNum) & EPRX_DTOGMASK;\
+N    /* toggle first bit ? */  \
+N    if((EPRX_DTOG1 & wState)!= 0) \
+N      _wRegVal ^= EPRX_DTOG1;  \
+N    /* toggle second bit ? */  \
+N    if((EPRX_DTOG2 & wState)!= 0) \
+N      _wRegVal ^= EPRX_DTOG2;  \
+N    _SetENDPOINT(bEpNum, _wRegVal); \
+N  } /* _SetEPRxStatus */
+X#define _SetEPRxStatus(bEpNum,wState) {    register u16 _wRegVal;           _wRegVal = _GetENDPOINT(bEpNum) & EPRX_DTOGMASK;           if((EPRX_DTOG1 & wState)!= 0)       _wRegVal ^= EPRX_DTOG1;             if((EPRX_DTOG2 & wState)!= 0)       _wRegVal ^= EPRX_DTOG2;      _SetENDPOINT(bEpNum, _wRegVal);   }  
+N/*******************************************************************************
+N* Macro Name     : GetEPTxStatus / GetEPRxStatus 
+N* Description    : gets the status for tx/rx transfer (bits STAT_TX[1:0]
+N*                  /STAT_RX[1:0])
+N* Input          : bEpNum: Endpoint Number. 
+N* Output         : None.
+N* Return         : status .
+N*******************************************************************************/
+N#define _GetEPTxStatus(bEpNum) ((u16)_GetENDPOINT(bEpNum) & EPTX_STAT)
+N
+N#define _GetEPRxStatus(bEpNum) ((u16)_GetENDPOINT(bEpNum) & EPRX_STAT)
+N
+N/*******************************************************************************
+N* Macro Name     : SetEPTxValid / SetEPRxValid 
+N* Description    : sets directly the VALID tx/rx-status into the enpoint register
+N* Input          : bEpNum: Endpoint Number. 
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _SetEPTxValid(bEpNum)     (_SetEPTxStatus(bEpNum, EP_TX_VALID))
+N
+N#define _SetEPRxValid(bEpNum)     (_SetEPRxStatus(bEpNum, EP_RX_VALID))
+N
+N/*******************************************************************************
+N* Macro Name     : GetTxStallStatus / GetRxStallStatus.
+N* Description    : checks stall condition in an endpoint.
+N* Input          : bEpNum: Endpoint Number. 
+N* Output         : None.
+N* Return         : TRUE = endpoint in stall condition.
+N*******************************************************************************/
+N#define _GetTxStallStatus(bEpNum) (_GetEPTxStatus(bEpNum) \
+N                                   == EP_TX_STALL)
+X#define _GetTxStallStatus(bEpNum) (_GetEPTxStatus(bEpNum)                                    == EP_TX_STALL)
+N#define _GetRxStallStatus(bEpNum) (_GetEPRxStatus(bEpNum) \
+N                                   == EP_RX_STALL)
+X#define _GetRxStallStatus(bEpNum) (_GetEPRxStatus(bEpNum)                                    == EP_RX_STALL)
+N
+N/*******************************************************************************
+N* Macro Name     : SetEP_KIND / ClearEP_KIND.
+N* Description    : set & clear EP_KIND bit.
+N* Input          : bEpNum: Endpoint Number. 
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _SetEP_KIND(bEpNum)    (_SetENDPOINT(bEpNum, \
+N                                (_GetENDPOINT(bEpNum) | EP_KIND) & EPREG_MASK))
+X#define _SetEP_KIND(bEpNum)    (_SetENDPOINT(bEpNum,                                 (_GetENDPOINT(bEpNum) | EP_KIND) & EPREG_MASK))
+N#define _ClearEP_KIND(bEpNum)  (_SetENDPOINT(bEpNum, \
+N                                (_GetENDPOINT(bEpNum) & EPKIND_MASK)))
+X#define _ClearEP_KIND(bEpNum)  (_SetENDPOINT(bEpNum,                                 (_GetENDPOINT(bEpNum) & EPKIND_MASK)))
+N
+N/*******************************************************************************
+N* Macro Name     : Set_Status_Out / Clear_Status_Out.
+N* Description    : Sets/clears directly STATUS_OUT bit in the endpoint register.
+N* Input          : bEpNum: Endpoint Number. 
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _Set_Status_Out(bEpNum)    _SetEP_KIND(bEpNum)
+N#define _Clear_Status_Out(bEpNum)  _ClearEP_KIND(bEpNum)
+N
+N/*******************************************************************************
+N* Macro Name     : SetEPDoubleBuff / ClearEPDoubleBuff.
+N* Description    : Sets/clears directly EP_KIND bit in the endpoint register.
+N* Input          : bEpNum: Endpoint Number. 
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _SetEPDoubleBuff(bEpNum)   _SetEP_KIND(bEpNum)
+N#define _ClearEPDoubleBuff(bEpNum) _ClearEP_KIND(bEpNum)
+N
+N/*******************************************************************************
+N* Macro Name     : ClearEP_CTR_RX / ClearEP_CTR_TX.
+N* Description    : Clears bit CTR_RX / CTR_TX in the endpoint register.
+N* Input          : bEpNum: Endpoint Number. 
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _ClearEP_CTR_RX(bEpNum)   (_SetENDPOINT(bEpNum,\
+N                                   _GetENDPOINT(bEpNum) & 0x7FFF & EPREG_MASK))
+X#define _ClearEP_CTR_RX(bEpNum)   (_SetENDPOINT(bEpNum,                                   _GetENDPOINT(bEpNum) & 0x7FFF & EPREG_MASK))
+N#define _ClearEP_CTR_TX(bEpNum)   (_SetENDPOINT(bEpNum,\
+N                                   _GetENDPOINT(bEpNum) & 0xFF7F & EPREG_MASK))
+X#define _ClearEP_CTR_TX(bEpNum)   (_SetENDPOINT(bEpNum,                                   _GetENDPOINT(bEpNum) & 0xFF7F & EPREG_MASK))
+N
+N/*******************************************************************************
+N* Macro Name     : ToggleDTOG_RX / ToggleDTOG_TX .
+N* Description    : Toggles DTOG_RX / DTOG_TX bit in the endpoint register.
+N* Input          : bEpNum: Endpoint Number. 
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _ToggleDTOG_RX(bEpNum)    (_SetENDPOINT(bEpNum, \
+N                                   EP_DTOG_RX | _GetENDPOINT(bEpNum) & EPREG_MASK))
+X#define _ToggleDTOG_RX(bEpNum)    (_SetENDPOINT(bEpNum,                                    EP_DTOG_RX | _GetENDPOINT(bEpNum) & EPREG_MASK))
+N#define _ToggleDTOG_TX(bEpNum)    (_SetENDPOINT(bEpNum, \
+N                                   EP_DTOG_TX | _GetENDPOINT(bEpNum) & EPREG_MASK))
+X#define _ToggleDTOG_TX(bEpNum)    (_SetENDPOINT(bEpNum,                                    EP_DTOG_TX | _GetENDPOINT(bEpNum) & EPREG_MASK))
+N
+N/*******************************************************************************
+N* Macro Name     : ClearDTOG_RX / ClearDTOG_TX.
+N* Description    : Clears DTOG_RX / DTOG_TX bit in the endpoint register.
+N* Input          : bEpNum: Endpoint Number. 
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _ClearDTOG_RX(bEpNum)  if((_GetENDPOINT(bEpNum) & EP_DTOG_RX) != 0)\
+N    _ToggleDTOG_RX(bEpNum)
+X#define _ClearDTOG_RX(bEpNum)  if((_GetENDPOINT(bEpNum) & EP_DTOG_RX) != 0)    _ToggleDTOG_RX(bEpNum)
+N#define _ClearDTOG_TX(bEpNum)  if((_GetENDPOINT(bEpNum) & EP_DTOG_TX) != 0)\
+N    _ToggleDTOG_TX(bEpNum)
+X#define _ClearDTOG_TX(bEpNum)  if((_GetENDPOINT(bEpNum) & EP_DTOG_TX) != 0)    _ToggleDTOG_TX(bEpNum)
+N/*******************************************************************************
+N* Macro Name     : SetEPAddress.
+N* Description    : Sets address in an endpoint register.
+N* Input          : bEpNum: Endpoint Number.
+N*                  bAddr: Address. 
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _SetEPAddress(bEpNum,bAddr) _SetENDPOINT(bEpNum,\
+N    _GetENDPOINT(bEpNum) & EPREG_MASK | bAddr)
+X#define _SetEPAddress(bEpNum,bAddr) _SetENDPOINT(bEpNum,    _GetENDPOINT(bEpNum) & EPREG_MASK | bAddr)
+N
+N/*******************************************************************************
+N* Macro Name     : GetEPAddress.
+N* Description    : Gets address in an endpoint register.
+N* Input          : bEpNum: Endpoint Number.
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _GetEPAddress(bEpNum) ((u8)(_GetENDPOINT(bEpNum) & EPADDR_FIELD))
+N
+N#define _pEPTxAddr(bEpNum) ((u32 *)((_GetBTABLE()+bEpNum*8  )*2 + PMAAddr))
+N#define _pEPTxCount(bEpNum) ((u32 *)((_GetBTABLE()+bEpNum*8+2)*2 + PMAAddr))
+N#define _pEPRxAddr(bEpNum) ((u32 *)((_GetBTABLE()+bEpNum*8+4)*2 + PMAAddr))
+N#define _pEPRxCount(bEpNum) ((u32 *)((_GetBTABLE()+bEpNum*8+6)*2 + PMAAddr))
+N
+N/*******************************************************************************
+N* Macro Name     : SetEPTxAddr / SetEPRxAddr.
+N* Description    : sets address of the tx/rx buffer.
+N* Input          : bEpNum: Endpoint Number.
+N*                  wAddr: address to be set (must be word aligned).
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _SetEPTxAddr(bEpNum,wAddr) (*_pEPTxAddr(bEpNum) = ((wAddr >> 1) << 1))
+N#define _SetEPRxAddr(bEpNum,wAddr) (*_pEPRxAddr(bEpNum) = ((wAddr >> 1) << 1))
+N
+N/*******************************************************************************
+N* Macro Name     : GetEPTxAddr / GetEPRxAddr.
+N* Description    : Gets address of the tx/rx buffer.
+N* Input          : bEpNum: Endpoint Number.
+N* Output         : None.
+N* Return         : address of the buffer.
+N*******************************************************************************/
+N#define _GetEPTxAddr(bEpNum) ((u16)*_pEPTxAddr(bEpNum))
+N#define _GetEPRxAddr(bEpNum) ((u16)*_pEPRxAddr(bEpNum))
+N
+N/*******************************************************************************
+N* Macro Name     : SetEPCountRxReg.
+N* Description    : Sets counter of rx buffer with no. of blocks.
+N* Input          : pdwReg: pointer to counter.
+N*                  wCount: Counter.
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _BlocksOf32(dwReg,wCount,wNBlocks) {\
+N    wNBlocks = wCount >> 5;\
+N    if((wCount & 0x1f) == 0)\
+N      wNBlocks--;\
+N    *pdwReg = (u32)((wNBlocks << 10) | 0x8000);\
+N  }/* _BlocksOf32 */
+X#define _BlocksOf32(dwReg,wCount,wNBlocks) {    wNBlocks = wCount >> 5;    if((wCount & 0x1f) == 0)      wNBlocks--;    *pdwReg = (u32)((wNBlocks << 10) | 0x8000);  } 
+N
+N#define _BlocksOf2(dwReg,wCount,wNBlocks) {\
+N    wNBlocks = wCount >> 1;\
+N    if((wCount & 0x1) != 0)\
+N      wNBlocks++;\
+N    *pdwReg = (u32)(wNBlocks << 10);\
+N  }/* _BlocksOf2 */
+X#define _BlocksOf2(dwReg,wCount,wNBlocks) {    wNBlocks = wCount >> 1;    if((wCount & 0x1) != 0)      wNBlocks++;    *pdwReg = (u32)(wNBlocks << 10);  } 
+N
+N#define _SetEPCountRxReg(dwReg,wCount)  {\
+N    u16 wNBlocks;\
+N    if(wCount > 62){_BlocksOf32(dwReg,wCount,wNBlocks);}\
+N    else {_BlocksOf2(dwReg,wCount,wNBlocks);}\
+N  }/* _SetEPCountRxReg */
+X#define _SetEPCountRxReg(dwReg,wCount)  {    u16 wNBlocks;    if(wCount > 62){_BlocksOf32(dwReg,wCount,wNBlocks);}    else {_BlocksOf2(dwReg,wCount,wNBlocks);}  } 
+N
+N
+N
+N#define _SetEPRxDblBuf0Count(bEpNum,wCount) {\
+N    u32 *pdwReg = _pEPTxCount(bEpNum); \
+N    _SetEPCountRxReg(pdwReg, wCount);\
+N  }
+X#define _SetEPRxDblBuf0Count(bEpNum,wCount) {    u32 *pdwReg = _pEPTxCount(bEpNum);     _SetEPCountRxReg(pdwReg, wCount);  }
+N/*******************************************************************************
+N* Macro Name     : SetEPTxCount / SetEPRxCount.
+N* Description    : sets counter for the tx/rx buffer.
+N* Input          : bEpNum: endpoint number.
+N*                  wCount: Counter value.
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _SetEPTxCount(bEpNum,wCount) (*_pEPTxCount(bEpNum) = wCount)
+N#define _SetEPRxCount(bEpNum,wCount) {\
+N    u32 *pdwReg = _pEPRxCount(bEpNum); \
+N    _SetEPCountRxReg(pdwReg, wCount);\
+N  }
+X#define _SetEPRxCount(bEpNum,wCount) {    u32 *pdwReg = _pEPRxCount(bEpNum);     _SetEPCountRxReg(pdwReg, wCount);  }
+N/*******************************************************************************
+N* Macro Name     : GetEPTxCount / GetEPRxCount.
+N* Description    : gets counter of the tx buffer.
+N* Input          : bEpNum: endpoint number.
+N* Output         : None.
+N* Return         : Counter value.
+N*******************************************************************************/
+N#define _GetEPTxCount(bEpNum)((u16)(*_pEPTxCount(bEpNum)) & 0x3ff)
+N#define _GetEPRxCount(bEpNum)((u16)(*_pEPRxCount(bEpNum)) & 0x3ff)
+N
+N/*******************************************************************************
+N* Macro Name     : SetEPDblBuf0Addr / SetEPDblBuf1Addr.
+N* Description    : Sets buffer 0/1 address in a double buffer endpoint.
+N* Input          : bEpNum: endpoint number.
+N*                : wBuf0Addr: buffer 0 address.
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _SetEPDblBuf0Addr(bEpNum,wBuf0Addr) {_SetEPTxAddr(bEpNum, wBuf0Addr);}
+N#define _SetEPDblBuf1Addr(bEpNum,wBuf1Addr) {_SetEPRxAddr(bEpNum, wBuf1Addr);}
+N
+N/*******************************************************************************
+N* Macro Name     : SetEPDblBuffAddr.
+N* Description    : Sets addresses in a double buffer endpoint.
+N* Input          : bEpNum: endpoint number.
+N*                : wBuf0Addr: buffer 0 address.
+N*                : wBuf1Addr = buffer 1 address.
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _SetEPDblBuffAddr(bEpNum,wBuf0Addr,wBuf1Addr) { \
+N    _SetEPDblBuf0Addr(bEpNum, wBuf0Addr);\
+N    _SetEPDblBuf1Addr(bEpNum, wBuf1Addr);\
+N  } /* _SetEPDblBuffAddr */
+X#define _SetEPDblBuffAddr(bEpNum,wBuf0Addr,wBuf1Addr) {     _SetEPDblBuf0Addr(bEpNum, wBuf0Addr);    _SetEPDblBuf1Addr(bEpNum, wBuf1Addr);  }  
+N
+N/*******************************************************************************
+N* Macro Name     : GetEPDblBuf0Addr / GetEPDblBuf1Addr.
+N* Description    : Gets buffer 0/1 address of a double buffer endpoint.
+N* Input          : bEpNum: endpoint number.
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _GetEPDblBuf0Addr(bEpNum) (_GetEPTxAddr(bEpNum))
+N#define _GetEPDblBuf1Addr(bEpNum) (_GetEPRxAddr(bEpNum))
+N
+N/*******************************************************************************
+N* Macro Name     : SetEPDblBuffCount / SetEPDblBuf0Count / SetEPDblBuf1Count.
+N* Description    : Gets buffer 0/1 address of a double buffer endpoint.
+N* Input          : bEpNum: endpoint number.
+N*                : bDir: endpoint dir  EP_DBUF_OUT = OUT 
+N*                                      EP_DBUF_IN  = IN 
+N*                : wCount: Counter value    
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _SetEPDblBuf0Count(bEpNum, bDir, wCount)  { \
+N    if(bDir == EP_DBUF_OUT)\
+N      /* OUT endpoint */ \
+N    {_SetEPRxDblBuf0Count(bEpNum,wCount);} \
+N    else if(bDir == EP_DBUF_IN)\
+N      /* IN endpoint */ \
+N      *_pEPTxCount(bEpNum) = (u32)wCount;  \
+N  } /* SetEPDblBuf0Count*/
+X#define _SetEPDblBuf0Count(bEpNum, bDir, wCount)  {     if(bDir == EP_DBUF_OUT)            {_SetEPRxDblBuf0Count(bEpNum,wCount);}     else if(bDir == EP_DBUF_IN)              *_pEPTxCount(bEpNum) = (u32)wCount;    }  
+N
+N#define _SetEPDblBuf1Count(bEpNum, bDir, wCount)  { \
+N    if(bDir == EP_DBUF_OUT)\
+N      /* OUT endpoint */ \
+N    {_SetEPRxCount(bEpNum,wCount);}\
+N    else if(bDir == EP_DBUF_IN)\
+N      /* IN endpoint */\
+N      *_pEPRxCount(bEpNum) = (u32)wCount; \
+N  } /* SetEPDblBuf1Count */
+X#define _SetEPDblBuf1Count(bEpNum, bDir, wCount)  {     if(bDir == EP_DBUF_OUT)            {_SetEPRxCount(bEpNum,wCount);}    else if(bDir == EP_DBUF_IN)             *_pEPRxCount(bEpNum) = (u32)wCount;   }  
+N
+N#define _SetEPDblBuffCount(bEpNum, bDir, wCount) {\
+N    _SetEPDblBuf0Count(bEpNum, bDir, wCount); \
+N    _SetEPDblBuf1Count(bEpNum, bDir, wCount); \
+N  } /* _SetEPDblBuffCount  */
+X#define _SetEPDblBuffCount(bEpNum, bDir, wCount) {    _SetEPDblBuf0Count(bEpNum, bDir, wCount);     _SetEPDblBuf1Count(bEpNum, bDir, wCount);   }  
+N
+N/*******************************************************************************
+N* Macro Name     : GetEPDblBuf0Count / GetEPDblBuf1Count.
+N* Description    : Gets buffer 0/1 rx/tx counter for double buffering.
+N* Input          : bEpNum: endpoint number.
+N* Output         : None.
+N* Return         : None.
+N*******************************************************************************/
+N#define _GetEPDblBuf0Count(bEpNum) (_GetEPTxCount(bEpNum))
+N#define _GetEPDblBuf1Count(bEpNum) (_GetEPRxCount(bEpNum))
+N
+N
+N/* External variables --------------------------------------------------------*/
+Nextern volatile u16 wIstr;  /* ISTR register last read value */
+N
+N/* Exported functions ------------------------------------------------------- */
+Nvoid SetCNTR(u16 /*wRegValue*/);
+Nvoid SetISTR(u16 /*wRegValue*/);
+Nvoid SetDADDR(u16 /*wRegValue*/);
+Nvoid SetBTABLE(u16 /*wRegValue*/);
+Nvoid SetBTABLE(u16 /*wRegValue*/);
+Nu16 GetCNTR(void);
+Nu16 GetISTR(void);
+Nu16 GetFNR(void);
+Nu16 GetDADDR(void);
+Nu16 GetBTABLE(void);
+Nvoid SetENDPOINT(u8 /*bEpNum*/, u16 /*wRegValue*/);
+Nu16 GetENDPOINT(u8 /*bEpNum*/);
+Nvoid SetEPType(u8 /*bEpNum*/, u16 /*wType*/);
+Nu16 GetEPType(u8 /*bEpNum*/);
+Nvoid SetEPTxStatus(u8 /*bEpNum*/, u16 /*wState*/);
+Nvoid SetEPRxStatus(u8 /*bEpNum*/, u16 /*wState*/);
+Nvoid SetDouBleBuffEPStall(u8 /*bEpNum*/, u8 bDir);
+Nu16 GetEPTxStatus(u8 /*bEpNum*/);
+Nu16 GetEPRxStatus(u8 /*bEpNum*/);
+Nvoid SetEPTxValid(u8 /*bEpNum*/);
+Nvoid SetEPRxValid(u8 /*bEpNum*/);
+Nu16 GetTxStallStatus(u8 /*bEpNum*/);
+Nu16 GetRxStallStatus(u8 /*bEpNum*/);
+Nvoid SetEP_KIND(u8 /*bEpNum*/);
+Nvoid ClearEP_KIND(u8 /*bEpNum*/);
+Nvoid Set_Status_Out(u8 /*bEpNum*/);
+Nvoid Clear_Status_Out(u8 /*bEpNum*/);
+Nvoid SetEPDoubleBuff(u8 /*bEpNum*/);
+Nvoid ClearEPDoubleBuff(u8 /*bEpNum*/);
+Nvoid ClearEP_CTR_RX(u8 /*bEpNum*/);
+Nvoid ClearEP_CTR_TX(u8 /*bEpNum*/);
+Nvoid ToggleDTOG_RX(u8 /*bEpNum*/);
+Nvoid ToggleDTOG_TX(u8 /*bEpNum*/);
+Nvoid ClearDTOG_RX(u8 /*bEpNum*/);
+Nvoid ClearDTOG_TX(u8 /*bEpNum*/);
+Nvoid SetEPAddress(u8 /*bEpNum*/, u8 /*bAddr*/);
+Nu8 GetEPAddress(u8 /*bEpNum*/);
+Nvoid SetEPTxAddr(u8 /*bEpNum*/, u16 /*wAddr*/);
+Nvoid SetEPRxAddr(u8 /*bEpNum*/, u16 /*wAddr*/);
+Nu16 GetEPTxAddr(u8 /*bEpNum*/);
+Nu16 GetEPRxAddr(u8 /*bEpNum*/);
+Nvoid SetEPCountRxReg(u32 * /*pdwReg*/, u16 /*wCount*/);
+Nvoid SetEPTxCount(u8 /*bEpNum*/, u16 /*wCount*/);
+Nvoid SetEPRxCount(u8 /*bEpNum*/, u16 /*wCount*/);
+Nu16 GetEPTxCount(u8 /*bEpNum*/);
+Nu16 GetEPRxCount(u8 /*bEpNum*/);
+Nvoid SetEPDblBuf0Addr(u8 /*bEpNum*/, u16 /*wBuf0Addr*/);
+Nvoid SetEPDblBuf1Addr(u8 /*bEpNum*/, u16 /*wBuf1Addr*/);
+Nvoid SetEPDblBuffAddr(u8 /*bEpNum*/, u16 /*wBuf0Addr*/, u16 /*wBuf1Addr*/);
+Nu16 GetEPDblBuf0Addr(u8 /*bEpNum*/);
+Nu16 GetEPDblBuf1Addr(u8 /*bEpNum*/);
+Nvoid SetEPDblBuffCount(u8 /*bEpNum*/, u8 /*bDir*/, u16 /*wCount*/);
+Nvoid SetEPDblBuf0Count(u8 /*bEpNum*/, u8 /*bDir*/, u16 /*wCount*/);
+Nvoid SetEPDblBuf1Count(u8 /*bEpNum*/, u8 /*bDir*/, u16 /*wCount*/);
+Nu16 GetEPDblBuf0Count(u8 /*bEpNum*/);
+Nu16 GetEPDblBuf1Count(u8 /*bEpNum*/);
+NEP_DBUF_DIR GetEPDblBufDir(u8 /*bEpNum*/);
+Nvoid FreeUserBuffer(u8 bEpNum/*bEpNum*/, u8 bDir);
+Nu16 ToWord(u8, u8);
+Nu16 ByteSwap(u16);
+N
+N#endif /* __USB_REGS_H */
+N
+N/******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/
+L 23 ".\usb_library\inc\usb_lib.h" 2
+N#include "usb_def.h"
+L 1 ".\usb_library\inc\usb_def.h" 1
+N/******************** (C) COPYRIGHT 2007 STMicroelectronics ********************
+N* File Name          : usb_def.h
+N* Author             : MCD Application Team
+N* Version            : V1.0
+N* Date               : 10/08/2007
+N* Description        : Definitions related to USB Core
+N********************************************************************************
+N* THE PRESENT SOFTWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+N* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE TIME.
+N* AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY DIRECT,
+N* INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE
+N* CONTENT OF SUCH SOFTWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING
+N* INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+N*******************************************************************************/
+N
+N/* Define to prevent recursive inclusion -------------------------------------*/
+N#ifndef __USB_DEF_H
+N#define __USB_DEF_H
+N
+N/* Includes ------------------------------------------------------------------*/
+N/* Exported types ------------------------------------------------------------*/
+Ntypedef enum _RECIPIENT_TYPE
+N{
+N  DEVICE_RECIPIENT,     /* Recipient device */
+N  INTERFACE_RECIPIENT,  /* Recipient interface */
+N  ENDPOINT_RECIPIENT,   /* Recipient endpoint */
+N  OTHER_RECIPIENT
+N} RECIPIENT_TYPE;
+N
+N
+Ntypedef enum _STANDARD_REQUESTS
+N{
+N  GET_STATUS = 0,
+N  CLEAR_FEATURE,
+N  RESERVED1,
+N  SET_FEATURE,
+N  RESERVED2,
+N  SET_ADDRESS,
+N  GET_DESCRIPTOR,
+N  SET_DESCRIPTOR,
+N  GET_CONFIGURATION,
+N  SET_CONFIGURATION,
+N  GET_INTERFACE,
+N  SET_INTERFACE,
+N  TOTAL_sREQUEST,  /* Total number of Standard request */
+N  SYNCH_FRAME = 12
+N} STANDARD_REQUESTS;
+N
+N/* Definition of "USBwValue" */
+Ntypedef enum _DESCRIPTOR_TYPE
+N{
+N  DEVICE_DESCRIPTOR = 1,
+N  CONFIG_DESCRIPTOR,
+N  STRING_DESCRIPTOR,
+N  INTERFACE_DESCRIPTOR,
+N  ENDPOINT_DESCRIPTOR
+N} DESCRIPTOR_TYPE;
+N
+N/* Feature selector of a SET_FEATURE or CLEAR_FEATURE */
+Ntypedef enum _FEATURE_SELECTOR
+N{
+N  ENDPOINT_STALL,
+N  DEVICE_REMOTE_WAKEUP
+N} FEATURE_SELECTOR;
+N
+N/* Exported constants --------------------------------------------------------*/
+N/* Definition of "USBbmRequestType" */
+N#define REQUEST_TYPE      0x60  /* Mask to get request type */
+N#define STANDARD_REQUEST  0x00  /* Standard request */
+N#define CLASS_REQUEST     0x20  /* Class request */
+N#define VENDOR_REQUEST    0x40  /* Vendor request */
+N
+N#define RECIPIENT         0x1F  /* Mask to get recipient */
+N
+N/* Exported macro ------------------------------------------------------------*/
+N/* Exported functions ------------------------------------------------------- */
+N
+N#endif /* __USB_DEF_H */
+N
+N/******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/
+L 24 ".\usb_library\inc\usb_lib.h" 2
+N#include "usb_core.h"
+L 1 ".\usb_library\inc\usb_core.h" 1
+N/******************** (C) COPYRIGHT 2007 STMicroelectronics ********************
+N* File Name          : usb_core.h
+N* Author             : MCD Application Team
+N* Version            : V1.0
+N* Date               : 10/08/2007
+N* Description        : Standard protocol processing functions prototypes
+N********************************************************************************
+N* THE PRESENT SOFTWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+N* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE TIME.
+N* AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY DIRECT,
+N* INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE
+N* CONTENT OF SUCH SOFTWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING
+N* INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+N*******************************************************************************/
+N
+N/* Define to prevent recursive inclusion -------------------------------------*/
+N#ifndef __USB_CORE_H
+N#define __USB_CORE_H
+N
+N/* Includes ------------------------------------------------------------------*/
+N/* Exported types ------------------------------------------------------------*/
+Ntypedef enum _CONTROL_STATE
+N{
+N  WAIT_SETUP,       /* 0 */
+N  SETTING_UP,       /* 1 */
+N  IN_DATA,          /* 2 */
+N  OUT_DATA,         /* 3 */
+N  LAST_IN_DATA,     /* 4 */
+N  LAST_OUT_DATA,    /* 5 */
+N  WAIT_STATUS_IN,   /* 7 */
+N  WAIT_STATUS_OUT,  /* 8 */
+N  STALLED,          /* 9 */
+N  PAUSE             /* 10 */
+N} CONTROL_STATE;    /* The state machine states of a control pipe */
+N
+Ntypedef struct OneDescriptor
+N{
+N  u8 *Descriptor;
+N  u16 Descriptor_Size;
+N}
+NONE_DESCRIPTOR, *PONE_DESCRIPTOR;
+N/* All the request process routines return a value of this type
+N   If the return value is not SUCCESS or NOT_READY,
+N   the software will STALL the correspond endpoint */
+Ntypedef enum _RESULT
+N{
+N  USB_SUCCESS = 0,    /* Process sucessfully */
+N  USB_ERROR,
+N  USB_UNSUPPORT,
+N  USB_NOT_READY       /* The process has not been finished, endpoint will be
+N                         NAK to further rquest */
+N} RESULT;
+N
+N
+N/*-*-*-*-*-*-*-*-*-*-* Definitions for endpoint level -*-*-*-*-*-*-*-*-*-*-*-*/
+Ntypedef struct _ENDPOINT_INFO
+N{
+N  /* When send data out of the device,
+N   CopyData() is used to get data buffer 'Length' bytes data
+N   if Length is 0,
+N    CopyData() returns the total length of the data
+N    if the request is not supported, returns 0
+N    (NEW Feature )
+N     if CopyData() returns -1, the calling routine should not proceed
+N     further and will resume the SETUP process by the class device
+N   if Length is not 0,
+N    CopyData() returns a pointer to indicate the data location
+N   Usb_wLength is the data remain to be sent,
+N   Usb_wOffset is the Offset of original data
+N  When receive data from the host,
+N   CopyData() is used to get user data buffer which is capable
+N   of Length bytes data to copy data from the endpoint buffer.
+N   if Length is 0,
+N    CopyData() returns the available data length,
+N   if Length is not 0,
+N    CopyData() returns user buffer address
+N   Usb_rLength is the data remain to be received,
+N   Usb_rPointer is the Offset of data buffer
+N  */
+N  u16  Usb_wLength;
+N  u16  Usb_wOffset;
+N  u16  PacketSize;
+N  u8   *(*CopyData)(u16 Length);
+N}
+NENDPOINT_INFO;
+N
+N/*-*-*-*-*-*-*-*-*-*-*-* Definitions for device level -*-*-*-*-*-*-*-*-*-*-*-*/
+N
+Ntypedef struct _DEVICE
+N{
+N  u8 Total_Endpoint;     /* Number of endpoints that are used */
+N  u8 Total_Configuration;/* Number of configuration available */
+N}
+NDEVICE;
+N
+Ntypedef union
+N{
+N  u16 w;
+N  struct BW
+N  {
+N    u8 bb1;
+N    u8 bb0;
+N  }
+N  bw;
+N} u16_u8;
+N
+Ntypedef struct _DEVICE_INFO
+N{
+N  u8 USBbmRequestType;       /* bmRequestType */
+N  u8 USBbRequest;            /* bRequest */
+N  u16_u8 USBwValues;         /* wValue */
+N  u16_u8 USBwIndexs;         /* wIndex */
+N  u16_u8 USBwLengths;        /* wLength */
+N
+N  u8 ControlState;           /* of type CONTROL_STATE */
+N  u8 Current_Feature;
+N  u8 Current_Configuration;   /* Selected configuration */
+N  u8 Current_Interface;       /* Selected interface of current configuration */
+N  u8 Current_AlternateSetting;/* Selected Alternate Setting of current
+N                                     interface*/
+N
+N  ENDPOINT_INFO Ctrl_Info;
+N}
+NDEVICE_INFO;
+N
+Ntypedef struct _DEVICE_PROP
+N{
+N  void (*Init)(void);        /* Initialize the device */
+N  void (*Reset)(void);       /* Reset routine of this device */
+N
+N  /* Device dependent process after the status stage */
+N  void (*Process_Status_IN)(void);
+N  void (*Process_Status_OUT)(void);
+N
+N  /* Procedure of process on setup stage of a class specified request with data stage */
+N  /* All class specified requests with data stage are processed in Class_Data_Setup
+N   Class_Data_Setup()
+N    responses to check all special requests and fills ENDPOINT_INFO
+N    according to the request
+N    If IN tokens are expected, then wLength & wOffset will be filled
+N    with the total transferring bytes and the starting position
+N    If OUT tokens are expected, then rLength & rOffset will be filled
+N    with the total expected bytes and the starting position in the buffer
+N
+N    If the request is valid, Class_Data_Setup returns SUCCESS, else UNSUPPORT
+N
+N   CAUTION:
+N    Since GET_CONFIGURATION & GET_INTERFACE are highly related to
+N    the individual classes, they will be checked and processed here.
+N  */
+N  RESULT (*Class_Data_Setup)(u8 RequestNo);
+N
+N  /* Procedure of process on setup stage of a class specified request without data stage */
+N  /* All class specified requests without data stage are processed in Class_NoData_Setup
+N   Class_NoData_Setup
+N    responses to check all special requests and perform the request
+N
+N   CAUTION:
+N    Since SET_CONFIGURATION & SET_INTERFACE are highly related to
+N    the individual classes, they will be checked and processed here.
+N  */
+N  RESULT (*Class_NoData_Setup)(u8 RequestNo);
+N
+N  /*Class_Get_Interface_Setting
+N   This function is used by the file usb_core.c to test if the selected Interface
+N   and Alternate Setting (u8 Interface, u8 AlternateSetting) are supported by
+N   the application.
+N   This function is writing by user. It should return "SUCCESS" if the Interface
+N   and Alternate Setting are supported by the application or "UNSUPPORT" if they
+N   are not supported. */
+N
+N  RESULT  (*Class_Get_Interface_Setting)(u8 Interface, u8 AlternateSetting);
+N
+N  u8* (*GetDeviceDescriptor)(u16 Length);
+N  u8* (*GetConfigDescriptor)(u16 Length);
+N  u8* (*GetStringDescriptor)(u16 Length);
+N
+N  u8* RxEP_buffer;
+N  u8 MaxPacketSize;
+N
+N}
+NDEVICE_PROP;
+N
+Ntypedef struct _USER_STANDARD_REQUESTS
+N{
+N  void (*User_GetConfiguration)(void);       /* Get Configuration */
+N  void (*User_SetConfiguration)(void);       /* Set Configuration */
+N  void (*User_GetInterface)(void);           /* Get Interface */
+N  void (*User_SetInterface)(void);           /* Set Interface */
+N  void (*User_GetStatus)(void);              /* Get Status */
+N  void (*User_ClearFeature)(void);           /* Clear Feature */
+N  void (*User_SetEndPointFeature)(void);     /* Set Endpoint Feature */
+N  void (*User_SetDeviceFeature)(void);       /* Set Device Feature */
+N  void (*User_SetDeviceAddress)(void);       /* Set Device Address */
+N}
+NUSER_STANDARD_REQUESTS;
+N
+N/* Exported constants --------------------------------------------------------*/
+N#define Type_Recipient (pInformation->USBbmRequestType & (REQUEST_TYPE | RECIPIENT))
+N
+N#define Usb_rLength Usb_wLength
+N#define Usb_rOffset Usb_wOffset
+N
+N#define USBwValue USBwValues.w
+N#define USBwValue0 USBwValues.bw.bb0
+N#define USBwValue1 USBwValues.bw.bb1
+N#define USBwIndex USBwIndexs.w
+N#define USBwIndex0 USBwIndexs.bw.bb0
+N#define USBwIndex1 USBwIndexs.bw.bb1
+N#define USBwLength USBwLengths.w
+N#define USBwLength0 USBwLengths.bw.bb0
+N#define USBwLength1 USBwLengths.bw.bb1
+N
+N/* Exported macro ------------------------------------------------------------*/
+N/* Exported functions ------------------------------------------------------- */
+Nu8 Setup0_Process(void);
+Nu8 Post0_Process(void);
+Nu8 Out0_Process(void);
+Nu8 In0_Process(void);
+N
+NRESULT Standard_SetEndPointFeature(void);
+NRESULT Standard_SetDeviceFeature(void);
+N
+Nu8 *Standard_GetConfiguration(u16 Length);
+NRESULT Standard_SetConfiguration(void);
+Nu8 *Standard_GetInterface(u16 Length);
+NRESULT Standard_SetInterface(void);
+Nu8 *Standard_GetDescriptorData(u16 Length, PONE_DESCRIPTOR pDesc);
+N
+Nu8 *Standard_GetStatus(u16 Length);
+NRESULT Standard_ClearFeature(void);
+Nvoid SetDeviceAddress(u8);
+Nvoid NOP_Process(void);
+N
+Nextern DEVICE_PROP Device_Property;
+Nextern  USER_STANDARD_REQUESTS User_Standard_Requests;
+Nextern  DEVICE  Device_Table;
+Nextern DEVICE_INFO Device_Info;
+N
+N/* cells saving status during interrupt servicing */
+Nextern u16 SaveRState;
+Nextern u16 SaveTState;
+N
+N#endif /* __USB_CORE_H */
+N
+N/******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/
+L 25 ".\usb_library\inc\usb_lib.h" 2
+N#include "usb_init.h"
+L 1 ".\usb_library\inc\usb_init.h" 1
+N/******************** (C) COPYRIGHT 2007 STMicroelectronics ********************
+N* File Name          : usb_init.h
+N* Author             : MCD Application Team
+N* Version            : V1.0
+N* Date               : 10/08/2007
+N* Description        : Initialization routines & global variables
+N********************************************************************************
+N* THE PRESENT SOFTWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+N* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE TIME.
+N* AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY DIRECT,
+N* INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE
+N* CONTENT OF SUCH SOFTWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING
+N* INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+N*******************************************************************************/
+N
+N/* Define to prevent recursive inclusion -------------------------------------*/
+N#ifndef __USB_INIT_H
+N#define __USB_INIT_H
+N
+N/* Includes ------------------------------------------------------------------*/
+N/* Exported types ------------------------------------------------------------*/
+N/* Exported constants --------------------------------------------------------*/
+N/* Exported macro ------------------------------------------------------------*/
+N/* Exported functions ------------------------------------------------------- */
+Nvoid USB_Init(void);
+N
+N/* External variables --------------------------------------------------------*/
+N/*  The number of current endpoint, it will be used to specify an endpoint */
+Nextern u8	EPindex;
+N/*  The number of current device, it is an index to the Device_Table */
+N/*extern u8	Device_no; */
+N/*  Points to the DEVICE_INFO structure of current device */
+N/*  The purpose of this register is to speed up the execution */
+Nextern DEVICE_INFO*	pInformation;
+N/*  Points to the DEVICE_PROP structure of current device */
+N/*  The purpose of this register is to speed up the execution */
+Nextern DEVICE_PROP*	pProperty;
+N/*  Temporary save the state of Rx & Tx status. */
+N/*  Whenever the Rx or Tx state is changed, its value is saved */
+N/*  in this variable first and will be set to the EPRB or EPRA */
+N/*  at the end of interrupt process */
+Nextern USER_STANDARD_REQUESTS *pUser_Standard_Requests;
+N
+Nextern u16	SaveState ;
+Nextern u16 wInterrupt_Mask;
+N
+N#endif /* __USB_INIT_H */
+N
+N/******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/
+L 26 ".\usb_library\inc\usb_lib.h" 2
+N#include "usb_mem.h"
+L 1 ".\usb_library\inc\usb_mem.h" 1
+N/******************** (C) COPYRIGHT 2007 STMicroelectronics ********************
+N* File Name          : usb_mem.h
+N* Author             : MCD Application Team
+N* Version            : V1.0
+N* Date               : 10/08/2007
+N* Description        : Utility prototypes functions for memory/PMA transfers
+N********************************************************************************
+N* THE PRESENT SOFTWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+N* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE TIME.
+N* AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY DIRECT,
+N* INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE
+N* CONTENT OF SUCH SOFTWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING
+N* INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+N*******************************************************************************/
+N
+N/* Define to prevent recursive inclusion -------------------------------------*/
+N#ifndef __USB_MEM_H
+N#define __USB_MEM_H
+N
+N/* Includes ------------------------------------------------------------------*/
+N/* Exported types ------------------------------------------------------------*/
+N/* Exported constants --------------------------------------------------------*/
+N/* Exported macro ------------------------------------------------------------*/
+N/* Exported functions ------------------------------------------------------- */
+Nvoid UserToPMABufferCopy(u8 *pbUsrBuf, u16 wPMABufAddr, u16 wNBytes);
+Nvoid PMAToUserBufferCopy(u8 *pbUsrBuf, u16 wPMABufAddr, u16 wNBytes);
+N
+N/* External variables --------------------------------------------------------*/
+N
+N#endif  /*__USB_MEM_H*/
+N
+N/******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/
+L 27 ".\usb_library\inc\usb_lib.h" 2
+N#include "usb_int.h"
+L 1 ".\usb_library\inc\usb_int.h" 1
+N/******************** (C) COPYRIGHT 2007 STMicroelectronics ********************
+N* File Name          : usb_int.h
+N* Author             : MCD Application Team
+N* Version            : V1.0
+N* Date               : 10/08/2007
+N* Description        : Endpoint CTR (Low and High) interrupt's service routines
+N*                      prototypes
+N********************************************************************************
+N* THE PRESENT SOFTWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+N* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE TIME.
+N* AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY DIRECT,
+N* INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE
+N* CONTENT OF SUCH SOFTWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING
+N* INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+N*******************************************************************************/
+N
+N/* Define to prevent recursive inclusion -------------------------------------*/
+N#ifndef __USB_INT_H
+N#define __USB_INT_H
+N
+N/* Includes ------------------------------------------------------------------*/
+N/* Exported types ------------------------------------------------------------*/
+N/* Exported constants --------------------------------------------------------*/
+N/* Exported macro ------------------------------------------------------------*/
+N/* Exported functions ------------------------------------------------------- */
+Nvoid CTR_LP(void);
+Nvoid CTR_HP(void);
+N
+N/* External variables --------------------------------------------------------*/
+N
+N#endif /* __USB_INT_H */
+N
+N/******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/
+L 28 ".\usb_library\inc\usb_lib.h" 2
+N
+N/* Exported types ------------------------------------------------------------*/
+N/* Exported constants --------------------------------------------------------*/
+N/* Exported macro ------------------------------------------------------------*/
+N/* Exported functions ------------------------------------------------------- */
+N/* External variables --------------------------------------------------------*/
+N
+N#endif /* __USB_LIB_H */
+N
+N/******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/
+L 18 "usb_desc.c" 2
+N#include "usb_desc.h"
+L 1 ".\usb_library\inc\usb_desc.h" 1
+N/******************** (C) COPYRIGHT 2007 STMicroelectronics ********************
+N* File Name          : usb_desc.h
+N* Author             : MCD Application Team
+N* Version            : V1.0
+N* Date               : 10/08/2007
+N* Description        : Descriptor Header for Joystick Mouse Demo
+N********************************************************************************
+N* THE PRESENT SOFTWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+N* WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE TIME.
+N* AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY DIRECT,
+N* INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING FROM THE
+N* CONTENT OF SUCH SOFTWARE AND/OR THE USE MADE BY CUSTOMERS OF THE CODING
+N* INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+N*******************************************************************************/
+N
+N/* Define to prevent recursive inclusion -------------------------------------*/
+N#ifndef __USB_DESC_H
+N#define __USB_DESC_H
+N
+N/* Includes ------------------------------------------------------------------*/
+N/* Exported types ------------------------------------------------------------*/
+N/* Exported constants --------------------------------------------------------*/
+N/* Exported macro ------------------------------------------------------------*/
+N/* Exported define -----------------------------------------------------------*/
+N#define USB_DEVICE_DESCRIPTOR_TYPE              0x01
+N#define USB_CONFIGURATION_DESCRIPTOR_TYPE       0x02
+N#define USB_STRING_DESCRIPTOR_TYPE              0x03
+N#define USB_INTERFACE_DESCRIPTOR_TYPE           0x04
+N#define USB_ENDPOINT_DESCRIPTOR_TYPE            0x05
+N
+N#define HID_DESCRIPTOR_TYPE                     0x21
+N#define JOYSTICK_SIZ_HID_DESC                   0x09
+N#define JOYSTICK_OFF_HID_DESC                   0x12
+N
+N#define JOYSTICK_SIZ_DEVICE_DESC                18
+N#define JOYSTICK_SIZ_CONFIG_DESC                34
+N#define JOYSTICK_SIZ_REPORT_DESC                74
+N#define JOYSTICK_SIZ_STRING_LANGID              4
+N#define JOYSTICK_SIZ_STRING_VENDOR              38
+N#define JOYSTICK_SIZ_STRING_PRODUCT             30
+N#define JOYSTICK_SIZ_STRING_SERIAL              26
+N
+N#define STANDARD_ENDPOINT_DESC_SIZE             0x09
+N
+N/* Exported functions ------------------------------------------------------- */
+Nextern const u8 Joystick_DeviceDescriptor[JOYSTICK_SIZ_DEVICE_DESC];
+Xextern const u8 Joystick_DeviceDescriptor[18];
+Nextern const u8 Joystick_ConfigDescriptor[JOYSTICK_SIZ_CONFIG_DESC];
+Xextern const u8 Joystick_ConfigDescriptor[34];
+Nextern const u8 Joystick_ReportDescriptor[JOYSTICK_SIZ_REPORT_DESC];
+Xextern const u8 Joystick_ReportDescriptor[74];
+Nextern const u8 Joystick_StringLangID[JOYSTICK_SIZ_STRING_LANGID];
+Xextern const u8 Joystick_StringLangID[4];
+Nextern const u8 Joystick_StringVendor[JOYSTICK_SIZ_STRING_VENDOR];
+Xextern const u8 Joystick_StringVendor[38];
+Nextern const u8 Joystick_StringProduct[JOYSTICK_SIZ_STRING_PRODUCT];
+Xextern const u8 Joystick_StringProduct[30];
+Nextern const u8 Joystick_StringSerial[JOYSTICK_SIZ_STRING_SERIAL];
+Xextern const u8 Joystick_StringSerial[26];
+N
+N#endif /* __USB_DESC_H */
+N
+N/******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/
+L 19 "usb_desc.c" 2
+N
+N/* Private typedef -----------------------------------------------------------*/
+N/* Private define ------------------------------------------------------------*/
+N/* Private macro -------------------------------------------------------------*/
+N/* Private variables ---------------------------------------------------------*/
+N/* Extern variables ----------------------------------------------------------*/
+N/* Private function prototypes -----------------------------------------------*/
+N/* Private functions ---------------------------------------------------------*/
+N
+N/* USB Standard Device Descriptor */
+Nconst u8 Joystick_DeviceDescriptor[JOYSTICK_SIZ_DEVICE_DESC] =
+Xconst u8 Joystick_DeviceDescriptor[18] =
+N  {
+N    0x12,                       /*bLength */
+N    USB_DEVICE_DESCRIPTOR_TYPE, /*bDescriptorType*/
+X    0x01,  
+N    0x00,                       /*bcdUSB */
+N    0x02,
+N    0x00,                       /*bDeviceClass*/
+N    0x00,                       /*bDeviceSubClass*/
+N    0x00,                       /*bDeviceProtocol*/
+N    0x40,                       /*bMaxPacketSize40*/
+N    0x83,                       /*idVendor (0x0483)*/
+N    0x04,
+N    0x10,                       /*idProduct = 0x5710*/
+N    0x57,
+N    0x00,                       /*bcdDevice rel. 2.00*/
+N    0x02,
+N    1,                          /*Index of string descriptor describing
+N                                              manufacturer */
+N    2,                          /*Index of string descriptor describing
+N                                             product*/
+N    3,                          /*Index of string descriptor describing the
+N                                             device serial number */
+N    0x01                        /*bNumConfigurations*/
+N  }
+N  ; /* Joystick_DeviceDescriptor */
+N
+N
+N/* USB Configuration Descriptor */
+N/*   All Descriptors (Configuration, Interface, Endpoint, Class, Vendor */
+Nconst u8 Joystick_ConfigDescriptor[JOYSTICK_SIZ_CONFIG_DESC] =
+Xconst u8 Joystick_ConfigDescriptor[34] =
+N  {
+N    0x09, /* bLength: Configuation Descriptor size */
+N    USB_CONFIGURATION_DESCRIPTOR_TYPE, /* bDescriptorType: Configuration */
+X    0x02,  
+N    JOYSTICK_SIZ_CONFIG_DESC,
+X    34,
+N    /* wTotalLength: Bytes returned */
+N    0x00,
+N    0x01,         /*bNumInterfaces: 1 interface*/
+N    0x01,         /*bConfigurationValue: Configuration value*/
+N    0x00,         /*iConfiguration: Index of string descriptor describing
+N                                 the configuration*/
+N    0xC0,         /*bmAttributes: self powered */
+N    0x32,         /*MaxPower 100 mA: this current is used for detecting Vbus*/
+N
+N    /************** Descriptor of Joystick Mouse interface ****************/
+N    /* 09 */
+N    0x09,         /*bLength: Interface Descriptor size*/
+N    USB_INTERFACE_DESCRIPTOR_TYPE,/*bDescriptorType: Interface descriptor type*/
+X    0x04, 
+N    0x00,         /*bInterfaceNumber: Number of Interface*/
+N    0x00,         /*bAlternateSetting: Alternate setting*/
+N    0x01,         /*bNumEndpoints*/
+N    0x03,         /*bInterfaceClass: HID*/
+N    0x01,         /*bInterfaceSubClass : 1=BOOT, 0=no boot*/
+N    0x02,         /*nInterfaceProtocol : 0=none, 1=keyboard, 2=mouse*/
+N    0,            /*iInterface: Index of string descriptor*/
+N    /******************** Descriptor of Joystick Mouse HID ********************/
+N    /* 18 */
+N    0x09,         /*bLength: HID Descriptor size*/
+N    HID_DESCRIPTOR_TYPE, /*bDescriptorType: HID*/
+X    0x21,  
+N    0x00,         /*bcdHID: HID Class Spec release number*/
+N    0x01,
+N    0x00,         /*bCountryCode: Hardware target country*/
+N    0x01,         /*bNumDescriptors: Number of HID class descriptors to follow*/
+N    0x22,         /*bDescriptorType*/
+N    JOYSTICK_SIZ_REPORT_DESC,/*wItemLength: Total length of Report descriptor*/
+X    74, 
+N    0x00,
+N    /******************** Descriptor of Joystick Mouse endpoint ********************/
+N    /* 27 */
+N    0x07,          /*bLength: Endpoint Descriptor size*/
+N    USB_ENDPOINT_DESCRIPTOR_TYPE, /*bDescriptorType:*/
+X    0x05,  
+N
+N    0x81,          /*bEndpointAddress: Endpoint Address (IN)*/
+N    0x03,          /*bmAttributes: Interrupt endpoint*/
+N    0x04,          /*wMaxPacketSize: 4 Byte max */
+N    0x00,
+N    0x20,          /*bInterval: Polling Interval (32 ms)*/
+N    /* 34 */
+N  }
+N  ; /* MOUSE_ConfigDescriptor */
+Nconst u8 Joystick_ReportDescriptor[JOYSTICK_SIZ_REPORT_DESC] =
+Xconst u8 Joystick_ReportDescriptor[74] =
+N  {
+N    0x05,          /*Usage Page(Generic Desktop)*/
+N    0x01,
+N    0x09,          /*Usage(Mouse)*/
+N    0x02,
+N    0xA1,          /*Collection(Logical)*/
+N    0x01,
+N    0x09,          /*Usage(Pointer)*/
+N    0x01,
+N    /* 8 */
+N    0xA1,          /*Collection(Linked)*/
+N    0x00,
+N    0x05,          /*Usage Page(Buttons)*/
+N    0x09,
+N    0x19,          /*Usage Minimum(1)*/
+N    0x01,
+N    0x29,          /*Usage Maximum(3)*/
+N    0x03,
+N    /* 16 */
+N    0x15,          /*Logical Minimum(0)*/
+N    0x00,
+N    0x25,          /*Logical Maximum(1)*/
+N    0x01,
+N    0x95,          /*Report Count(3)*/
+N    0x03,
+N    0x75,          /*Report Size(1)*/
+N    0x01,
+N    /* 24 */
+N    0x81,          /*Input(Variable)*/
+N    0x02,
+N    0x95,          /*Report Count(1)*/
+N    0x01,
+N    0x75,          /*Report Size(5)*/
+N    0x05,
+N    0x81,          /*Input(Constant,Array)*/
+N    0x01,
+N    /* 32 */
+N    0x05,          /*Usage Page(Generic Desktop)*/
+N    0x01,
+N    0x09,          /*Usage(X axis)*/
+N    0x30,
+N    0x09,          /*Usage(Y axis)*/
+N    0x31,
+N    0x09,          /*Usage(Wheel)*/
+N    0x38,
+N    /* 40 */
+N    0x15,          /*Logical Minimum(-127)*/
+N    0x81,
+N    0x25,          /*Logical Maximum(127)*/
+N    0x7F,
+N    0x75,          /*Report Size(8)*/
+N    0x08,
+N    0x95,          /*Report Count(3)*/
+N    0x03,
+N    /* 48 */
+N    0x81,          /*Input(Variable, Relative)*/
+N    0x06,
+N    0xC0,          /*End Collection*/
+N    0x09,
+N    0x3c,
+N    0x05,
+N    0xff,
+N    0x09,
+N    /* 56 */
+N    0x01,
+N    0x15,
+N    0x00,
+N    0x25,
+N    0x01,
+N    0x75,
+N    0x01,
+N    0x95,
+N    /* 64 */
+N    0x02,
+N    0xb1,
+N    0x22,
+N    0x75,
+N    0x06,
+N    0x95,
+N    0x01,
+N    0xb1,
+N    /* 72 */
+N    0x01,
+N    0xc0
+N  }
+N  ; /* Joystick_ReportDescriptor */
+N
+N/* USB String Descriptors (optional) */
+Nconst u8 Joystick_StringLangID[JOYSTICK_SIZ_STRING_LANGID] =
+Xconst u8 Joystick_StringLangID[4] =
+N  {
+N    JOYSTICK_SIZ_STRING_LANGID,
+X    4,
+N    USB_STRING_DESCRIPTOR_TYPE,
+X    0x03,
+N    0x09,
+N    0x04
+N  }
+N  ; /* LangID = 0x0409: U.S. English */
+N
+Nconst u8 Joystick_StringVendor[JOYSTICK_SIZ_STRING_VENDOR] =
+Xconst u8 Joystick_StringVendor[38] =
+N  {
+N    JOYSTICK_SIZ_STRING_VENDOR, /* Size of Vendor string */
+X    38,  
+N    USB_STRING_DESCRIPTOR_TYPE,  /* bDescriptorType*/
+X    0x03,   
+N    /* Manufacturer: "STMicroelectronics" */
+N    'S', 0, 'T', 0, 'M', 0, 'i', 0, 'c', 0, 'r', 0, 'o', 0, 'e', 0,
+N    'l', 0, 'e', 0, 'c', 0, 't', 0, 'r', 0, 'o', 0, 'n', 0, 'i', 0,
+N    'c', 0, 's', 0
+N  };
+N
+Nconst u8 Joystick_StringProduct[JOYSTICK_SIZ_STRING_PRODUCT] =
+Xconst u8 Joystick_StringProduct[30] =
+N  {
+N    JOYSTICK_SIZ_STRING_PRODUCT,          /* bLength */
+X    30,           
+N    USB_STRING_DESCRIPTOR_TYPE,        /* bDescriptorType */
+X    0x03,         
+N    'S', 0, 'T', 0, 'M', 0, '3', 0, '2', 0, ' ', 0, 'J', 0,
+N    'o', 0, 'y', 0, 's', 0, 't', 0, 'i', 0, 'c', 0, 'k', 0
+N  };
+Nconst u8 Joystick_StringSerial[JOYSTICK_SIZ_STRING_SERIAL] =
+Xconst u8 Joystick_StringSerial[26] =
+N  {
+N    JOYSTICK_SIZ_STRING_SERIAL,           /* bLength */
+X    26,            
+N    USB_STRING_DESCRIPTOR_TYPE,        /* bDescriptorType */
+X    0x03,         
+N    'J', 0, 'o', 0, 'y', 0, ' ', 0, ' ', 0, ' ', 0, '1', 0, '.', 0,
+N    '0', 0, '0', 0, '0', 0, '0', 0
+N  };
+N
+N/******************* (C) COPYRIGHT 2007 STMicroelectronics *****END OF FILE****/
+N

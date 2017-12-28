@@ -1,0 +1,30 @@
+*** Creating Trace Output File '..\obj\SWDG.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\obj\cortexm3_macro.o"'
+### List of Objects: adding '"..\obj\stm32f10x_vector.o"'
+### List of Objects: adding '"..\obj\main.o"'
+### List of Objects: adding '"..\obj\stm32f10x_it.o"'
+### List of Objects: adding '"..\obj\stm32f10x_lib.o"'
+### List of Objects: adding '"..\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\obj\stm32f10x_nvic.o"'
+### List of Objects: adding '"..\obj\stm32f10x_iwdg.o"'
+### List of Objects: adding '"..\obj\stm32f10x_flash.o"'
+### List of Objects: adding '"..\obj\stm32f10x_exti.o"'
+### List of Objects: adding '"..\obj\stm32f10x_systick.o"'
+### ADS-LD Command completed:
+"..\obj\cortexm3_macro.o" "..\obj\stm32f10x_vector.o" "..\obj\main.o" "..\obj\stm32f10x_it.o" "..\obj\stm32f10x_lib.o" "..\obj\stm32f10x_gpio.o" "..\obj\stm32f10x_rcc.o" "..\obj\stm32f10x_nvic.o" "..\obj\stm32f10x_iwdg.o" "..\obj\stm32f10x_flash.o" "..\obj\stm32f10x_exti.o" "..\obj\stm32f10x_systick.o" --device DARMSTM --strict --scatter "..\obj\SWDG.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\listing\SWDG.map" -o "..\obj\SWDG.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\obj\SWDG.axf'
+### ADS-LD Command File: '..\obj\SWDG.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\obj\SWDG.lnp', Handle=0x000003D4
+### Writing '.lnp' file
+### ADS-LD Command file '..\obj\SWDG.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

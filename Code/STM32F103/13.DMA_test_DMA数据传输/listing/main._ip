@@ -1,0 +1,1 @@
+"main.c" -E -c --device DARMSTM -D__MICROLIB -O3 --apcs=interwork -I..\common\library -I..\common\usb_library -I "d:\Keil\ARM\INC\ST\STM32F10x" -o ".\listing\main.i"

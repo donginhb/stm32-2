@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\obj\stm32f10x.o" ".\obj\main.o" ".\obj\stm32f10x_it.o" "..\..\..\okstm32v100\Ê¾Àý³ÌÐò\common\STM32F10xR.LIB" --strict --scatter ".\obj\WWDG.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\listing\WWDG.map" -o ".\obj\WWDG.axf"

@@ -1,0 +1,5 @@
+Dependencies for Project 'CAN', Target 'CAN': (DO NOT MODIFY !)
+F (.\STM32F10x.s)(0x48E9C1B6)(--device DARMSTM -g --apcs=interwork -I "d:\Keil\ARM\INC\ST\STM32F10x" --list ".\listing\STM32F10x.lst" --xref -o ".\output\STM32F10x.o")
+F (.\main.c)(0x48EB062E)(-c --device DARMSTM -g -O3 --apcs=interwork --split_sections --asm --interleave -I.\ -I "d:\Keil\ARM\INC\ST\STM32F10x" -o ".\output\main.o" --omf_browse ".\output\main.crf" --depend ".\output\main.d")
+F (.\stm32f10x_it.c)(0x48E9C1B6)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\listing\\" -I.\ -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\ST\STM32F10x" -o ".\output\stm32f10x_it.o" --list_dir ".\\listing\\" --list --omf_browse ".\output\stm32f10x_it.crf" --depend ".\output\stm32f10x_it.d")
+F (E:\Boards\M3\okstm32v100\Ê¾Àý³ÌÐò\common\STM32F10xR.lib)(0x48F3F83C)()

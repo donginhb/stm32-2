@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\obj\stm32f10x.o" ".\obj\main.o" ".\obj\usb_desc.o" ".\obj\usb_istr.o" ".\obj\usb_prop.o" ".\obj\usb_pwr.o" ".\obj\hw_config.o" ".\obj\stm32f10x_it.o" "..\..\..\okstm32v100\Ê¾Àý³ÌÐò\common\STM32F10xR.LIB" ".\obj\usb_core.o" ".\obj\usb_init.o" ".\obj\usb_int.o" ".\obj\usb_mem.o" ".\obj\usb_regs.o" --library_type=microlib --strict --scatter ".\Obj\USB_TEST.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\USB_TEST.map" -o ".\Obj\USB_TEST.axf"
