@@ -1,0 +1,10 @@
+--cpu Cortex-M0
+".\main.o"
+".\led.o"
+".\stm32f0xx_gpio.o"
+".\stm32f0xx_rcc.o"
+".\startup_stm32f030x8.o"
+".\system_stm32f0xx.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\LED.map" -o .\LED.axf
