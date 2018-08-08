@@ -1,0 +1,1984 @@
+[2010-06-12 01:33:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\uCOS_uCGUI_2.8(ALIENTEK MiniSTM32版)\uCOS+uCGUI(FSMC)\Obj\uCOSDemo.hex
+[2010-06-12 01:37:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-12 01:38:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-12 01:46:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-12 01:48:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-12 01:50:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例\Mini STM32  汉字显示 22\USER\TEST.hex
+[2010-06-12 01:50:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例\Mini STM32  汉字显示 22\USER\TEST.hex
+[2010-06-12 01:52:Program Success:38006D063059373529541943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例\Mini STM32  汉字显示 22\USER\TEST.hex
+[2010-06-12 01:54:Program Success:38006F063059373546521943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例\Mini STM32  汉字显示 22\USER\TEST.hex
+[2010-06-12 01:55:Program Success:38006F063059373546521943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例\Mini STM32  汉字显示 22\USER\TEST.hex
+[2010-06-12 01:55:Program Success:38006D063059373529541943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例\Mini STM32  汉字显示 22\USER\TEST.hex
+[2010-06-12 01:56:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\uCOS_uCGUI_2.8(ALIENTEK MiniSTM32版)\uCOS+uCGUI(FSMC)\Obj\uCOSDemo.hex
+[2010-06-12 01:57:Program Success:38006F063059373546521943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例\Mini STM32  红外遥控 16\USER\TEST.hex
+[2010-06-12 02:07:Program Success:38006D063059373529541943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(初稿)\ALIENTEK MINISTM32 实验11 RTC实时时钟实验\USER\TEST.hex
+[2010-06-12 02:08:Program Success:38006D063059373529541943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(初稿)\ALIENTEK MINISTM32 实验11 RTC实时时钟实验\USER\TEST.hex
+[2010-06-12 22:48:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例\Mini STM32  红外遥控 16\USER\TEST.hex
+[2010-06-12 22:48:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\Mini STM32 2.8寸液晶显示代码(温度)\USER\TEST.hex
+[2010-06-12 23:15:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\Mini STM32 2.8寸液晶显示代码(温度)\USER\TEST.hex
+[2010-06-12 23:16:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-12 23:27:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\Mini STM32 2.8寸液晶显示代码(温度)\USER\TEST.hex
+[2010-06-13 00:31:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\uCOS_uCGUI_2.8(ALIENTEK MiniSTM32版)\uCOS+uCGUI(FSMC)\Obj\uCOSDemo.hex
+[2010-06-13 20:53:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(初稿1)\实例(初稿)\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-14 11:33:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-14 22:02:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(dg)\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-14 22:47:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-14 22:49:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 17:37:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 17:48:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 17:51:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 17:52:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 17:52:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 17:53:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 17:54:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 17:55:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 17:55:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 17:56:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 18:11:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 22:04:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-15 22:07:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-15 22:11:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-15 22:12:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-15 22:23:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 22:27:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 22:29:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 22:40:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 22:44:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 22:50:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 22:57:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-15 23:14:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\半壶水24L01\nrf24发送(硬件SPI) BHS-STM32\out\ObjFlash\stm32.hex
+[2010-06-15 23:16:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\半壶水24L01\nrf24发送(硬件SPI) BHS-STM32\out\ObjFlash\stm32.hex
+[2010-06-15 23:18:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\半壶水24L01\nrf24发送(硬件SPI) BHS-STM32\out\ObjFlash\stm32.hex
+[2010-06-16 01:01:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\半壶水24L01\nrf24发送(硬件SPI) BHS-STM32\out\ObjFlash\stm32.hex
+[2010-06-16 01:02:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 01:13:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 15:10:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 15:11:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 15:11:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 15:23:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 15:27:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 15:34:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 15:35:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 21:05:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 21:05:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 21:06:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 21:08:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 21:11:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 21:21:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 21:22:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-16 21:31:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\24l01发送\USER\TEST.hex
+[2010-06-16 21:32:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\24l01发送\USER\TEST.hex
+[2010-06-16 21:34:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\24l01发送\USER\TEST.hex
+[2010-06-16 21:37:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\24l01接收\USER\TEST.hex
+[2010-06-16 21:39:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\24l01发送\USER\TEST.hex
+[2010-06-16 21:56:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\24l01接收\USER\TEST.hex
+[2010-06-16 21:57:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\24l01接收\USER\TEST.hex
+[2010-06-16 22:00:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\24l01接收\USER\TEST.hex
+[2010-06-16 22:01:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\24l01发送\USER\TEST.hex
+[2010-06-16 22:05:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\24l01发送\USER\TEST.hex
+[2010-06-16 22:11:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\24l01发送\USER\TEST.hex
+[2010-06-16 22:13:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\24l01发送\USER\TEST.hex
+[2010-06-16 22:14:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\24l01发送\USER\TEST.hex
+[2010-06-16 22:17:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\24l01发送\USER\TEST.hex
+[2010-06-16 22:17:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 22:47:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 22:48:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\24l01发送\USER\TEST.hex
+[2010-06-16 22:49:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 22:50:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 22:52:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 22:52:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 22:52:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 22:53:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 23:45:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 23:45:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 23:52:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 23:52:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 23:54:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 23:54:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 23:57:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 23:57:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-16 23:58:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:13:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:15:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:29:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:32:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:32:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:34:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:34:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:43:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:45:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:45:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:46:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:46:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:47:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:48:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 00:49:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 00:49:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 19:07:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 19:08:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 19:14:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 20:15:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 20:17:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 20:20:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 20:25:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 20:49:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 21:04:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 21:15:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 22:02:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 22:06:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 22:14:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 22:28:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 22:56:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 23:08:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 23:52:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-17 23:55:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-17 23:59:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-18 00:02:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-18 00:08:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-18 00:09:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-18 00:13:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-18 00:14:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-18 00:22:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-18 00:23:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-18 00:26:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-18 00:27:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-18 00:28:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-18 00:29:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-18 23:09:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验19 无线通信实验\USER\TEST.hex
+[2010-06-18 23:10:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验19 无线通信实验\USER\TEST.hex
+[2010-06-18 23:12:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验19 无线通信实验\USER\TEST.hex
+[2010-06-18 23:13:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验19 无线通信实验\USER\TEST.hex
+[2010-06-18 23:13:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验19 无线通信实验\USER\TEST.hex
+[2010-06-19 09:52:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(dg)\ALIENTEK MINISTM32 实验26 USB鼠标实验\project\Obj\STM3210E-EVAL.hex
+[2010-06-19 09:59:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(dg)\ALIENTEK MINISTM32 实验26 USB鼠标实验\project\Obj\STM3210E-EVAL.hex
+[2010-06-19 10:02:Program Success:30006E065837393148381843 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(dg)\ALIENTEK MINISTM32 实验26 USB鼠标实验\project\Obj\STM3210E-EVAL.hex
+[2010-06-19 10:09:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 10:12:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 10:22:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 10:31:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 10:37:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 10:38:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 11:00:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 11:07:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 11:13:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 11:23:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 11:43:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 11:45:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 11:49:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 11:53:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 11:54:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 11:57:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 16:25:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 16:27:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 16:34:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 16:45:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 16:47:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 16:54:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 16:57:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 16:58:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 17:00:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 17:01:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 17:02:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 17:07:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 17:08:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 17:09:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 17:10:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 17:11:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 17:12:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2010-06-19 17:23:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 17:27:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 17:36:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 17:38:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 17:43:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 17:48:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(dg)\ALIENTEK MINISTM32 实验26 USB鼠标实验\USER\TEST.hex
+[2010-06-19 17:50:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-19 19:55:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-19 19:56:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-19 20:33:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验26 USB鼠标实验\USER\TEST.hex
+[2010-06-19 21:12:Program Success:38FF6D063047303539162043 G:\STM32 study\CRE开发板例程\MP3PLAYER(CRE)\USER\MP3.hex
+[2010-06-19 21:12:Program Success:38FF6D063047303539162043 G:\STM32 study\CRE开发板例程\TFTLCD代码\test.hex
+[2010-06-19 21:13:Program Success:38FF6D063047303539162043 G:\STM32 study\CRE开发板例程\MP3PLAYER(备份)\USER\MP3.hex
+[2010-06-19 21:36:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-19 21:45:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-19 21:51:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-19 21:52:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-19 21:54:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 21:57:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 21:59:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 22:00:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 22:27:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 22:27:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 22:32:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 22:34:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 22:36:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 22:43:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 22:46:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 22:48:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 22:50:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 23:43:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 23:45:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 23:56:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-19 23:58:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:00:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:07:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:08:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:10:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:12:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:17:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:17:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:19:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:20:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:23:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:27:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:32:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:35:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:42:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:45:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 00:54:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(dg)\ALIENTEK MINISTM32 实验23 PS2鼠标实验\USER\TEST.hex
+[2010-06-20 01:05:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验23 PS2鼠标实验\USER\TEST.hex
+[2010-06-20 01:36:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验23 PS2鼠标实验\USER\TEST.hex
+[2010-06-20 01:40:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验23 PS2鼠标实验\USER\TEST.hex
+[2010-06-20 09:46:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验23 PS2鼠标实验\USER\TEST.hex
+[2010-06-20 09:47:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验23 PS2鼠标实验\USER\TEST.hex
+[2010-06-20 11:58:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验23 PS2鼠标实验\USER\TEST.hex
+[2010-06-20 12:05:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验23 PS2鼠标实验\USER\TEST.hex
+[2010-06-20 12:14:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验23 PS2鼠标实验\USER\TEST.hex
+[2010-06-20 12:16:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验23 PS2鼠标实验\USER\TEST.hex
+[2010-06-20 13:14:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(dg)\ALIENTEK MINISTM32 实验26 USB鼠标实验\USER\TEST.hex
+[2010-06-20 13:21:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(dg)\ALIENTEK MINISTM32 实验23 PS2鼠标实验\USER\TEST.hex
+[2010-06-20 13:33:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(dg)\ALIENTEK MINISTM32 实验26 触控USB鼠标\USER\TEST.hex
+[2010-06-20 13:36:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验23 PS2鼠标实验\USER\TEST.hex
+[2010-06-20 13:37:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验23 PS2鼠标实验\USER\TEST.hex
+[2010-06-20 13:57:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 14:04:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 14:10:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 14:12:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 14:13:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 14:15:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 14:31:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 14:33:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 14:44:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 14:53:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 14:54:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-20 18:56:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 21:21:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 21:24:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 21:25:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 21:26:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 21:31:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 21:37:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 21:39:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 22:32:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 22:35:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 22:37:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 23:04:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 23:27:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 23:30:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-20 23:32:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-21 00:03:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-21 00:06:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-21 00:11:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-21 21:29:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 鼠标\USER\TEST.hex
+[2010-06-21 21:31:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 鼠标\USER\TEST.hex
+[2010-06-21 21:51:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 鼠标\USER\TEST.hex
+[2010-06-21 21:52:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 鼠标\USER\TEST.hex
+[2010-06-21 21:53:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 鼠标\USER\TEST.hex
+[2010-06-21 21:54:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 鼠标\USER\TEST.hex
+[2010-06-21 22:00:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 鼠标\USER\TEST.hex
+[2010-06-21 22:10:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 鼠标\USER\TEST.hex
+[2010-06-21 22:11:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 鼠标\USER\TEST.hex
+[2010-06-21 22:12:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 鼠标\USER\TEST.hex
+[2010-06-21 22:15:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 鼠标\USER\TEST.hex
+[2010-06-21 22:17:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-21 22:19:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-21 22:26:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-21 22:34:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-21 22:40:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-21 22:43:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-21 22:48:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-21 23:02:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-21 23:05:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-21 23:06:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-21 23:08:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-21 23:29:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-21 23:45:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-21 23:46:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-22 00:05:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-22 00:08:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-22 00:15:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-22 00:17:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-22 00:26:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-22 00:29:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-22 00:41:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-22 00:46:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-22 00:53:日志记录不属免费功能,请注册支持作者改进软件
+[2010-06-22 18:48:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-22 18:52:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-22 19:07:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-22 19:16:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-22 19:16:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-22 19:48:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-22 19:54:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-22 20:09:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-22 20:13:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-22 20:18:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-24 19:01:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验27 USB读卡器\USER\TEST.hex
+[2010-06-26 17:56:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(dg)\ALIENTEK MINISTM32 实验3 串口实验\USER\TEST.hex
+[2010-06-26 17:58:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(dg)\ALIENTEK MINISTM32 实验4 外部中断实验\USER\TEST.hex
+[2010-06-26 18:03:Program Success:380072063059373515511943 C:\Documents and Settings\Administrator\桌面\STM32mini板资料\实例(dg)\ALIENTEK MINISTM32 实验5 独立看门狗实验\USER\TEST.hex
+[2010-06-29 21:20:Program Success:38006D063059373529541943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-06-29 22:02:Program Success:38006D063059373529541943 C:\Documents and Settings\Administrator\桌面\TEST\USER\TEST.hex
+[2010-07-01 00:07:Program Success:38006D063059373529541943 E:\ALIENTEK 开发板资料\ALIENTEK MiniSTM32开发板例程\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2010-10-16 16:35:Program Success:370068063142303840570543 C:\Documents and Settings\Administrator\桌面\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-12 21:01:Program Success:52FF6A064882575123251087 E:\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-12 21:04:Program Success:52FF6A064882575123251087 E:\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-12 21:06:Program Success:52FF6E064882575120581587 E:\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-12 21:10:Program Success:52FF6B064882575154491187 E:\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-12 21:11:Program Success:52FF6C064882575139171587 E:\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-12 21:14:Program Success:52FF6E064882575138381587 E:\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-12 21:19:Program Success:52FF6D064882575129491187 E:\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-12 21:29:Program Success:52FF6D064882575122441787 E:\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-12 21:29:Program Success:52FF6D064882575122441787 E:\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-12 21:33:Program Success:52FF68064882575117171187 E:\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-12 21:35:Program Success:52FF6B064882575135301587 E:\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-12 21:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 21:38:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 21:41:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 21:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 21:43:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 21:49:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 21:50:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 21:53:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 21:55:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 21:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 21:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 22:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 22:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 22:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 22:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 22:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 22:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 22:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 22:22:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-12 22:38:Program Success:52FF69064882575150161887 E:\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-13 19:17:Program Success:52FF6E064882575146401887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-13 19:20:Program Success:52FF69064882575123491787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-13 19:23:Program Success:52FF6F064882575133531587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-13 19:25:Program Success:52FF6D064882575122501787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-13 19:29:Program Success:52FF6A064882575137391587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-13 19:39:Program Success:52FF6C064882575140091587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-13 19:43:Program Success:52FF68064882575135431587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-13 19:45:Program Success:52FF68064882575135181587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-13 19:46:Program Success:52FF6C064882575136411587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-13 19:48:Program Success:52FF6A064882575140580987 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-13 19:53:Program Success:52FF6D064882575138281587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-13 19:55:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 20:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 20:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 20:46:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 20:46:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 20:48:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 20:51:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 22:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:02:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:17:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:18:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:21:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:23:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:25:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:27:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-13 23:31:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-14 20:35:Program Success:52FF6F064882575140071587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-14 21:14:Program Success:52FF6A064882575123251087 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-15 21:58:Program Success:52FF6F064882575114551187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:00:Program Success:52FF65064882575130201387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:07:Program Success:52FF6A064882575123521787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:19:Program Success:52FF68064882575144521887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:20:Program Success:52FF6E064882575146261387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:23:Program Success:52FF6C064882575120361187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:25:Program Success:52FF6E064882575141181687 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:25:Program Success:52FF6E064882575141181687 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:27:Program Success:52FF6C064882575138441287 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:29:Program Success:52FF6F064882575135471587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:30:Program Success:52FF6A064882575129561187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:31:Program Success:52FF6B064882575149301887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:32:Program Success:52FF6B064882575132141187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:33:Program Success:52FF6B064882575133151587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-15 22:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:38:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:39:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:41:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:44:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:46:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:49:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:49:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:51:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:52:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:56:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 22:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:00:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:15:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-15 23:17:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 14:02:Program Success:52FF6D064882575129571287 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:03:Program Success:52FF6D064882575116411387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:05:Program Success:52FF6B064882575122541787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:06:Program Success:52FF6C064882575153531387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:08:Program Success:52FF67064882575136601587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:11:Program Success:52FF71064882575133071587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:12:Program Success:52FF6D064882575139091587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:12:Program Success:52FF6B064882575154501187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:14:Program Success:52FF6C064882575128221387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:16:Program Success:52FF68064882575121531387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:17:Program Success:52FF6F064882575133131587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:24:Program Success:52FF6A064882575136471587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:25:Program Success:52FF6A064882575133161587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:27:Program Success:52FF69064882575133431587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:28:Program Success:52FF68064882575135381587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:29:Program Success:52FF6D064882575129521187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:30:Program Success:52FF6D064882575149130987 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:32:Program Success:52FF68064882575149171887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:33:Program Success:52FF6B064882575138421587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:35:Program Success:52FF6C064882575153451387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:36:Program Success:52FF6C064882575133541587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 14:38:Program Success:52FF6B064882575122351787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-16 17:52:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 17:55:Program Success:52FF6B064882575122351787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-16 17:56:Program Success:52FF6C064882575120361187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-16 17:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 17:57:Program Success:30526B063050323164401057 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-16 17:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 17:58:Program Success:52FF6D064882575116411387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-16 17:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 17:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 17:59:Program Success:52FF6C064882575137201287 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-16 17:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:00:Program Success:52FF6D064882575139091587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-16 18:00:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:00:Program Success:52FF6F064882575114551187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-16 18:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:02:Program Success:52FF6C064882575153531387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-16 18:03:Program Success:52FF6D064882575129521187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-16 18:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:04:Program Success:52FF6D064882575149221887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-16 18:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:04:Program Success:52FF6B064882575133261587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-16 18:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:08:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:08:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:08:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:15:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:17:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:17:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-16 18:17:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 20:35:Program Success:52FF6E064882575135341587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 20:36:Program Success:52FF69064882575136441587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-18 20:36:Program Success:52FF69064882575136441587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 20:38:Program Success:52FF68064882575139131587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 20:39:Program Success:52FF6A064882575123511787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 20:40:Program Success:52FF6A064882575138521087 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 20:42:Program Success:52FF6F064882575133561387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 20:42:Program Success:52FF69064882575155501687 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 20:43:Program Success:52FF69064882575155501687 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 20:44:Program Success:52FF6F064882575133231587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 20:47:Program Success:52FF6C064882575133201587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 20:49:Program Success:52FF6B064882575139111587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 20:50:Program Success:52FF6A064882575139291587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 20:52:Program Success:52FF6A064882575133491587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 20:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 20:55:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 20:56:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 20:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 20:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:08:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:15:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:17:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:19:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:20:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:22:Program Success:52FF6B064882575133351587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 21:39:Program Success:52FF6D064882575133441587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 21:41:Program Success:52FF69064882575139221587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 21:42:Program Success:52FF68064882575149141887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 21:43:Program Success:52FF6C064882575139081587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 21:45:Program Success:52FF6F064882575115501187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 21:46:Program Success:52FF6F064882575149351887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 21:49:Program Success:52FF66064882575151470987 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-18 21:50:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:51:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:52:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:53:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:56:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 21:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:00:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:17:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:19:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:21:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:22:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:24:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 22:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 23:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 23:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 23:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 23:08:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 23:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 23:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 23:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 23:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-18 23:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-19 19:58:Program Success:52FF67064882575138271587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-19 20:06:Program Success:52FF6C064882575139181587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-22 00:33:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验1 跑马灯\USER\TEST.hex
+[2011-01-23 14:35:Program Success:52FF67064882575136601587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验1 跑马灯\USER\TEST.hex
+[2011-01-23 14:35:Program Success:52FF6A064882575149381887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-23 14:36:Program Success:52FF67064882575136601587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-23 14:36:Program Success:52FF6C064882575121431587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-23 14:37:Program Success:52FF69064882575119331487 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-23 14:38:Program Success:52FF6B064882575138450987 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-23 14:38:Program Success:52FF6F064882575122391787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-23 14:39:Program Success:52FF6C064882575128221387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-23 14:39:Program Success:52FF6E064882575135261587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-23 14:40:Program Success:52FF68064882575133101587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-23 14:40:Program Success:52FF66064882575136431587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-23 14:41:Program Success:52FF68064882575144331587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-23 14:49:Program Success:52FF66064882575134400987 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验1 跑马灯\USER\TEST.hex
+[2011-01-23 14:49:Program Success:52FF6F064882575135371587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-23 14:49:Program Success:52FF66064882575134400987 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-25 21:54:Program Success:52FF6B064882575149321887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-25 21:55:Program Success:52FF6B064882575133411587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验1 跑马灯\USER\TEST.hex
+[2011-01-25 21:58:Program Success:52FF6B064882575133411587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-25 22:00:Program Success:52FF68064882575136521587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-25 22:01:Program Success:52FF6D064882575133251587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-25 22:03:Program Success:52FF6B064882575136511587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-25 22:04:Program Success:52FF69064882575114371587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-25 22:06:Program Success:52FF6C064882575138491587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-25 22:08:Program Success:52FF69064882575133461587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-25 22:09:Program Success:52FF6B064882575117381387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-25 22:10:Program Success:52FF6B064882575149231887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-25 22:12:Program Success:52FF6C064882575135171587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-25 22:14:Program Success:52FF69064882575133461587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-25 22:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:17:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:19:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:31:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:38:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:39:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:43:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:44:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:44:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:46:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:48:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:49:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:50:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:52:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:53:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:55:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:56:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 22:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:02:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:08:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:20:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:20:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:22:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:23:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:24:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:25:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:27:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-25 23:31:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 20:33:Program Success:52FF6C064882575135201587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:34:Program Success:52FF6B064882575129101687 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:37:Program Success:52FF6E064882575155501187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:38:Program Success:52FF67064882575145591887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:39:Program Success:52FF68064882575133331587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:39:Program Success:52FF6D064882575136361587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:41:Program Success:52FF6C064882575135161587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:50:Program Success:52FF69064882575132071087 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:51:Program Success:52FF6D064882575149281887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:53:Program Success:52FF6A064882575137532387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:53:Program Success:52FF6A064882575137532387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:54:Program Success:52FF6A064882575122511787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:55:Program Success:52FF6B064882575137581487 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:56:Program Success:52FF6A064882575146391887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 20:59:Program Success:52FF66064882575136591587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:00:Program Success:52FF69064882575127421387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:01:Program Success:52FF6D064882575149461887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:09:Program Success:52FF6B064882575122421787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:11:Program Success:52FF68064882575140461387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:12:Program Success:52FF69064882575139101587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:13:Program Success:52FF69064882575149331887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:14:Program Success:52FF69064882575133301587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:15:Program Success:52FF6A064882575128581287 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:17:Program Success:52FF69064882575133551587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:18:Program Success:52FF6A064882575147350987 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:19:Program Success:52FF6A064882575153431387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:19:Program Success:52FF6C064882575149401887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:21:Program Success:52FF6B064882575142441287 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:22:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:23:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:24:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:25:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:26:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:27:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:34:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:40:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 21:50:Program Success:52FF6E064882575136581587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:51:Program Success:52FF6B064882575139301587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:54:Program Success:52FF6E064882575136581587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:55:Program Success:52FF6C064882575110431187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:55:Program Success:52FF68064882575145160987 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:57:Program Success:52FF6C064882575135061087 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:58:Program Success:52FF6E064882575131241087 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 21:59:Program Success:52FF68064882575138361587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 22:00:Program Success:52FF6D064882575136401587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 22:01:Program Success:52FF68064882575138361587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 22:02:Program Success:52FF6D064882575112241687 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-26 22:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:08:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:17:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:19:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:19:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:21:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:23:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:24:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:25:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:26:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:27:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:31:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:34:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:34:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 22:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:21:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:22:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:23:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:24:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:25:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:26:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:27:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:27:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:31:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:34:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:38:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:39:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:40:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:41:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:43:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:44:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:46:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-26 23:47:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-28 19:09:Program Success:52FF70064882575124491187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:10:Program Success:52FF6B064882575135141187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-28 19:11:Program Success:52FF6D064882575140131587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:11:Program Success:52FF6B064882575135141187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:20:Program Success:52FF6A064882575155461187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:21:Program Success:52FF6C064882575139080987 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:21:Program Success:52FF6D064882575133181587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:22:Program Success:52FF6A064882575122551787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:35:Program Success:52FF6A064882575135311587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:36:Program Success:52FF6D064882575118121587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:36:Program Success:52FF69064882575158441087 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:37:Program Success:52FF6C064882575135161587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:38:Program Success:52FF6A064882575133121587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:38:Program Success:52FF66064882575136591587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:38:Program Success:52FF6A064882575150141887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:39:Program Success:52FF6D064882575135281087 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:39:Program Success:52FF6D064882575140430987 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 19:39:Program Success:52FF6B064882575123171587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 20:16:Program Success:52FF69064882575122571787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 20:17:Program Success:52FF6E064882575140161587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 20:18:Program Success:52FF6D064882575127451087 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 20:19:Program Success:52FF6B064882575133371587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 20:19:Program Success:52FF66064882575140171587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 20:19:Program Success:52FF6D064882575116221587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 20:20:Program Success:52FF6D064882575133511587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 20:20:Program Success:52FF6B064882575144551887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 20:20:Program Success:52FF6B064882575137491587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 20:21:Program Success:52FF69064882575133281587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 20:22:Program Success:52FF68064882575133521587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 20:23:日志记录不属免费功能,请注册支持作者改进软件
+                                                               [2011-01-28 22:16:Program Success:52FF6B064882575114201587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 22:18:Program Success:52FF68064882575133331587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 22:19:Program Success:52FF6A064882575150381387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 22:20:Program Success:52FF68064882575153191387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 22:21:Program Success:52FF69064882575130441187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 22:22:Program Success:52FF68064882575135331587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 22:23:Program Success:52FF69064882575133321587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 22:23:Program Success:52FF6C064882575135491587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 22:24:Program Success:52FF6D064882575136491587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 22:25:Program Success:52FF6B064882575139301587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 22:26:Program Success:52FF71064882575134061687 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-28 22:27:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-28 22:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-28 22:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-28 22:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-28 22:31:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-28 22:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-28 22:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-28 22:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-28 22:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-28 22:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-28 22:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-30 19:48:Program Success:30526E063050323164411057 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-30 19:55:Program Success:52FF69064882575122591787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-30 19:56:Program Success:52FF6B064882575149231887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-30 19:57:Program Success:52FF6B064882575149451887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-30 21:25:Program Success:52FF6B064882575155511187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-30 21:41:Program Success:52FF6C064882575135201587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-30 21:50:Program Success:52FF6A064882575146391887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.hex
+[2011-01-31 19:38:Program Success:52FF69064882575133551587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:39:Program Success:52FF6A064882575128581287 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:39:Program Success:52FF6F064882575134071587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:41:Program Success:52FF6D064882575137511587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:43:Program Success:52FF6B064882575155511187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:44:Program Success:52FF69064882575121351187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:45:Program Success:52FF6D064882575140180987 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:45:Program Success:52FF6C064882575125101487 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:46:Program Success:52FF65064882575130201387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:47:Program Success:52FF6A064882575136191387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:49:Program Success:52FF6A064882575123541787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:50:Program Success:52FF6B064882575139191587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:51:Program Success:52FF66064882575123601787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:51:Program Success:52FF6B064882575107371387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:53:Program Success:52FF69064882575127421387 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 19:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 19:55:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 19:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 19:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 19:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:00:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:00:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:02:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:08:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-01-31 20:22:Program Success:52FF6B064882575139121587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 20:23:Program Success:52FF68064882575123531787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 20:24:Program Success:52FF6C064882575122321187 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 20:25:Program Success:52FF71064882575137481587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 20:26:Program Success:52FF6C064882575137581587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 20:27:Program Success:52FF6C064882575133451587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 20:28:Program Success:52FF6B064882575122451787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 20:29:Program Success:52FF6A064882575133171587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 20:30:Program Success:52FF6B064882575122421787 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 20:30:Program Success:52FF6C064882575137411587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-01-31 20:31:Program Success:52FF6C064882575136571587 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MiniSTM32开发板例程(V1.8)\ALIENTEK MINISTM32 实验29 ucGUI移植实验\Obj\uCOSDemo.hex
+[2011-02-06 00:12:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\测试实例\System.hex
+[2011-02-06 00:20:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\测试实例\System.hex
+[2011-02-06 00:22:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\测试实例\System.hex
+[2011-02-06 00:22:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\测试实例\System.hex
+[2011-02-06 00:22:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\测试实例\System.hex
+[2011-02-06 00:36:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\测试实例\System.hex
+[2011-02-11 21:33:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程\ALIENTEK MINISTM32 实验10 TFTLCD显示实验\USER\TEST.hex
+[2011-02-12 01:11:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-12 01:13:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程\ALIENTEK MINISTM32 实验10 TFTLCD显示实验\USER\TEST.hex
+[2011-02-12 01:14:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程\ALIENTEK MINISTM32 实验10 TFTLCD显示实验\USER\TEST.hex
+[2011-02-12 01:15:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-12 01:20:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程\ALIENTEK MINISTM32 实验10 TFTLCD显示实验\USER\TEST.hex
+[2011-02-12 01:22:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-12 01:28:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-12 01:30:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-12 01:35:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-13 01:10:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-13 01:10:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-13 01:11:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-13 01:20:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-13 01:26:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-13 01:28:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-13 01:30:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-13 01:42:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-13 01:42:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-13 01:42:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-13 01:44:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验\FATFSTest.hex
+[2011-02-13 01:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-14 23:02:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验 - Copy\FATFSTest.hex
+[2011-02-14 23:23:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\FATFA自己的实验 - Copy\FATFSTest.hex
+[2011-02-14 23:27:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-15 00:38:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-15 00:42:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-15 00:44:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-15 00:45:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 02:19:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 02:28:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 02:29:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 02:32:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 02:40:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 02:42:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 02:44:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 02:46:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 02:56:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 02:58:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 03:02:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 03:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 03:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 03:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 03:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 16:56:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 16:56:Program Success:52FF6D064882575137511587 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 16:56:Program Success:52FF6D064882575137511587 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-02-19 16:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 16:57:Program Success:52FF6D064882575137511587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-02-19 16:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 16:58:Program Success:52FF6D064882575140180987 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-02-19 16:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 16:59:Program Success:52FF6C064882575136571587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-02-19 16:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:00:Program Success:52FF6A064882575136191387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-02-19 17:00:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:00:Program Success:52FF69064882575127421387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-02-19 17:00:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:01:Program Success:52FF6C064882575137581587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-02-19 17:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:02:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:02:Program Success:52FF6B064882575138511387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-02-19 17:02:Program Success:52FF6B064882575149231887 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-02-19 17:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:03:Program Success:52FF71064882575137481587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-02-19 17:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:15:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:15:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:15:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-19 17:20:日志记录不属免费功能,请注册支持作者改进软件
+[2011-02-22 23:20:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-02-24 00:18:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程\ALIENTEK MINISTM32 实验18 触摸屏实验\USER\TEST.hex
+[2011-02-24 02:22:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\ALIENTEK MINISTM32 实验10 TFTLCD显示实验\USER\TEST.hex
+[2011-03-07 02:09:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-03-07 02:18:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-03-07 02:19:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-03-07 02:21:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-03-07 02:22:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\STM32学习\学习实例\V008BFATFA自己的实验-V008\FATFSTest.hex
+[2011-03-09 02:06:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 02:13:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 02:13:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 02:16:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 02:24:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 02:25:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 02:26:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 02:26:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 02:27:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 23:04:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 23:07:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 23:08:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 23:09:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 23:10:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 23:13:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 23:22:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 23:25:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 23:25:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 23:26:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 23:27:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-09 23:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-09 23:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-09 23:31:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-09 23:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-09 23:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-10 00:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-10 00:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-10 00:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-10 00:39:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-10 00:41:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-10 00:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-10 00:47:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-10 00:48:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-10 00:48:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-10 00:53:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-10 00:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-10 22:40:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-10 22:41:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-10 22:41:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-10 22:44:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-10 22:49:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-10 22:56:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-10 23:39:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-10 23:41:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-10 23:58:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-10 23:59:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-11 00:00:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-11 00:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-11 00:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-11 00:02:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-14 01:13:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-14 01:14:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-14 01:18:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-14 01:19:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-14 01:24:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-14 01:24:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-14 01:26:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-14 01:28:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-14 01:34:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-14 01:35:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-14 01:35:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Ucos\ALIENTEK MINISTM32 扩展实验8 ucos控制DS0 DS1亮灭\USER\TEST.hex
+[2011-03-14 01:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-14 01:39:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-14 01:40:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-14 01:41:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-14 01:41:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-14 01:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-14 01:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-14 01:44:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-14 01:48:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-14 01:48:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-14 01:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-20 01:46:Program Success:52FF68064882575149211887 C:\Users\eyygzzg\Desktop\ALIENTEK MINISTM32 实验7 定时器中断实验\USER\TEST.hex
+[2011-03-20 01:47:Program Success:52FF68064882575149211887 C:\Users\eyygzzg\Desktop\ALIENTEK MINISTM32 实验7 定时器中断实验\USER\TEST.hex
+[2011-03-20 01:48:Program Success:52FF68064882575149211887 C:\Users\eyygzzg\Desktop\ALIENTEK MINISTM32 实验7 定时器中断实验\USER\TEST.hex
+[2011-03-20 01:48:Program Success:52FF68064882575149211887 C:\Users\eyygzzg\Desktop\ALIENTEK MINISTM32 实验7 定时器中断实验\USER\TEST.hex
+[2011-03-20 01:50:Program Success:52FF68064882575149211887 C:\Users\eyygzzg\Desktop\ALIENTEK MINISTM32 实验7 定时器中断实验\USER\TEST.hex
+[2011-03-20 01:52:Program Success:52FF68064882575149211887 C:\Users\eyygzzg\Desktop\ALIENTEK MINISTM32 实验7 定时器中断实验\USER\TEST.hex
+[2011-03-20 01:53:Program Success:52FF68064882575149211887 C:\Users\eyygzzg\Desktop\ALIENTEK MINISTM32 实验7 定时器中断实验\USER\TEST.hex
+[2011-03-20 14:50:Program Success:52FF68064882575149211887 C:\Users\eyygzzg\Desktop\ALIENTEK MINISTM32 实验7 定时器中断实验\USER\TEST.hex
+[2011-03-20 15:06:Program Success:52FF68064882575149211887 C:\Users\eyygzzg\Desktop\ALIENTEK MINISTM32 实验7 定时器中断实验\USER\TEST.hex
+[2011-03-20 15:14:Program Success:52FF68064882575149211887 C:\Users\eyygzzg\Desktop\ALIENTEK MINISTM32 实验7 定时器中断实验\USER\TEST.hex
+[2011-03-21 21:51:Program Success:54FF6B064885525571580387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 21:53:Program Success:54FF67064885525546330787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 21:54:Program Success:54FF69064885525546360787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 21:55:Program Success:54FF6A064885525565660387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 21:56:Program Success:54FF67064885525546340787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 21:57:Program Success:54FF67064885525546340787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 21:59:Program Success:54FF67064885525557360587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 22:00:Program Success:54FF68064885525547540787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 22:03:Program Success:54FF6C064885525566680387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 22:20:Program Success:54FF6E064885525571660387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 22:23:Program Success:54FF6D064885525555390287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 22:25:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-21 22:27:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-21 22:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-21 22:31:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-21 22:45:Program Success:54FF6A064885525547550787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 22:47:Program Success:54FF6B064885525557370587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 22:52:Program Success:54FF6A064885525571640387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-21 23:58:Program Success:54FF6A064885525571640387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-21 23:58:Program Success:54FF6B064885525557370587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-22 00:00:Program Success:54FF6D064885525555540287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-22 00:01:Program Success:54FF68064885525547370787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-22 00:01:Program Success:54FF6D064885525555550287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-22 00:02:Program Success:54FF6C064885525566680387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-22 00:03:Program Success:54FF6B064885525571580387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-22 00:04:Program Success:54FF6B064885525555280287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-22 00:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-22 00:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-22 00:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-22 00:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-22 00:08:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-22 00:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-22 00:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-22 00:25:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-22 00:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-22 21:48:Program Success:54FF68064885525547260787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-27 22:17:Program Success:54FF6F064885525524510287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-27 22:17:Program Success:54FF6F064885525524510287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:18:Program Success:54FF6A064885525556740587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:19:Program Success:54FF68064885525555720587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:20:Program Success:54FF69064885525555760587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:23:Program Success:54FF68064885525560540587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:24:Program Success:54FF68064885525558290587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:25:Program Success:54FF6A064885525555650587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:27:Program Success:54FF69064885525559320587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:28:Program Success:54FF68064885525558770587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:30:Program Success:54FF67064885525557730587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 22:40:Program Success:54FF68064885525555710587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-27 22:50:Program Success:54FF68064885525559550587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:52:Program Success:54FF6B064885525566710387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:54:Program Success:54FF6B064885525556270587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:54:Program Success:54FF6A064885525560600587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:55:Program Success:54FF6A064885525524530287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:58:Program Success:54FF6B064885525571620687 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 22:59:Program Success:54FF68064885525559290587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:00:Program Success:54FF67064885525556750587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:01:Program Success:54FF69064885525577550387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:03:Program Success:54FF6A064885525559670587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:04:Program Success:54FF6A064885525559460587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:17:Program Success:54FF69064885525555740587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-27 23:18:Program Success:54FF69064885525555740587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:19:Program Success:54FF6E064885525557650587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:20:Program Success:54FF6B064885525560260587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:22:Program Success:54FF6C064885525557670587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:23:Program Success:54FF6A064885525559590587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:24:Program Success:54FF6A064885525558700587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:26:Program Success:54FF69064885525555670587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:27:Program Success:54FF68064885525577490387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:28:Program Success:54FF6D064885525560550587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:29:Program Success:54FF69064885525561260587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-27 23:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:31:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:31:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:38:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:39:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:39:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:40:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:41:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:43:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:44:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-27 23:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-28 23:24:Program Success:54FF6B064885525555590587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:27:Program Success:54FF6A064885525558760587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:28:Program Success:54FF68064885525559310587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:29:Program Success:54FF6A064885525557500587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:38:Program Success:54FF68064885525561580587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:40:Program Success:54FF6B064885525560430587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:40:Program Success:54FF67064885525558310587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:41:Program Success:54FF69064885525557740587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:42:Program Success:54FF67064885525558460587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:43:Program Success:54FF6C064885525522550287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:44:Program Success:54FF68064885525560500587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:45:Program Success:54FF6C064885525555560287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:46:Program Success:54FF6D064885525562730587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:47:Program Success:54FF6C064885525557460587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:48:Program Success:54FF6A064885525555690587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-28 23:48:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-28 23:49:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-28 23:50:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-28 23:52:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-28 23:53:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-28 23:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-28 23:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-28 23:56:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-29 22:56:Program Success:54FF67064885525557730587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-29 22:57:Program Success:54FF6B064885525538540687 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-29 22:59:Program Success:54FF6B064885525559260587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-29 23:01:Program Success:54FF6D064885525576430387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-29 23:02:Program Success:54FF6D064885525558380587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-29 23:03:Program Success:54FF69064885525559320587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-29 23:04:Program Success:54FF68064885525558770587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-29 23:05:Program Success:54FF6E064885525558490587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-29 23:06:Program Success:54FF6B064885525566710387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-29 23:07:Program Success:54FF6B064885525556270587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-29 23:08:Program Success:54FF69064885525555760587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-29 23:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-29 23:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-29 23:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-29 23:15:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-29 23:17:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-29 23:19:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-29 23:20:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 21:53:Program Success:54FF69064885525558280587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-30 21:53:Program Success:54FF69064885525558280587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 21:55:Program Success:54FF71064885525546470787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:08:Program Success:54FF67064885525559680587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:12:Program Success:54FF6A064885525561590587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:14:Program Success:54FF6A064885525526630287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:16:Program Success:54FF6A064885525560420587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:28:Program Success:54FF69064885525561560587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:32:Program Success:54FF6B064885525527560287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:33:Program Success:54FF6A064885525572560387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:36:Program Success:54FF6C064885525524440287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:39:Program Success:54FF69064885525546640787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:41:Program Success:54FF69064885525524480287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:44:Program Success:54FF6D064885525524490287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:46:Program Success:54FF6B064885525558650587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:48:Program Success:54FF67064885525560290587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:54:Program Success:54FF69064885525561630587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:57:Program Success:54FF69064885525558560587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-30 22:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:19:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:21:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:24:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:26:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:34:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:38:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:41:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:46:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:47:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:51:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:53:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:55:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-30 23:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:15:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:17:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:18:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:19:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:20:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:21:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:22:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:23:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:24:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:25:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:26:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:27:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:34:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:38:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:39:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 00:40:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 21:22:Program Success:54FF6B064885525572510387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 21:22:Program Success:54FF67064885525572500387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 21:23:Program Success:54FF66064885525557320587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 21:24:Program Success:54FF6A064885525560420587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 21:24:Program Success:54FF64064885525561700587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 21:25:Program Success:54FF6B064885525571380387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 21:43:Program Success:54FF70064885525572400387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 21:45:Program Success:54FF6B064885525546630787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 22:01:Program Success:54FF67064885525559430587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 22:43:Program Success:54FF6E064885525555660587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-31 22:44:Program Success:54FF6A064885525561570587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-31 22:48:Program Success:54FF6A064885525561570587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-31 22:50:Program Success:54FF6D064885525559360587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-31 22:52:Program Success:54FF6A064885525560250587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-31 22:53:Program Success:54FF6A064885525560250587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 22:54:Program Success:54FF6E064885525555660587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 22:55:Program Success:54FF6D064885525559360587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 22:55:Program Success:54FF6A064885525561570587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 22:56:Program Success:54FF6C064885525559650587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 22:57:Program Success:54FF68064885525566660387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 22:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 22:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 22:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:00:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:02:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:08:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:31:Program Success:54FF6B064885525560460587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-03-31 23:31:Program Success:54FF6B064885525560460587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 23:32:Program Success:54FF69064885525561660587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 23:33:Program Success:54FF6C064885525577500387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 23:34:Program Success:54FF69064885525557310587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 23:36:Program Success:54FF69064885525561560587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 23:37:Program Success:54FF6D064885525577450387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 23:38:Program Success:54FF6A064885525561590587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 23:38:Program Success:54FF69064885525546640787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 23:39:Program Success:54FF6D064885525561740587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 23:40:Program Success:54FF69064885525524480287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-03-31 23:41:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:44:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:49:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:50:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:52:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:55:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:56:日志记录不属免费功能,请注册支持作者改进软件
+[2011-03-31 23:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:15:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:18:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:19:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:20:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:21:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:23:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:23:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:25:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:27:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:38:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:39:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:40:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:43:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:46:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:47:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:48:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 00:51:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:15:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:15:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:17:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:17:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:18:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:19:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:20:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:21:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:22:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:22:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:23:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:24:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:25:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:25:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:26:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 01:37:Program Success:54FF69064885525565550387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-01 01:38:Program Success:54FF6C064885525574600687 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+                                                                                                              [2011-04-01 02:14:Program Success:54FF67064885525557400587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-01 02:15:Program Success:54FF6A064885525559300587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-01 02:15:Program Success:54FF69064885525524450287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-01 02:16:Program Success:54FF67064885525546670787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-01 02:17:Program Success:54FF66064885525546560787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-01 02:18:Program Success:54FF6F064885525561720587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-01 02:19:Program Success:54FF69064885525546660787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-01 02:20:Program Success:54FF6A064885525558430587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-01 02:20:Program Success:54FF69064885525525620287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-01 02:21:Program Success:54FF6C064885525566650387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-01 02:22:Program Success:54FF68064885525559620587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-01 22:29:Program Success:54FF67064885525559470587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-01 22:31:Program Success:54FF69064885525555690287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-01 22:33:Program Success:54FF6D064885525562750587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-01 22:35:Program Success:54FF6D064885525558480587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-01 22:36:Program Success:54FF69064885525522480287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-01 22:37:Program Success:54FF6B064885525526490287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-01 22:39:Program Success:54FF69064885525555730587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-01 22:39:Program Success:54FF6C064885525566640387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-01 22:40:Program Success:54FF68064885525525560287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-01 22:41:Program Success:54FF6D064885525556290587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-01 22:43:Program Success:54FF6D064885525556290587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-01 22:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 22:46:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 22:47:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 22:48:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 22:49:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 22:50:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 22:51:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 22:51:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 22:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 22:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 22:56:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 22:56:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 22:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 22:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 23:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 23:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-01 23:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:02:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:08:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:15:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:16:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:18:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:18:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:42:Program Success:54FF6D064885525570370387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-02 00:43:Program Success:54FF6B064885525571450387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-02 00:45:Program Success:54FF69064885525565580387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-02 00:46:Program Success:54FF6A064885525559700587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-02 00:47:Program Success:54FF6C064885525566690387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-02 00:47:Program Success:54FF66064885525559630587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-02 00:48:Program Success:54FF6B064885525558420587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-02 00:49:Program Success:54FF69064885525561510587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-02 00:49:Program Success:54FF6A064885525546620787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-02 00:51:Program Success:54FF68064885525525560287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-02 00:51:Program Success:54FF69064885525555730587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-02 00:52:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:53:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:53:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:55:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:56:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 00:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 01:00:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 01:00:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 01:01:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 01:02:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 01:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 01:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-02 01:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-04 00:56:Program Success:54FF6D064885525570360387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-04 00:57:Program Success:54FF6D064885525570360387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-04 00:58:Program Success:54FF66064885525546710787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-04 00:59:Program Success:54FF6A064885525555320287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-04 01:00:Program Success:54FF6B064885525525470287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-04 01:00:Program Success:54FF6C064885525526620287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-04 01:02:Program Success:54FF69064885525560740587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-04 01:03:Program Success:54FF6B064885525574610387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-04 01:04:Program Success:54FF65064885525574590387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-04 01:05:Program Success:54FF6C064885525557330587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-04 01:05:Program Success:54FF6A064885525559740587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 00:47:Program Success:54FF68064885525570390387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 00:48:Program Success:54FF6E064885525574630387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 00:49:Program Success:54FF6D064885525526580287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 00:49:Program Success:54FF68064885525529510287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 00:52:Program Success:54FF69064885525571560387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 00:58:Program Success:54FF6D064885525574560687 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 00:59:Program Success:54FF69064885525527480287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:00:Program Success:54FF6F064885525570540387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:00:Program Success:54FF68064885525560570587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:01:Program Success:54FF6B064885525560610587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:02:Program Success:54FF6D064885525570570387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:08:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:17:Program Success:54FF68064885525526370287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:19:Program Success:54FF6B064885525574640387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:20:Program Success:54FF6E064885525527380287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:21:Program Success:54FF6A064885525570590387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:22:Program Success:54FF68064885525525590287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:23:Program Success:54FF6B064885525557530587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:24:Program Success:54FF69064885525527460287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:25:Program Success:54FF6B064885525559710587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:26:Program Success:54FF68064885525570400387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:26:Program Success:54FF6B064885525560560587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:27:Program Success:54FF67064885525570610387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-08 01:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:34:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:38:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:39:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:40:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:44:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:44:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:46:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:47:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:48:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:50:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:51:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:51:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:52:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:52:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:53:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:53:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:55:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:56:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-08 01:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-10 23:37:Program Success:54FF6A064885525546420787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-10 23:37:Program Success:54FF6E064885525546500787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-10 23:38:Program Success:54FF69064885525528650287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-10 23:39:Program Success:54FF69064885525559410587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-10 23:55:Program Success:54FF6A064885525577530387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-10 23:55:Program Success:54FF69064885525527530287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-10 23:56:Program Success:54FF6A064885525571410387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-10 23:57:Program Success:54FF6A064885525523440287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-10 23:57:Program Success:54FF6A064885525574530387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-10 23:58:Program Success:54FF6B064885525525570287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-10 23:59:Program Success:54FF6D064885525571390387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-10 23:59:Program Success:54FF69064885525561530587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:00:Program Success:54FF6B064885525559730587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:01:Program Success:54FF6B064885525574520687 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:02:Program Success:54FF6A064885525546440787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 00:09:Program Success:54FF6C064885525527400287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:10:Program Success:54FF6D064885525546380787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:10:Program Success:54FF6E064885525555660287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:11:Program Success:54FF6F064885525555670287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:12:Program Success:54FF6D064885525572630387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:13:Program Success:54FF69064885525559600587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:23:Program Success:54FF69064885525557410587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:25:Program Success:54FF69064885525555750287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:25:Program Success:54FF68064885525565690387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:26:Program Success:54FF68064885525556770287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:27:Program Success:54FF6B064885525546450787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:28:Program Success:54FF6B064885525559510587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:28:Program Success:54FF6B064885525566700387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:29:Program Success:54FF6B064885525566700387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:30:Program Success:54FF6B064885525576460387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:30:Program Success:54FF6C064885525525530287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:31:Program Success:54FF6B064885525526500287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 00:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 00:34:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 00:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 00:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 00:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 00:40:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 00:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 00:43:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 00:52:Program Success:54FF6B064885525529520287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:53:Program Success:54FF69064885525546230787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:53:Program Success:54FF6A064885525546390787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:54:Program Success:54FF67064885525570550387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:55:Program Success:54FF69064885525561610587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:55:Program Success:54FF6B064885525562700587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:56:Program Success:54FF67064885525570620387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:57:Program Success:54FF6A064885525562720587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:58:Program Success:54FF68064885525546590787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:58:Program Success:54FF64064885525571530387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:59:Program Success:54FF6A064885525545740787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-11 00:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:00:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:00:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:02:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:02:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:03:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:06:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:07:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:08:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:09:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:10:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:12:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:13:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-11 01:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:16:Program Success:54FF66064885525557610587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:17:Program Success:54FF6A064885525522530287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:18:Program Success:54FF6A064885525558400587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:18:Program Success:54FF69064885525557450587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:19:Program Success:54FF6D064885525571670387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:21:Program Success:54FF6B064885525570560387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:21:Program Success:54FF69064885525566550387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:22:Program Success:54FF69064885525556320587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:23:Program Success:54FF6A064885525565570387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:24:Program Success:54FF6B064885525547400787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:25:Program Success:54FF6C064885525573390387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:27:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:40:Program Success:54FF6B064885525556760587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:41:Program Success:54FF6B064885525574550387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:41:Program Success:54FF6E064885525573660387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:42:Program Success:54FF6D064885525524540287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:43:Program Success:54FF6C064885525560440587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:43:Program Success:54FF66064885525565600387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:44:Program Success:54FF6D064885525572410387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:45:Program Success:54FF68064885525577480387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:46:Program Success:54FF69064885525526410287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:47:Program Success:54FF6C064885525558500587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:49:Program Success:54FF6B064885525557490587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 00:49:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:50:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:51:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:51:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:52:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:53:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:55:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:56:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:56:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 00:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 01:02:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 01:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 01:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 23:23:Program Success:54FF69064885525559420587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-13 23:24:Program Success:54FF69064885525559420587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-13 23:25:Program Success:54FF6C064885525573390387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-13 23:26:Program Success:54FF6A064885525558400587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-13 23:26:Program Success:54FF6B064885525547400787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-13 23:27:Program Success:54FF69064885525560470587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-13 23:28:Program Success:54FF6B064885525574550387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-13 23:29:Program Success:54FF68064885525577480387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-13 23:30:Program Success:54FF6A064885525565570387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-13 23:31:Program Success:54FF6A064885525561320587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-13 23:33:Program Success:54FF6D064885525572410387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-13 23:34:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 23:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 23:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 23:41:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 23:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 23:43:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 23:44:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 23:47:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 23:49:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 23:50:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 23:51:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 23:53:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-13 23:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-14 00:10:Program Success:54FF69064885525557450587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-14 00:20:Program Success:54FF69064885525557450587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-14 00:21:Program Success:54FF6A064885525522530287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-14 00:22:Program Success:54FF6A064885525558570587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-14 00:22:Program Success:54FF6A064885525558570587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-14 00:32:Program Success:54FF6B064885525561550587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-14 00:32:Program Success:54FF6B064885525561550587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-14 00:33:Program Success:54FF6A064885525565530387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-14 00:34:Program Success:54FF6F064885525526640287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-14 00:34:Program Success:54FF69064885525527550287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-14 00:51:Program Success:54FF6A064885525522530287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-14 00:59:Program Success:54FF66064885525557610587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-04-14 01:00:Program Success:54FF66064885525557610587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-14 01:01:Program Success:54FF6B064885525557490587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-14 01:02:Program Success:54FF6B064885525557490587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-14 01:04:Program Success:54FF6C064885525558500587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-20 23:42:Program Success:54FF6D064885525546380787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-20 23:43:Program Success:54FF6B064885525559510587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-20 23:44:Program Success:54FF6B064885525529520287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-20 23:44:Program Success:54FF67064885525570510387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-20 23:45:Program Success:54FF6C064885525527400287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-20 23:46:Program Success:54FF66064885525565510387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-20 23:47:Program Success:54FF6E064885525574630387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-20 23:48:Program Success:54FF69064885525570520387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 00:03:Program Success:54FF65064885525565540387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 00:04:Program Success:54FF67064885525526510287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 00:04:Program Success:54FF6A064885525559660587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 00:24:Program Success:54FF6A064885525523440287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 00:25:Program Success:54FF6A064885525545740787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 00:26:Program Success:54FF6B064885525526500287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 00:26:Program Success:54FF69064885525560640587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 00:27:Program Success:54FF6C064885525574540387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 00:28:Program Success:54FF6D064885525560580587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 00:29:Program Success:54FF69064885525547450787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 00:53:Program Success:54FF6E064885525526420287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 00:53:Program Success:54FF6A064885525557520587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 00:54:Program Success:54FF6A064885525561750587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 01:19:Program Success:54FF6A064885525562720587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 01:20:Program Success:54FF64064885525571530387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 01:21:Program Success:54FF6B064885525546450787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 01:22:Program Success:54FF67064885525570550387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 01:23:Program Success:54FF6D064885525566630387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 01:23:Program Success:54FF68064885525560570587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 01:25:Program Success:54FF6B064885525559640587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 01:25:Program Success:54FF69064885525574650387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 01:26:Program Success:54FF6D064885525526580287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 01:27:Program Success:54FF6B064885525576460387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 01:27:Program Success:54FF6E064885525555660287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-04-21 01:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:31:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:34:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:38:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:39:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:40:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:40:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:42:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:43:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:44:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:48:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:49:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:50:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:51:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:52:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:53:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:54:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:57:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:58:日志记录不属免费功能,请注册支持作者改进软件
+[2011-04-21 01:59:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-05 00:32:Program Success:52FF68064882575149211887 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-06 01:49:Program Success:52FF68064882575149211887 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-06 01:50:Program Success:52FF68064882575149211887 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植实验\USER\TEST.hex
+[2011-05-08 02:40:Program Success:54FF68064885525571420387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-08 02:45:Program Success:54FF69064885525546530787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-08 02:45:Program Success:54FF68064885525572390387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-08 02:48:Program Success:54FF6C064885525559520587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-08 02:59:Program Success:54FF69064885525522490287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-08 03:03:Program Success:54FF66064885525546700787 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-08 03:15:Program Success:54FF65064885525526600287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-08 03:16:Program Success:54FF6B064885525557390587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-08 03:20:Program Success:54FF6C064885525572670387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-08 03:21:Program Success:54FF6C064885525572670387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-08 03:23:Program Success:54FF69064885525526520287 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-08 03:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-08 03:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-08 03:38:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-08 03:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-08 15:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-08 15:11:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-08 15:14:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-08 15:20:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-08 15:24:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-08 15:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-08 15:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-08 15:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-08 15:44:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-09 00:20:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-09 00:24:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-09 00:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-09 00:58:Program Success:54FF68064885525571430387 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-09 01:02:Program Success:54FF69064885525558330587 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-09 01:24:Program Success:54FF6B064885525557250587 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-09 01:24:Program Success:54FF6A064885525557690587 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-09 01:25:Program Success:54FF6A064885525557690587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-09 01:26:Program Success:54FF6B064885525557250587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-09 01:27:Program Success:54FF69064885525561250587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-09 01:28:Program Success:54FF68064885525566580387 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-09 01:41:Program Success:54FF69064885525557280587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-09 01:44:Program Success:54FF68064885525561690587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-09 01:46:Program Success:54FF6D064885525561300587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-09 01:49:Program Success:54FF6B064885525557720587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-09 01:50:Program Success:54FF66064885525557760587 C:\Jackson\电子技术\Alientek资料\hex\TEST.hex
+[2011-05-09 22:52:Program Success:54FF69064885525570480387 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-09 22:53:Program Success:54FF69064885525570480387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:53:Program Success:54FF64064885525555770287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:54:Program Success:54FF6D064885525561600587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:54:Program Success:54FF6D064885525571670387 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-09 22:55:Program Success:54FF6D064885525571670387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:55:Program Success:54FF6A064885525560720587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:56:Program Success:54FF6C064885525560350587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:56:Program Success:54FF68064885525560320587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:56:Program Success:54FF6B064885525546740787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:57:Program Success:54FF68064885525529510287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:57:Program Success:54FF6D064885525555600587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:58:Program Success:54FF68064885525559290587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:58:Program Success:54FF6D064885525561290587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:58:Program Success:54FF6C064885525572670387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:58:Program Success:54FF6A064885525555320287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 22:59:Program Success:54FF69064885525524410287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 23:03:Program Success:54FF66064885525566540387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 23:03:Program Success:54FF65064885525529500287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 23:04:Program Success:54FF6B064885555107281487 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 23:04:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-09 23:05:Program Success:54FF6A064885525558710587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 23:05:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-09 23:23:Program Success:52FF67064882575136601587 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-09 23:23:Program Success:54FF70064885525561270587 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-09 23:24:Program Success:54FF70064885525561270587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 23:24:Program Success:52FF67064882575136601587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 23:36:Program Success:54FF68064885525560710587 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-09 23:36:Program Success:54FF6A064885555107381487 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 23:37:Program Success:54FF67064885525527630287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 23:37:Program Success:54FF68064885525560710587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 23:47:Program Success:54FF69064885525557630587 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-09 23:48:Program Success:54FF69064885525557630587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 23:48:Program Success:54FF68064885525570470387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 23:49:Program Success:54FF6B064885525557440587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-09 23:50:Program Success:54FF66064885525546700787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:00:Program Success:54FF69064885525561250587 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-10 00:00:Program Success:54FF69064885525561250587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:01:Program Success:54FF68064885525571540387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:02:Program Success:54FF69064885525566550387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:03:Program Success:54FF69064885525556240587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:04:Program Success:54FF6B064885525557720587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:05:Program Success:54FF6C064885525526620287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:05:Program Success:54FF6A064885525560530587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:06:Program Success:54FF6D064885525556290587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:07:Program Success:54FF65064885525545770787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:18:Program Success:54FF6E064885525527410287 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-10 00:18:Program Success:54FF6D064885525562740587 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-10 00:18:Program Success:54FF6E064885525527410287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:19:Program Success:54FF6D064885525562740587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:19:Program Success:54FF64064885525560680587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:19:Program Success:54FF69064885525557550587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:20:Program Success:54FF69064885525526520287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:20:Program Success:54FF6B064885525558730587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:21:Program Success:54FF69064885525547280787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:21:Program Success:54FF68064885525571470387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:22:Program Success:54FF6E064885525576440387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:22:Program Success:54FF69064885525555630287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:22:Program Success:54FF6B064885525526490287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:23:Program Success:54FF6C064885525547530787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:23:Program Success:54FF6A064885525573610387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:24:Program Success:54FF6B064885525545720787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:24:Program Success:54FF6C064885525546430787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:25:Program Success:54FF68064885525570410387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:25:Program Success:54FF6C064885525559520587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:26:Program Success:54FF68064885525526370287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:26:Program Success:54FF69064885525528630287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:26:Program Success:54FF6E064885525555580287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:27:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:27:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:28:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:29:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:30:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:31:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:31:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:32:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:33:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:34:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:34:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:35:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:36:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:37:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:38:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:38:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:39:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:39:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:40:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:40:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 00:52:Program Success:54FF69064885525555760287 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-10 00:52:Program Success:54FF6B064885525571490387 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-10 00:52:Program Success:54FF6B064885525571490387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:52:Program Success:54FF69064885525555760287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:53:Program Success:54FF68064885525559330587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:53:Program Success:54FF6A064885525557690587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:54:Program Success:54FF6B064885525558650587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 00:54:Program Success:54FF69064885525522490287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:05:Program Success:54FF6D064885525558440587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:05:Program Success:54FF69064885525559410587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:06:Program Success:54FF69064885525557280587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:06:Program Success:54FF68064885525561690587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:07:Program Success:54FF6A064885525558700587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:07:Program Success:54FF69064885525555670587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:08:Program Success:54FF66064885525557760587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:08:Program Success:54FF68064885525559540587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:09:Program Success:54FF68064885525570400387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:09:Program Success:54FF6E064885525538560687 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:10:Program Success:54FF6F064885525529530287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:10:Program Success:54FF68064885525546600787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:11:Program Success:54FF6A064885525526630287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:11:Program Success:54FF68064885525577490387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:12:Program Success:54FF69064885525557620587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:12:Program Success:54FF6D064885525561300587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:12:Program Success:54FF6B064885525557300587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:12:Program Success:54FF6D064885525558550587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:24:Program Success:54FF68064885525566580387 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-10 01:25:Program Success:54FF6A064885525526450287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:26:Program Success:54FF68064885525566580387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:27:Program Success:54FF6B064885525570350387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:27:Program Success:54FF67064885525560750587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:34:Program Success:54FF6B064885525547460787 C:\Users\eyygzzg\Desktop\其他\ENC28J60\ECN28J60自己移植奋斗板的实验\自己移植的奋斗板的ECN28J60实验\USER\TEST.hex
+[2011-05-10 01:35:Program Success:54FF6B064885525547460787 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:35:Program Success:54FF6B064885525556760587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:36:Program Success:54FF68064885525571370387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:36:Program Success:54FF6A064885525574530387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:37:Program Success:54FF68064885525560760587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:37:Program Success:54FF69064885525561540587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:38:Program Success:54FF69064885525572590387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:38:Program Success:54FF69064885525558530587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:39:Program Success:54FF6A064885525522530287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:39:Program Success:54FF6A064885525560590587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:39:Program Success:54FF6A064885525527450287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:40:Program Success:54FF69064885525526430287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:40:Program Success:54FF6B064885525566620387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:41:Program Success:54FF6A064885525555730287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:41:Program Success:54FF69064885525557560587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:42:Program Success:54FF67064885525566600387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:42:Program Success:54FF6A064885525566590387 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:43:Program Success:54FF69064885525560700587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:43:Program Success:54FF6A064885525523470287 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:44:Program Success:54FF6B064885525557590587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:44:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 01:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 01:45:Program Success:54FF6B064885525559500587 C:\Jackson\电子技术\Alientek资料\hex\uCOSDemo.hex
+[2011-05-10 01:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 01:45:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 01:46:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 01:46:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 01:47:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 01:47:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-10 01:48:日志记录不属免费功能,请注册支持作者改进软件
+[2011-05-24 22:56:Program Success:52FF68064882575149211887 C:\Jackson\电子技术\Alientek资料\ALIENTEK MiniSTM32开发板例程\ALIENTEK MINISTM32 实验24 汉字显示实验\USER\TEST.hex

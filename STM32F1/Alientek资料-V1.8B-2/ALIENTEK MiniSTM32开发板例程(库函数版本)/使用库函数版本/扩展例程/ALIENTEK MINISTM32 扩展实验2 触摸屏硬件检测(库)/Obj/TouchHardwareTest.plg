@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\王俊平资料\开发板CD盘\Alientek资料-V1.8B-2\ALIENTEK MiniSTM32开发板例程(库函数版本)\使用库函数版本\扩展例程\ALIENTEK MINISTM32 扩展实验2 触摸屏硬件检测(库)\TouchHardwareTest.uvproj
+Project File Date:  12/05/2010
+
+<h2>Output:</h2>
+Load "E:\\王俊平资料\\开发板CD盘\\Alientek资料-V1.8B-2\\ALIENTEK MiniSTM32开发板例程(库函数版本)\\使用库函数版本\\扩展例程\\ALIENTEK MINISTM32 扩展实验2 触摸屏硬件检测(库)\\Obj\\TouchHardwareTest.AXF" 
+_____^
+*** error 56: cant open file
+Build target 'FLASH'
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_cl.s...
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling eval.c...
+compiling SysTickDelay.c...
+compiling UART_INTERFACE.c...
+compiling 24cxx.c...
+compiling myiic.c...
+compiling touch.c...
+compiling LCD.c...
+compiling misc.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+linking...
+Program Size: Code=12612 RO-data=3128 RW-data=76 ZI-data=1052  
+FromELF: creating hex file...
+".\Obj\TouchHardwareTest.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\王俊平资料\\开发板CD盘\\Alientek资料-V1.8B-2\\ALIENTEK MiniSTM32开发板例程(库函数版本)\\使用库函数版本\\扩展例程\\ALIENTEK MINISTM32 扩展实验2 触摸屏硬件检测(库)\\Obj\\TouchHardwareTest.AXF" 
+Set JLink Project File to "E:\王俊平资料\开发板CD盘\Alientek资料-V1.8B-2\ALIENTEK MiniSTM32开发板例程(库函数版本)\使用库函数版本\扩展例程\ALIENTEK MINISTM32 扩展实验2 触摸屏硬件检测(库)\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Jul  1 2011 12:02:49
+Hardware: V8.00
+S/N : 20090626 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.319V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.

@@ -1,0 +1,266 @@
+C51 COMPILER V8.08   JF24C                                                                 12/28/2009 14:07:54 PAGE 1   
+
+
+C51 COMPILER V8.08, COMPILATION OF MODULE JF24C
+OBJECT MODULE PLACED IN jf24c.OBJ
+COMPILER INVOKED BY: D:\Keil\C51\BIN\C51.EXE jf24c.c ROM(SMALL) BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          /****************************************Copyright (c)****************************************************
+   2          **
+   3          **                                   安阳新世纪电子研究所    
+   4          **                                                  
+   5          **                                   http://www.ayxsj.com
+   6          **
+   7          **--------------File Info---------------------------------------------------------------------------------
+   8          **
+   9          ** File name:                   jf24.c
+  10          ** Last modified Date:  2009-09-16
+  11          ** Last Version:                V1.0
+  12          ** Descriptions:                
+  13          **
+  14          *********************************************************************************************************/
+  15          
+  16          #include<reg51.h>
+  17          #include<jf24c.h>          
+  18          #include<intrins.h>
+  19          
+  20          
+  21          unsigned char code REG7_IDLE[3] = {     7,0x00,0x00     };      //进入IDLE模式时，寄存器2的值
+  22          
+  23          unsigned char code REG7_TX[3] =   {     7,0x01,0x05     };      //进入TX模式时，寄存器7的值
+  24          
+  25          unsigned char code REG7_RX[3] = { 7,0x00,0x85   };      //进入RX模式时，寄存器7的值
+  26          
+  27          unsigned char code REG82_TX[3] = {      82,0x80,0x00    };      //清FIFO写指针，寄存器82的值    
+  28          
+  29          unsigned char code REG82_RX[3] = {      82,0x00,0x80    };      //清FIFO读指针，寄存器82的值            
+  30          
+  31          unsigned char code FRAME_TABLE[11][3] = {  
+  32                                  48,0x98,0x00,           //48号(引导码长度、同步头长度、Trailer长度)
+  33                                  49,0xFF,0x8F,           //49号积存器号、初始值高、低字节
+  34                                  50,0x50,0x14,           //50号积存器号、初始值高、低字节
+  35                                  51,0x50,0x52,           //51号积存器号、初始值高、低字节 
+  36                          52,0x80,0x01,           //52号（地址:同步头SYNC_WORD寄存器1）
+  37                                  53,0xAA,0x55,           //53号（地址:同步头SYNC_WORD寄存器4）
+  38                                  54,0xB7,0x5C,           //54号（地址:同步头SYNC_WORD寄存器3）
+  39                                  55,0xD6,0x18,           //55号（地址:同步头SYNC_WORD寄存器2）
+  40                                  56,0x44,0x04,           //56号积存器号、初始值高、低字节
+  41                                  57,0xE0,0x00,           //57号（控制CRC、SCRAMBLE、数据包长度、是由MCU处理数据）
+  42                                  0x0FF,0xFF,0xFF};
+  43          
+  44          unsigned char code RF_TABLE[][3]={
+  45                                  9,0x21,0x03,            // 9号积存器号、初始值高、低字节
+  46                                  0,0x35,0x4D,        // 0号积存器号、初始值高、低字节
+  47                                  2,0x1E,0x01,            // 2号积存器号、初始值高、低字节
+  48                                  4,0xBC,0xF0,            // 4号积存器号、初始值高、低字节
+  49                                  5,0x00,0xA1,            // 5号积存器号、初始值高、低字节
+  50                                  8,0x80,0x00,            // 8号积存器号、初始值高、低字节
+  51                                  10,0x00,0x04,           //10号积存器号、初始值高、低字节
+  52                                  11,0x40,0x41,           //11号积存器号、初始值高、低字节
+  53                                  12,0x80,0x00,           //12号积存器号、初始值高、低字节
+  54                                  13,0x00,0x00,           //13号积存器号、初始值高、低字节
+  55                                  14,0x16,0x9B,           //14号积存器号、初始值高、低字节
+C51 COMPILER V8.08   JF24C                                                                 12/28/2009 14:07:54 PAGE 2   
+
+  56                                  15,0x0D,0xED,           //15号积存器号、初始值高、低字节
+  57                                  16,0xB0,0x00,           //16号积存器号、初始值高、低字节
+  58                                  18,0xE0,0x00,           //18号积存器号、初始值高、低字节
+  59                                  19,0xA1,0x14,           //19号积存器号、初始值高、低字节
+  60                                  20,0x81,0x95,           //20号积存器号、初始值高、低字节
+  61                                  21,0x69,0x62,           //21号积存器号、初始值高、低字节
+  62                                  22,0x00,0x02,           //22号积存器号、初始值高、低字节
+  63                                  23,0x00,0x02,           //23号积存器号、初始值高、低字节
+  64                                  24,0xB1,0x40,           //24号积存器号、初始值高、低字节
+  65                                  25,0xA8,0x0F,           //25号积存器号、初始值高、低字节
+  66                                  26,0x3E,0x07,           //26号积存器号、初始值高、低字节
+  67                                  28,0x58,0x00,           //28号积存器号、初始值高、低字节
+  68                                  0xff,0xff,0xff
+  69                                  };
+  70          
+  71          //***************写一个字节***************************
+  72          void write_spi_byte(unsigned char spi_byte)
+  73          {
+  74   1              unsigned char i;
+  75   1              SPI_CLK=0;
+  76   1              SPI_MOSI=0;
+  77   1                for(i=0;i<8;i++)
+  78   1                      {
+  79   2                              if((spi_byte&0x80)!=0)
+  80   2                                      SPI_MOSI=1;
+  81   2                              else
+  82   2                                      SPI_MOSI=0;
+  83   2                              SPI_CLK=1;
+  84   2                              _nop_();
+  85   2                              SPI_CLK=0;
+  86   2                              spi_byte<<=1;
+  87   2                        }      
+  88   1      } 
+  89          //***************写三个字节****************************
+  90          void write_spi_reg(unsigned char reg_table[3])
+  91          {
+  92   1              SPI_SS=0;
+  93   1              write_spi_byte(reg_table[0]);
+  94   1              if((reg_table[0]<0x20))
+  95   1                      {
+  96   2                              _nop_();
+  97   2                              _nop_();
+  98   2                              _nop_();
+  99   2                      }
+ 100   1              write_spi_byte(reg_table[1]);
+ 101   1              write_spi_byte(reg_table[2]);
+ 102   1              if((reg_table[0]<0x20))
+ 103   1                      {
+ 104   2                              _nop_();
+ 105   2                              _nop_();
+ 106   2                              _nop_();
+ 107   2                      }
+ 108   1              SPI_SS=1;
+ 109   1      }
+ 110          
+ 111          //****************寄存器组初始化***********************
+ 112          void reg_init(unsigned char reg_table[][3])
+ 113          {
+ 114   1                      unsigned char i;
+ 115   1                      for(i=0;*(reg_table[i])!=0xFF;i++)
+ 116   1                       {
+ 117   2                              write_spi_reg(reg_table[i]);
+C51 COMPILER V8.08   JF24C                                                                 12/28/2009 14:07:54 PAGE 3   
+
+ 118   2                       }              
+ 119   1      }
+ 120          
+ 121          //*******************读取一个字节********************** 
+ 122          unsigned char read_spi_byte()
+ 123          {
+ 124   1              unsigned char i,spi_byte=0;
+ 125   1              SPI_CLK=0;
+ 126   1              SPI_MOSI=0;
+ 127   1                for(i=0;i<8;i++)
+ 128   1                      {
+ 129   2                              SPI_CLK=1;
+ 130   2                              if(SPI_MISO)
+ 131   2                                      spi_byte++;
+ 132   2                              SPI_CLK=0;
+ 133   2                              if(i<7)
+ 134   2                                      spi_byte<<=1;
+ 135   2                      }
+ 136   1              return(spi_byte);
+ 137   1      }  
+ 138          
+ 139          //*****************读取一个寄存器***********************
+ 140          void read_spi_reg(unsigned char reg_num,unsigned char read_data[2])
+ 141          {
+ 142   1              SPI_SS=0;
+ 143   1              reg_num|=0x80;
+ 144   1              write_spi_byte(reg_num);
+ 145   1              if(reg_num<0xa0)
+ 146   1                      {
+ 147   2                              _nop_();
+ 148   2                              _nop_();
+ 149   2                              _nop_();
+ 150   2                      }
+ 151   1              read_data[0]=read_spi_byte();
+ 152   1              read_data[1]=read_spi_byte();
+ 153   1              SPI_SS=1;
+ 154   1      }
+ 155           
+ 156          //*************jf24c初始化子函数************************   
+ 157          void rf_rst(void)
+ 158          {
+ 159   1              SPI_CLK=0;
+ 160   1              SPI_MOSI=0;
+ 161   1              RESET_N=0;
+ 162   1      
+ 163   1              _nop_();
+ 164   1              _nop_();
+ 165   1              _nop_();
+ 166   1      
+ 167   1              RESET_N=1;
+ 168   1      
+ 169   1              delay_1ms(3);
+ 170   1      
+ 171   1              reg_init(FRAME_TABLE);
+ 172   1      
+ 173   1              delay_1ms(2);
+ 174   1      
+ 175   1              reg_init(RF_TABLE);
+ 176   1      
+ 177   1              delay_1ms(2);
+ 178   1              enter_idle();
+ 179   1              
+C51 COMPILER V8.08   JF24C                                                                 12/28/2009 14:07:54 PAGE 4   
+
+ 180   1      }
+ 181          
+ 182          //**************发送数据************************
+ 183            void tx_data(unsigned char data_tx[N])
+ 184          {
+ 185   1              unsigned char i;
+ 186   1              enter_idle();
+ 187   1              _nop_();
+ 188   1              _nop_();
+ 189   1              _nop_();
+ 190   1              _nop_();
+ 191   1              _nop_();
+ 192   1              _nop_();
+ 193   1      
+ 194   1              write_spi_reg(REG82_TX);
+ 195   1      
+ 196   1              SPI_SS=0;
+ 197   1              write_spi_byte(80);
+ 198   1              write_spi_byte(N);
+ 199   1              for(i=0;i<N;i++)
+ 200   1              {
+ 201   2                      write_spi_byte(data_tx[i]);
+ 202   2              }
+ 203   1              SPI_SS=1;
+ 204   1      
+ 205   1              write_spi_reg(REG7_TX);
+ 206   1              while(!PKT_FLG);
+ 207   1                      
+ 208   1      }
+ 209          
+ 210          //******************接收**********************************
+ 211          void rx_data(unsigned char data_rx[N])
+ 212          {
+ 213   1              unsigned char i;
+ 214   1      
+ 215   1              enter_idle();
+ 216   1              write_spi_reg(REG82_RX);                //清FIFO读指针
+ 217   1              write_spi_reg(REG7_RX);                 //开RX并选择频道                
+ 218   1              while(!PKT_FLG);                                //等待就收标志
+ 219   1      
+ 220   1              SPI_SS=0;
+ 221   1              write_spi_byte(0xd0);                   //写FIFO地址
+ 222   1      
+ 223   1              while((read_spi_byte()!=N))     ;
+ 224   1      
+ 225   1              for(i=0;i<N;i++)
+ 226   1              {
+ 227   2                      data_rx[i]=read_spi_byte();
+ 228   2               }
+ 229   1               SPI_SS=1;
+ 230   1                      
+ 231   1      }
+ 232          
+ 233          /*********************************************************************************************************
+ 234            END FILE
+ 235          *********************************************************************************************************/
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    376    ----
+   CONSTANT SIZE    =    120    ----
+   XDATA SIZE       =   ----    ----
+C51 COMPILER V8.08   JF24C                                                                 12/28/2009 14:07:54 PAGE 5   
+
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----      10
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

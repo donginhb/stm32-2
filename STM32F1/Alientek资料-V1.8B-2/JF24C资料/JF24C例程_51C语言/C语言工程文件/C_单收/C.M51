@@ -1,0 +1,394 @@
+BL51 BANKED LINKER/LOCATER V6.05                                                        12/28/2009  14:08:48  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.05, INVOKED BY:
+D:\KEIL\C51\BIN\BL51.EXE jf24c.obj, rx.obj TO C
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  jf24c.obj (JF24C)
+  rx.obj (RX)
+  D:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+  D:\KEIL\C51\LIB\C51S.LIB (?C?CLDPTR)
+  D:\KEIL\C51\LIB\C51S.LIB (?C?CLDOPTR)
+  D:\KEIL\C51\LIB\C51S.LIB (?C?CSTPTR)
+  D:\KEIL\C51\LIB\C51S.LIB (?C?CSTOPTR)
+
+
+LINK MAP OF MODULE:  C (JF24C)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0037H     UNIT         _DATA_GROUP_
+            DATA    003FH     0003H     UNIT         ?DT?_TX_DATA?JF24C
+            IDATA   0042H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     007AH     UNIT         ?C?LIB_CODE
+            CODE    007DH     0078H     UNIT         ?CO?JF24C
+            CODE    00F5H     0051H     INBLOCK      ?PR?MAIN?RX
+            CODE    0146H     0048H     INBLOCK      ?PR?_TX_DATA?JF24C
+            CODE    018EH     0041H     INBLOCK      ?PR?_RX_DATA?JF24C
+            CODE    01CFH     0032H     INBLOCK      ?PR?_REG_INIT?JF24C
+            CODE    0201H     0032H     UNIT         ?CO?RX
+            CODE    0233H     002FH     INBLOCK      ?PR?RF_RST?JF24C
+            CODE    0262H     002EH     INBLOCK      ?PR?_WRITE_SPI_REG?JF24C
+            CODE    0290H     0024H     INBLOCK      ?PR?_READ_SPI_REG?JF24C
+            CODE    02B4H     001FH     INBLOCK      ?PR?_DELAY_1MS?RX
+            CODE    02D3H     001EH     INBLOCK      ?PR?_WRITE_SPI_BYTE?JF24C
+            CODE    02F1H     001EH     INBLOCK      ?PR?READ_SPI_BYTE?JF24C
+            CODE    030FH     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   C (JF24C)
+
+
+SEGMENT                             DATA_GROUP 
+  +--> CALLED SEGMENT             START    LENGTH
+-------------------------------------------------
+?C_C51STARTUP                     -----    -----
+  +--> ?PR?MAIN?RX
+
+?PR?MAIN?RX                       0008H    0033H
+BL51 BANKED LINKER/LOCATER V6.05                                                      12/28/2009  14:08:48  PAGE 2
+
+
+  +--> ?PR?_DELAY_1MS?RX
+  +--> ?PR?RF_RST?JF24C
+  +--> ?PR?_RX_DATA?JF24C
+  +--> ?CO?RX
+
+?PR?RF_RST?JF24C                  -----    -----
+  +--> ?PR?_DELAY_1MS?RX
+  +--> ?CO?JF24C
+  +--> ?PR?_REG_INIT?JF24C
+  +--> ?PR?_WRITE_SPI_REG?JF24C
+
+?PR?_REG_INIT?JF24C               003BH    0004H
+  +--> ?PR?_WRITE_SPI_REG?JF24C
+
+?PR?_WRITE_SPI_REG?JF24C          -----    -----
+  +--> ?PR?_WRITE_SPI_BYTE?JF24C
+
+?PR?_RX_DATA?JF24C                003BH    0003H
+  +--> ?CO?JF24C
+  +--> ?PR?_WRITE_SPI_REG?JF24C
+  +--> ?PR?_WRITE_SPI_BYTE?JF24C
+  +--> ?PR?READ_SPI_BYTE?JF24C
+
+
+
+SYMBOL TABLE OF MODULE:  C (JF24C)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        JF24C
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00B0H         PUBLIC        P3
+  B:00B0H.4       PUBLIC        SPI_MOSI
+  B:00B0H.7       PUBLIC        SPI_MISO
+  C:0233H         PUBLIC        rf_rst
+  C:007DH         PUBLIC        REG7_IDLE
+  C:0083H         PUBLIC        REG7_RX
+  C:0080H         PUBLIC        REG7_TX
+  B:00B0H.5       PUBLIC        SPI_CLK
+  B:0090H.3       PUBLIC        PKT_FLG
+  B:0090H.4       PUBLIC        RESET_N
+  C:008CH         PUBLIC        FRAME_TABLE
+  C:0089H         PUBLIC        REG82_RX
+  C:01CFH         PUBLIC        _reg_init
+  C:0086H         PUBLIC        REG82_TX
+  C:00ADH         PUBLIC        RF_TABLE
+  C:02F1H         PUBLIC        read_spi_byte
+  C:018EH         PUBLIC        _rx_data
+  C:0146H         PUBLIC        _tx_data
+  C:0290H         PUBLIC        _read_spi_reg
+  C:02D3H         PUBLIC        _write_spi_byte
+  B:0090H.2       PUBLIC        SPI_SS
+  C:0262H         PUBLIC        _write_spi_reg
+  -------         PROC          _WRITE_SPI_BYTE
+  D:0007H         SYMBOL        spi_byte
+BL51 BANKED LINKER/LOCATER V6.05                                                      12/28/2009  14:08:48  PAGE 3
+
+
+  -------         DO            
+  D:0006H         SYMBOL        i
+  -------         ENDDO         
+  C:02D3H         LINE#         72
+  C:02D3H         LINE#         73
+  C:02D3H         LINE#         75
+  C:02D5H         LINE#         76
+  C:02D7H         LINE#         77
+  C:02D9H         LINE#         78
+  C:02D9H         LINE#         79
+  C:02DDH         LINE#         80
+  C:02E1H         LINE#         82
+  C:02E3H         LINE#         83
+  C:02E5H         LINE#         84
+  C:02E6H         LINE#         85
+  C:02E8H         LINE#         86
+  C:02ECH         LINE#         87
+  C:02F0H         LINE#         88
+  -------         ENDPROC       _WRITE_SPI_BYTE
+  -------         PROC          _WRITE_SPI_REG
+  D:0001H         SYMBOL        reg_table
+  C:0262H         LINE#         90
+  C:0262H         LINE#         91
+  C:0262H         LINE#         92
+  C:0264H         LINE#         93
+  C:0269H         LINE#         94
+  C:0270H         LINE#         95
+  C:0270H         LINE#         96
+  C:0271H         LINE#         97
+  C:0272H         LINE#         98
+  C:0273H         LINE#         99
+  C:0273H         LINE#         100
+  C:027BH         LINE#         101
+  C:0283H         LINE#         102
+  C:028AH         LINE#         103
+  C:028AH         LINE#         104
+  C:028BH         LINE#         105
+  C:028CH         LINE#         106
+  C:028DH         LINE#         107
+  C:028DH         LINE#         108
+  C:028FH         LINE#         109
+  -------         ENDPROC       _WRITE_SPI_REG
+  -------         PROC          _REG_INIT
+  D:003BH         SYMBOL        reg_table
+  -------         DO            
+  D:003EH         SYMBOL        i
+  -------         ENDDO         
+  C:01CFH         LINE#         112
+  C:01D5H         LINE#         113
+  C:01D5H         LINE#         115
+  C:01EEH         LINE#         116
+  C:01EEH         LINE#         117
+  C:01FCH         LINE#         118
+  C:0200H         LINE#         119
+  -------         ENDPROC       _REG_INIT
+  -------         PROC          READ_SPI_BYTE
+  -------         DO            
+BL51 BANKED LINKER/LOCATER V6.05                                                      12/28/2009  14:08:48  PAGE 4
+
+
+  D:0006H         SYMBOL        i
+  D:0007H         SYMBOL        spi_byte
+  -------         ENDDO         
+  C:02F1H         LINE#         122
+  C:02F1H         LINE#         123
+  C:02F1H         LINE#         124
+  C:02F3H         LINE#         125
+  C:02F5H         LINE#         126
+  C:02F7H         LINE#         127
+  C:02F8H         LINE#         128
+  C:02F8H         LINE#         129
+  C:02FAH         LINE#         130
+  C:02FDH         LINE#         131
+  C:02FEH         LINE#         132
+  C:0300H         LINE#         133
+  C:0306H         LINE#         134
+  C:030AH         LINE#         135
+  C:030EH         LINE#         136
+  C:030EH         LINE#         137
+  -------         ENDPROC       READ_SPI_BYTE
+  -------         PROC          _READ_SPI_REG
+  D:0005H         SYMBOL        reg_num
+  D:0001H         SYMBOL        read_data
+  C:0290H         LINE#         140
+  C:0292H         LINE#         141
+  C:0292H         LINE#         142
+  C:0294H         LINE#         143
+  C:0297H         LINE#         144
+  C:029BH         LINE#         145
+  C:02A1H         LINE#         146
+  C:02A1H         LINE#         147
+  C:02A2H         LINE#         148
+  C:02A3H         LINE#         149
+  C:02A4H         LINE#         150
+  C:02A4H         LINE#         151
+  C:02A9H         LINE#         152
+  C:02B1H         LINE#         153
+  C:02B3H         LINE#         154
+  -------         ENDPROC       _READ_SPI_REG
+  -------         PROC          RF_RST
+  C:0233H         LINE#         157
+  C:0233H         LINE#         158
+  C:0233H         LINE#         159
+  C:0235H         LINE#         160
+  C:0237H         LINE#         161
+  C:0239H         LINE#         163
+  C:023AH         LINE#         164
+  C:023BH         LINE#         165
+  C:023CH         LINE#         167
+  C:023EH         LINE#         169
+  C:0242H         LINE#         171
+  C:024AH         LINE#         173
+  C:024EH         LINE#         175
+  C:0256H         LINE#         177
+  C:025AH         LINE#         178
+  -------         ENDPROC       RF_RST
+  -------         PROC          _TX_DATA
+BL51 BANKED LINKER/LOCATER V6.05                                                      12/28/2009  14:08:48  PAGE 5
+
+
+  D:003FH         SYMBOL        data_tx
+  -------         DO            
+  D:0005H         SYMBOL        i
+  -------         ENDDO         
+  C:0146H         LINE#         183
+  C:014CH         LINE#         184
+  C:014CH         LINE#         186
+  C:0154H         LINE#         187
+  C:0155H         LINE#         188
+  C:0156H         LINE#         189
+  C:0157H         LINE#         190
+  C:0158H         LINE#         191
+  C:0159H         LINE#         192
+  C:015AH         LINE#         194
+  C:0160H         LINE#         196
+  C:0162H         LINE#         197
+  C:0166H         LINE#         198
+  C:016AH         LINE#         199
+  C:016CH         LINE#         200
+  C:016CH         LINE#         201
+  C:017CH         LINE#         202
+  C:0180H         LINE#         203
+  C:0182H         LINE#         205
+  C:018AH         LINE#         206
+  C:018DH         LINE#         208
+  -------         ENDPROC       _TX_DATA
+  -------         PROC          _RX_DATA
+  D:003BH         SYMBOL        data_rx
+  -------         DO            
+  D:0005H         SYMBOL        i
+  -------         ENDDO         
+  C:018EH         LINE#         211
+  C:0194H         LINE#         212
+  C:0194H         LINE#         215
+  C:019CH         LINE#         216
+  C:01A2H         LINE#         217
+  C:01A8H         LINE#         218
+  C:01ABH         LINE#         220
+  C:01ADH         LINE#         221
+  C:01B1H         LINE#         223
+  C:01B6H         LINE#         225
+  C:01B8H         LINE#         226
+  C:01B8H         LINE#         227
+  C:01C8H         LINE#         228
+  C:01CCH         LINE#         229
+  C:01CEH         LINE#         231
+  -------         ENDPROC       _RX_DATA
+  -------         ENDMOD        JF24C
+
+  -------         MODULE        RX
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00B0H         PUBLIC        P3
+  C:02BCH         PUBLIC        _delay_1ms
+  D:0081H         PUBLIC        SP
+  C:00F5H         PUBLIC        main
+  B:0090H.6       PUBLIC        LED_RX
+BL51 BANKED LINKER/LOCATER V6.05                                                      12/28/2009  14:08:48  PAGE 6
+
+
+  B:0090H.5       PUBLIC        LED_TX
+  B:0090H.7       PUBLIC        KEY_TX
+  -------         PROC          L?0019
+  -------         ENDPROC       L?0019
+  -------         PROC          _DELAY_1MS
+  D:0007H         SYMBOL        n
+  -------         DO            
+  D:0006H         SYMBOL        i
+  D:0005H         SYMBOL        m
+  -------         ENDDO         
+  C:02BCH         LINE#         17
+  C:02BCH         LINE#         18
+  C:02BCH         LINE#         20
+  C:02C3H         LINE#         21
+  C:02C3H         LINE#         22
+  C:02C9H         LINE#         23
+  C:02CFH         LINE#         24
+  C:02D2H         LINE#         25
+  -------         ENDPROC       _DELAY_1MS
+  -------         PROC          MAIN
+  -------         DO            
+  D:0008H         SYMBOL        mm
+  D:003AH         SYMBOL        i
+  C:0201H         SYMBOL        tt
+  -------         ENDDO         
+  C:00F5H         LINE#         27
+  C:00F5H         LINE#         28
+  C:00F5H         LINE#         29
+  C:00F8H         LINE#         30
+  C:00FBH         LINE#         31
+  C:00FDH         LINE#         32
+  C:0100H         LINE#         34
+  C:0104H         LINE#         35
+  C:0106H         LINE#         39
+  C:0106H         LINE#         40
+  C:0106H         LINE#         41
+  C:0106H         LINE#         42
+  C:0109H         LINE#         47
+  C:0109H         LINE#         48
+  C:0109H         LINE#         52
+  C:0111H         LINE#         57
+  C:0115H         LINE#         58
+  C:0117H         LINE#         59
+  C:0119H         LINE#         60
+  C:011BH         LINE#         63
+  C:011EH         LINE#         64
+  C:011EH         LINE#         65
+  C:012EH         LINE#         66
+  C:012EH         LINE#         67
+  C:0131H         LINE#         68
+  C:0133H         LINE#         69
+  C:0133H         LINE#         70
+  C:013CH         LINE#         73
+  C:0141H         LINE#         74
+  C:0141H         LINE#         78
+  C:0141H         LINE#         79
+  C:0141H         LINE#         80
+BL51 BANKED LINKER/LOCATER V6.05                                                      12/28/2009  14:08:48  PAGE 7
+
+
+  C:0141H         LINE#         81
+  C:0144H         LINE#         82
+  C:0144H         LINE#         83
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        RX
+
+  -------         MODULE        ?C?CLDPTR
+  C:0003H         PUBLIC        ?C?CLDPTR
+  -------         ENDMOD        ?C?CLDPTR
+
+  -------         MODULE        ?C?CLDOPTR
+  C:001CH         PUBLIC        ?C?CLDOPTR
+  -------         ENDMOD        ?C?CLDOPTR
+
+  -------         MODULE        ?C?CSTPTR
+  C:0049H         PUBLIC        ?C?CSTPTR
+  -------         ENDMOD        ?C?CSTPTR
+
+  -------         MODULE        ?C?CSTOPTR
+  C:005BH         PUBLIC        ?C?CSTOPTR
+  -------         ENDMOD        ?C?CSTOPTR
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_READ_SPI_REG?JF24C
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TX_DATA?JF24C
+
+Program Size: data=67.0 xdata=0 code=795
+LINK/LOCATE RUN COMPLETE.  2 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,261 @@
+C51 COMPILER V8.08   JF24C_整理                                                            09/16/2009 09:32:20 PAGE 1   
+
+
+C51 COMPILER V8.08, COMPILATION OF MODULE JF24C_整理
+OBJECT MODULE PLACED IN jf24c_整理.OBJ
+COMPILER INVOKED BY: d:\Keil\C51\BIN\C51.EXE jf24c_整理.c ROM(SMALL) BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          /****************************************Copyright (c)****************************************************
+   2          **                                安阳新世纪电子研究所                                                    
+             -  
+   3          **                               http://www.ayxsj.com
+   4          **--------------File Info---------------------------------------------------------------------------------
+   5          ** File name:                   jf24.c
+   6          ** Last modified Date:          2009-09-16
+   7          ** Last Version:                V1.0
+   8          ** Descriptions:                
+   9          *********************************************************************************************************/
+  10          
+  11          #include<reg51.h>
+  12          #include<jf24c.h>
+  13          #include<intrins.h>
+  14          
+  15          
+  16          unsigned char code REG7_IDLE[3] = {     7,0x00,0x00     };      //进入IDLE模式时，寄存器2的值
+  17          
+  18          unsigned char code REG7_TX[3] =   {     7,0x01,0x05     };      //进入TX模式时，寄存器7的值
+  19          
+  20          unsigned char code REG7_RX[3] =   {     7,0x00,0x85     };      //进入RX模式时，寄存器7的值
+  21          
+  22          unsigned char code REG82_TX[3] = {      82,0x80,0x00    };      //清FIFO写指针，寄存器82的值    
+  23          
+  24          unsigned char code REG82_RX[3] = {      82,0x00,0x80    };      //清FIFO读指针，寄存器82的值    
+  25          
+  26          unsigned char code REG10_SLEEP[3] = {   10,0x80,0x04    };      //进入SLEEP模式，寄存器10的值
+  27                  
+  28          
+  29          unsigned char code FRAME_TABLE[11][3] = {  
+  30                                  48,0x98,0x00,   //48号(引导码长度、同步头长度、Trailer长度)
+  31                                  49,0xFF,0x8F,   //49号积存器号、初始值高、低字节
+  32                                  50,0x50,0x14,   //50号积存器号、初始值高、低字节
+  33                                  51,0x50,0x52,   //51号积存器号、初始值高、低字节 
+  34                                  52,0x80,0x01,   //52号（地址:同步头SYNC_WORD寄存器1）
+  35                                  53,0xAA,0x55,   //53号（地址:同步头SYNC_WORD寄存器4）
+  36                                  54,0xB7,0x5C,   //54号（地址:同步头SYNC_WORD寄存器3）
+  37                                  55,0xD6,0x18,   //55号（地址:同步头SYNC_WORD寄存器2）
+  38                                  56,0x44,0x04,   //56号积存器号、初始值高、低字节
+  39                                  57,0xE0,0x00,   //57号（控制CRC、SCRAMBLE、数据包长度、是由MCU处理数据）
+  40                                  0x0FF,0xFF,0xFF};
+  41          
+  42          unsigned char code RF_TABLE[][3]={
+  43                                  9,0x21,0x03,
+  44                                  0,0x35,0x4D,
+  45                                  2,0x1E,0x01,
+  46                                  4,0xBC,0xF0,
+  47                                  5,0x00,0xA1,
+  48                                  8,0x80,0x00,
+  49                                  10,0x00,0x04,
+  50                                  11,0x40,0x41,
+  51                                  12,0x80,0x00,
+  52                                  13,0x00,0x00,
+  53                                  14,0x16,0x9B,
+  54                                  15,0x0D,0xED,
+C51 COMPILER V8.08   JF24C_整理                                                            09/16/2009 09:32:20 PAGE 2   
+
+  55                                  16,0xB0,0x00,
+  56                                  18,0xE0,0x00,
+  57                                  19,0xA1,0x14,
+  58                                  20,0x81,0x95,
+  59                                  21,0x69,0x62,
+  60                                  22,0x00,0x02,
+  61                                  23,0x00,0x02,
+  62                                  24,0xB1,0x40,
+  63                                  25,0xA8,0x0F,
+  64                                  26,0x3E,0x07,
+  65                                  28,0x58,0x00,
+  66                                  0xff,0xff,0xff
+  67                                  };
+  68          
+  69          //写一个字节
+  70          void write_spi_byte(unsigned char spi_byte)
+  71          {
+  72   1              unsigned char i;
+  73   1              SPI_CLK=0;
+  74   1              SPI_MOSI=0;
+  75   1                for(i=0;i<8;i++)
+  76   1                      {
+  77   2                              if((spi_byte&0x80)!=0)
+  78   2                                      SPI_MOSI=1;
+  79   2                              else
+  80   2                                      SPI_MOSI=0;
+  81   2                              SPI_CLK=1;
+  82   2                              _nop_();
+  83   2                              SPI_CLK=0;
+  84   2                              spi_byte<<=1;
+  85   2                        }      
+  86   1      } 
+  87          //
+  88          void write_spi_reg(unsigned char reg_table[3])
+  89          {
+  90   1              SPI_SS=0;
+  91   1              write_spi_byte(reg_table[0]);
+  92   1              if((reg_table[0]<0x20))
+  93   1                      {
+  94   2                              _nop_();
+  95   2                              _nop_();
+  96   2                              _nop_();
+  97   2                      }
+  98   1              write_spi_byte(reg_table[1]);
+  99   1              write_spi_byte(reg_table[2]);
+ 100   1              if((reg_table[0]<0x20))
+ 101   1                      {
+ 102   2                              _nop_();
+ 103   2                              _nop_();
+ 104   2                              _nop_();
+ 105   2                      }
+ 106   1              SPI_SS=1;
+ 107   1      }
+ 108          
+ 109          void reg_init(unsigned char reg_table[][3])
+ 110          {
+ 111   1                      unsigned char i;
+ 112   1                      for(i=0;*(reg_table[i])!=0xFF;i++)
+ 113   1                       {
+ 114   2                              write_spi_reg(reg_table[i]);
+ 115   2                       }              
+ 116   1      }
+C51 COMPILER V8.08   JF24C_整理                                                            09/16/2009 09:32:20 PAGE 3   
+
+ 117           
+ 118          unsigned char read_spi_byte()
+ 119          {
+ 120   1              unsigned char i,spi_byte=0;
+ 121   1              SPI_CLK=0;
+ 122   1              SPI_MOSI=0;
+ 123   1                for(i=0;i<8;i++)
+ 124   1                      {
+ 125   2                              SPI_CLK=1;
+ 126   2                              if(SPI_MISO)
+ 127   2                                      spi_byte++;
+ 128   2                              SPI_CLK=0;
+ 129   2                              if(i<7)
+ 130   2                                      spi_byte<<=1;
+ 131   2                      }
+ 132   1              return(spi_byte);
+ 133   1      }  
+ 134          
+ 135          unsigned char *read_spi_reg(unsigned char reg_num)
+ 136          {
+ 137   1              unsigned char read_data[2];
+ 138   1              SPI_SS=0;
+ 139   1              reg_num|=0x80;
+ 140   1              write_spi_byte(reg_num);
+ 141   1              if(reg_num<0xa0)
+ 142   1                      {
+ 143   2                              _nop_();
+ 144   2                              _nop_();
+ 145   2                              _nop_();
+ 146   2                      }
+ 147   1              read_data[0]=read_spi_byte();
+ 148   1              read_data[1]=read_spi_byte();
+ 149   1              SPI_SS=1;
+ 150   1              return(read_data);
+ 151   1      }
+ 152             
+ 153          void rf_rst(void)
+ 154          {
+ 155   1              SPI_CLK=0;
+ 156   1              SPI_MOSI=0;
+ 157   1              RESET_N=0;
+ 158   1      
+ 159   1              _nop_();
+ 160   1              _nop_();
+ 161   1              _nop_();
+ 162   1      
+ 163   1              RESET_N=1;
+ 164   1      
+ 165   1              delay_1ms(3);
+ 166   1      
+ 167   1              reg_init(FRAME_TABLE);
+ 168   1      
+ 169   1              delay_1ms(2);
+ 170   1      
+ 171   1              reg_init(RF_TABLE);
+ 172   1      
+ 173   1              delay_1ms(2);
+ 174   1              enter_idle();
+ 175   1              
+ 176   1      }
+ 177          
+ 178            void tx_data(unsigned char data_tx[N])
+C51 COMPILER V8.08   JF24C_整理                                                            09/16/2009 09:32:20 PAGE 4   
+
+ 179          {
+ 180   1              unsigned char i;
+ 181   1              enter_idle();
+ 182   1              _nop_();
+ 183   1              _nop_();
+ 184   1              _nop_();
+ 185   1              _nop_();
+ 186   1              _nop_();
+ 187   1              _nop_();
+ 188   1      
+ 189   1              write_spi_reg(REG82_TX);
+ 190   1              write_spi_reg(REG7_TX);
+ 191   1      
+ 192   1              SPI_SS=0;
+ 193   1              write_spi_byte(80);
+ 194   1              write_spi_byte(N);
+ 195   1              for(i=0;i<N;i++)
+ 196   1                      {
+ 197   2                              write_spi_byte(data_tx[i]);
+ 198   2                       }
+ 199   1              SPI_SS=1;
+ 200   1      
+ 201   1              while(!PKT_FLG);
+ 202   1                      
+ 203   1      }
+ 204          
+ 205          unsigned char *rx_data()
+ 206          {
+ 207   1              unsigned char data_rx[N],i;
+ 208   1      
+ 209   1              enter_idle();
+ 210   1              write_spi_reg(REG82_RX);
+ 211   1              write_spi_reg(REG7_RX);
+ 212   1              while(!PKT_FLG);
+ 213   1              SPI_SS=0;
+ 214   1              write_spi_byte(0xd0);
+ 215   1      
+ 216   1              while((read_spi_byte()!=N))
+ 217   1                      ;
+ 218   1      
+ 219   1              for(i=0;i<N;i++)
+ 220   1              {
+ 221   2                      data_rx[i]=read_spi_byte();
+ 222   2               }
+ 223   1               SPI_SS=1;
+ 224   1               return(data_rx);
+ 225   1                      
+ 226   1      }
+ 227          /*********************************************************************************************************
+ 228            END FILE
+ 229          *********************************************************************************************************/
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    367    ----
+   CONSTANT SIZE    =    123    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----      59
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+C51 COMPILER V8.08   JF24C_整理                                                            09/16/2009 09:32:20 PAGE 5   
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

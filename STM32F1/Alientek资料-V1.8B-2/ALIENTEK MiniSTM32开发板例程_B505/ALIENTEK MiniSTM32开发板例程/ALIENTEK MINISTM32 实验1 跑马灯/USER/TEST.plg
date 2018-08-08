@@ -1,0 +1,22 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\王俊平资料\开发板CD盘\Alientek资料-V1.8B-2\ALIENTEK MiniSTM32开发板例程_B505\ALIENTEK MiniSTM32开发板例程\ALIENTEK MINISTM32 实验1 跑马灯\USER\TEST.uvproj
+Project File Date:  12/20/2011
+
+<h2>Output:</h2>
+Load "E:\\王俊平资料\\开发板CD盘\\Alientek资料-V1.8B-2\\ALIENTEK MiniSTM32开发板例程_B505\\ALIENTEK MiniSTM32开发板例程\\ALIENTEK MINISTM32 实验1 跑马灯\\USER\\TEST.AXF" 
+Set JLink Project File to "E:\王俊平资料\开发板CD盘\Alientek资料-V1.8B-2\ALIENTEK MiniSTM32开发板例程_B505\ALIENTEK MiniSTM32开发板例程\ALIENTEK MINISTM32 实验1 跑马灯\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20090626 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+**JLink Warning: No matching core found.
+***JLink Error: SWD-DP error: Could not write Ctrl/Stat register.

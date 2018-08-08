@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>礦ision3 Build Log</h1>
+<h2>Project:</h2>
+E:\王俊平资料\开发板CD盘\Alientek资料-V1.8B-2\ALIENTEK MiniSTM32开发板例程_B505\ALIENTEK MiniSTM32开发板例程\ALIENTEK MINISTM32 实验28 综合测试实验\USER\TEST.uv2
+Project File Date:  05/21/2012
+
+<h2>Output:</h2>
+Load "E:\\王俊平资料\\开发板CD盘\\Alientek资料-V1.8B-2\\ALIENTEK MiniSTM32开发板例程_B505\\ALIENTEK MiniSTM32开发板例程\\ALIENTEK MINISTM32 实验28 综合测试实验\\USER\\TEST.AXF" 
+Info: TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Info: TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+***JLink Error: Could not find supported CPU core on JTAG chain
+Info: TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Info: TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+Load "E:\\王俊平资料\\开发板CD盘\\Alientek资料-V1.8B-2\\ALIENTEK MiniSTM32开发板例程_B505\\ALIENTEK MiniSTM32开发板例程\\ALIENTEK MINISTM32 实验28 综合测试实验\\USER\\TEST.AXF" 
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3, Little endian.
+Info: TPIU fitted.
+Info: ETM fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3, Little endian.
+Info: TPIU fitted.
+Info: ETM fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+DLL version V3.81b, compiled Mar 14 2008 18:27:25
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          0
+Found 2 JTAG devices, Total IRLen = 9:
+ Id of device #0: 0x3BA00477
+ Id of device #1: 0x06414041
+Cortex-M3 identified.
+JTAG speed: 5 kHz
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3, Little endian.
+Info: TPIU fitted.
+Info: ETM fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+JTAG speed: 1000 kHz
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3, Little endian.
+Info: TPIU fitted.
+Info: ETM fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+JTAG speed: 1000 kHz
+Erase Done.
+Programming Done.
+Verify OK.
+Load "E:\\王俊平资料\\开发板CD盘\\Alientek资料-V1.8B-2\\ALIENTEK MiniSTM32开发板例程_B505\\ALIENTEK MiniSTM32开发板例程\\ALIENTEK MINISTM32 实验28 综合测试实验\\USER\\TEST.AXF" 
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3, Little endian.
+Info: TPIU fitted.
+Info: ETM fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3, Little endian.
+Info: TPIU fitted.
+Info: ETM fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+DLL version V3.81b, compiled Mar 14 2008 18:27:25
+Firmware: J-Link ARM V8 compiled Sep  2 2011 17:54:36
+Hardware: V8.00
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          0
+Found 2 JTAG devices, Total IRLen = 9:
+ Id of device #0: 0x3BA00477
+ Id of device #1: 0x06414041
+Cortex-M3 identified.
+JTAG speed: 5 kHz
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3, Little endian.
+Info: TPIU fitted.
+Info: ETM fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+JTAG speed: 1000 kHz
+Info: TotalIRLen = 9, IRPrint = 0x0011
+Info: Found Cortex-M3, Little endian.
+Info: TPIU fitted.
+Info: ETM fitted.
+Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+JTAG speed: 1000 kHz
+Erase Done.
+Programming Done.
+Verify OK.

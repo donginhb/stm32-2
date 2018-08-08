@@ -1,0 +1,1 @@
+--device DARMSTM --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil\ARM\INC\ST\STM32F10x" --list ".\os_cpu_a.lst" --xref -o ".\os_cpu_a.o" "..\UCOSII\PORT\os_cpu_a.asm"

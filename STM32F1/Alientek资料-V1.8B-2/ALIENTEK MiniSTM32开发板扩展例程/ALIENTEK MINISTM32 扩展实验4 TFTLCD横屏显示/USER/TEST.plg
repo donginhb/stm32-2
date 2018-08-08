@@ -1,0 +1,92 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+F:\学习\STM32\Alientek资料-V1.8B-2\ALIENTEK MiniSTM32开发板扩展例程\ALIENTEK MINISTM32 扩展实验4 TFTLCD横屏显示\USER\TEST.uvproj
+Project File Date:  <unknown>
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STM32F10x.s...
+compiling test.c...
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling led.c...
+compiling key.c...
+compiling exti.c...
+compiling wdg.c...
+compiling timer.c...
+compiling ILI93xx.c...
+linking...
+Program Size: Code=9714 RO-data=2970 RW-data=16 ZI-data=608  
+FromELF: creating hex file...
+"TEST.axf" - 0 Error(s), 0 Warning(s).
+Load "F:\\学习\\STM32\\Alientek资料-V1.8B-2\\ALIENTEK MiniSTM32开发板扩展例程\\ALIENTEK MINISTM32 扩展实验4 TFTLCD横屏显示\\USER\\TEST.AXF" 
+Set JLink Project File to "F:\学习\STM32\Alientek资料-V1.8B-2\ALIENTEK MiniSTM32开发板扩展例程\ALIENTEK MINISTM32 扩展实验4 TFTLCD横屏显示\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Could not measure total IR len. TDO is constant high.
+**JLink Warning: No matching core found.
+* JLink Info: Could not measure total IR len. TDO is constant high.
+* JLink Info: Could not measure total IR len. TDO is constant high.
+* JLink Info: Resetting target using RESET pin
+* JLink Info: Halting CPU core
+**JLink Warning: Received 0 as core Id.
+***JLink Error: Could not find supported CPU core on JTAG chain
+Bad JTAG communication: Write to IR: Expected 0x1, got 0x7 (TAP Command : 2) @ Off 0x5.
+Load "F:\\学习\\STM32\\Alientek资料-V1.8B-2\\ALIENTEK MiniSTM32开发板扩展例程\\ALIENTEK MINISTM32 扩展实验4 TFTLCD横屏显示\\USER\\TEST.AXF" 
+Set JLink Project File to "F:\学习\STM32\Alientek资料-V1.8B-2\ALIENTEK MiniSTM32开发板扩展例程\ALIENTEK MINISTM32 扩展实验4 TFTLCD横屏显示\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Could not measure total IR len. TDO is constant high.
+**JLink Warning: No matching core found.
+* JLink Info: Could not measure total IR len. TDO is constant high.
+* JLink Info: Could not measure total IR len. TDO is constant high.
+* JLink Info: Resetting target using RESET pin
+* JLink Info: Halting CPU core
+**JLink Warning: Received 0 as core Id.
+***JLink Error: Could not find supported CPU core on JTAG chain
+Bad JTAG communication: Write to IR: Expected 0x1, got 0x7 (TAP Command : 2) @ Off 0x5.
+Load "F:\\学习\\STM32\\Alientek资料-V1.8B-2\\ALIENTEK MiniSTM32开发板扩展例程\\ALIENTEK MINISTM32 扩展实验4 TFTLCD横屏显示\\USER\\TEST.AXF" 
+Set JLink Project File to "F:\学习\STM32\Alientek资料-V1.8B-2\ALIENTEK MiniSTM32开发板扩展例程\ALIENTEK MINISTM32 扩展实验4 TFTLCD横屏显示\USER\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Could not measure total IR len. TDO is constant high.
+**JLink Warning: No matching core found.
+* JLink Info: Could not measure total IR len. TDO is constant high.
+* JLink Info: Could not measure total IR len. TDO is constant high.
+* JLink Info: Resetting target using RESET pin
+* JLink Info: Halting CPU core
+**JLink Warning: Received 0 as core Id.
+* JLink Info: Using DBGRQ to halt CPU
+* JLink Info: Resetting TRST in order to halt CPU
+* JLink Info: Resetting target using RESET pin
+* JLink Info: Halting CPU core
+**JLink Warning: Received 0 as core Id.
+* JLink Info: Using DBGRQ to halt CPU
+* JLink Info: Resetting TRST in order to halt CPU
+***JLink Error: Could not find supported CPU core on JTAG chain
+Unable to halt ARM core
