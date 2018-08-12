@@ -1,1 +1,0 @@
--c --device DARMSTM -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\APP -I..\UCOSII\CONFIG -I "C:\Keil\ARM\INC\ST\STM32F10x" -o "os_mem.o" --omf_browse "os_mem.crf" --depend "os_mem.d" "..\UCOSII\CORE\OS_MEM.C"

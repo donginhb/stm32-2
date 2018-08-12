@@ -1,4 +1,0 @@
---device DARMSTM "stm32f10x.o" "test.o" "delay.o" "sys.o" "usart.o" "led.o" "key.o" "os_core.o" "os_flag.o" "os_mbox.o" "os_mem.o" "os_mutex.o" "os_q.o" "os_sem.o" "os_task.o" "os_time.o" "os_cpu_c.o" ".\os_cpu_a.o" --library_type=microlib --strict --scatter "TEST.sct" 
---autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list ".\TEST.map" -o "TEST.axf"

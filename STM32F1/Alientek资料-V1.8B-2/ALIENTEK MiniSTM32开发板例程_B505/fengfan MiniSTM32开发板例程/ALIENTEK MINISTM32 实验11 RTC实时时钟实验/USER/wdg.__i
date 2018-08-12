@@ -1,1 +1,0 @@
--c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I "D:\keil4\ARM\INC" -I "D:\keil4\ARM\INC\ST\STM32F10x" -o "wdg.o" --omf_browse "wdg.crf" --depend "wdg.d" "..\HARDWARE\WDG\wdg.c"
