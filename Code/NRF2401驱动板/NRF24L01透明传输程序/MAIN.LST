@@ -1,0 +1,398 @@
+C51 COMPILER V9.00   MAIN                                                                  09/24/2013 17:41:15 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN MAIN.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE MAIN.C ROM(COMPACT) OPTIMIZE(6,SPEED) BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include "typedef.h"
+   2          #include "gpio.h"
+   3          #include "uart.h"
+   4          #include "nrf_24l01.h"
+   5          #include "delay.h"
+   6          
+   7          /******************************************************************************/
+   8          // 函数名称：main 
+   9          // 输入参数： 
+  10          // 输出参数： 
+  11          // 函数功能： 
+  12          /******************************************************************************/
+  13          
+  14          
+  15          extern unsigned char TBUF,RBUF;
+  16          
+  17          extern unsigned char TDAT,RDAT;
+  18          
+  19          extern unsigned char TCNT,RCNT;
+  20          
+  21          extern unsigned char TBIT,RBIT;
+  22          
+  23          extern bit TING,RING;
+  24          extern bit TEND,REND;
+  25          
+  26          extern unsigned char t, r;
+  27          
+  28          extern unsigned char buf[32];
+  29          
+  30          
+  31          extern idata unsigned char tx_buf[];
+  32          
+  33          extern idata unsigned char rx_buf[];
+  34          
+  35          unsigned char RX_Flag=0;
+  36          
+  37          unsigned char TX_Flag=0;
+  38          
+  39          
+  40          unsigned char count=100; //1000 times counter
+  41          
+  42          unsigned int LED_Time=300;
+  43          
+  44          
+  45          //内存拷贝函数
+  46          
+  47          void Copy_Mem (unsigned char *P1, unsigned char *P2,unsigned int Count);
+  48          
+  49          
+  50          void InitTime1(void);  //初始化定时器1
+  51          
+  52          
+  53          
+  54          
+  55          /**************************************************************************************
+C51 COMPILER V9.00   MAIN                                                                  09/24/2013 17:41:15 PAGE 2   
+
+  56            函数功能：内存拷贝函数
+  57          
+  58          **************************************************************************************/
+  59          void Copy_Mem (unsigned char *P1, unsigned char *P2,unsigned int Count)
+  60          {
+  61   1         
+  62   1         unsigned int i ;
+  63   1      
+  64   1         for(i=0;i<Count;i++)*P1++=*P2++;
+  65   1      
+  66   1        
+  67   1      }
+  68          
+  69          
+  70          
+  71          void main(void)
+  72          {
+  73   1      
+  74   1        unsigned char i=0;
+  75   1        unsigned int count_send=0;
+  76   1        unsigned int rec_new=0;
+  77   1        unsigned int rec_old=0;
+  78   1        unsigned int rec_err=0;
+  79   1        unsigned int lock_key=0;
+  80   1      
+  81   1        uartInit();    //初始化串口
+  82   1      
+  83   1      
+  84   1       ///一下为测试代码        
+  85   1      
+  86   1      //        while (1)
+  87   1      //              { //user's function
+  88   1      //              if (REND)
+  89   1      //              {
+  90   1      //                      REND = 0;
+  91   1      //                      buf[r++ & 0x0f] = RBUF;
+  92   1      //              }
+  93   1      //              if (TEND)
+  94   1      //              {
+  95   1      //                      if (t != r)
+  96   1      //                      {
+  97   1      //                              TEND = 0;
+  98   1      //                              TBUF = buf[t++ & 0x0f];
+  99   1      //                              TING = 1;
+ 100   1      //                              }
+ 101   1      //                      }
+ 102   1      //              }
+ 103   1      
+ 104   1      
+ 105   1      
+ 106   1      
+ 107   1        InitTime1();//初始化定时器1  
+ 108   1      
+ 109   1        Delay100ms();
+ 110   1      
+ 111   1        init_nrf24l01_io(); //初始化驱动NRF24L01的IO口
+ 112   1      
+ 113   1        Delay100ms();
+ 114   1      
+ 115   1        ifnnrf_rx_mode();        //设置NRF24L01上电后为接收模式
+ 116   1      
+ 117   1        IRQ=1;
+C51 COMPILER V9.00   MAIN                                                                  09/24/2013 17:41:15 PAGE 3   
+
+ 118   1      
+ 119   1        while(IRQ==0);
+ 120   1      
+ 121   1         _delay_us(400);
+ 122   1      
+ 123   1      
+ 124   1      
+ 125   1        while(1)
+ 126   1        {
+ 127   2              
+ 128   2              IRQ=1;            //等待NRF24L01接收中断
+ 129   2      
+ 130   2          if(IRQ==0)    //如果接收到了数据，则对接收到的数据进行处理
+ 131   2      
+ 132   2                {        
+ 133   3              
+ 134   3                      LED_Time=300;//点亮LED
+ 135   3      
+ 136   3                      sta=SPI_Read(STATUS);             //读取状态寄存器
+ 137   3      
+ 138   3              SPI_RW_Reg(WRITE_REG+STATUS,0xff);        //进入到等待状态
+ 139   3              
+ 140   3              if(sta&STA_MARK_RX)                                       //判断状态寄存器的状态，如果为接收到数据状态，则启动接收数据处理函数
+ 141   3              
+ 142   3                       { 
+ 143   4                              
+ 144   4                              SPI_Read_Buf(RD_RX_PLOAD,rx_buf,TX_PLOAD_WIDTH);         //读取接收数据到接收缓冲区
+ 145   4      
+ 146   4                              t=0;//初始化发送数据长度
+ 147   4      
+ 148   4                              while(t<TX_PLOAD_WIDTH)
+ 149   4                              {
+ 150   5      
+ 151   5                              if (TEND)
+ 152   5                                        {
+ 153   6                                              
+ 154   6                                              //if (t != TX_PLOAD_WIDTH)
+ 155   6                                              //      {
+ 156   6                                                              
+ 157   6                                                              TEND = 0;
+ 158   6              
+ 159   6                                                              TBUF = rx_buf[t];
+ 160   6      
+ 161   6                                                              t++;
+ 162   6              
+ 163   6                                                              TING = 1;
+ 164   6                                                      
+ 165   6                                      //              }
+ 166   6                                              
+ 167   6                                              }
+ 168   5                                    }         
+ 169   4                     }
+ 170   3                                      else
+ 171   3                                      {
+ 172   4                                  ifnnrf_CLERN_ALL();
+ 173   4                                  
+ 174   4                                              ifnnrf_rx_mode();
+ 175   4                                  
+ 176   4                                              IRQ=1;
+ 177   4                                 
+ 178   4                                          while(IRQ==0);
+ 179   4                      
+C51 COMPILER V9.00   MAIN                                                                  09/24/2013 17:41:15 PAGE 4   
+
+ 180   4                                               _delay_us(400);
+ 181   4                              }
+ 182   3                  } //接收
+ 183   2      
+ 184   2      
+ 185   2                 //串口接收数据
+ 186   2      
+ 187   2      
+ 188   2                      if (REND)
+ 189   2                      {
+ 190   3                      
+ 191   3                              count=0;//清除超时标记
+ 192   3      
+ 193   3                              REND = 0; //清除接收字节完成标记
+ 194   3                                                                              
+ 195   3                              if(r<32)
+ 196   3                              {
+ 197   4                                      
+ 198   4                                      buf[r] = RBUF;
+ 199   4      
+ 200   4                                      r++;
+ 201   4      
+ 202   4      //                              if(r>32)
+ 203   4      //                              {
+ 204   4      //
+ 205   4      //                               r=0;//如果接收数据超过缓冲区限制，则从缓冲区头开始接收数据。
+ 206   4      //
+ 207   4      //                              }
+ 208   4                                      
+ 209   4      
+ 210   4                              }
+ 211   3      
+ 212   3                      }
+ 213   2      
+ 214   2      
+ 215   2               if(RX_Flag==0xaa)
+ 216   2                       {
+ 217   3                               
+ 218   3                              
+ 219   3                                RX_Flag=0x55;//清除接收到数据标记
+ 220   3      
+ 221   3                               //unsigned char j;
+ 222   3      
+ 223   3                                LED_Time=300;//点亮LED
+ 224   3                               
+ 225   3                                Copy_Mem (tx_buf, buf,r);
+ 226   3      
+ 227   3                                IRQ=1;
+ 228   3              
+ 229   3                        SPI_RW_Reg(WRITE_REG+STATUS,0xff);
+ 230   3      
+ 231   3                                ifnnrf_tx_mode();              //写数据到nrf24L01的发送缓冲区，最长32个字节
+ 232   3      
+ 233   3                        while(IRQ);                     //等待NRF24L01的发送完中断信号
+ 234   3              
+ 235   3                        sta=SPI_Read(STATUS);         //读取状态寄存器
+ 236   3              
+ 237   3                        SPI_RW_Reg(WRITE_REG+STATUS,0xff);      //进入到等待状态        
+ 238   3      
+ 239   3                               if(sta&STA_MARK_TX)                      //如果发送完成，则闪烁LED灯
+ 240   3                                      {
+ 241   4                                 
+C51 COMPILER V9.00   MAIN                                                                  09/24/2013 17:41:15 PAGE 5   
+
+ 242   4                                             r=0;//清除接收数据长度
+ 243   4                                             Delay100ms();
+ 244   4                                 } 
+ 245   3                                 else
+ 246   3                                  {
+ 247   4      
+ 248   4                                ifnnrf_CLERN_ALL();             //否则，清除本次发送，重新发
+ 249   4                                  
+ 250   4                                      }
+ 251   3      
+ 252   3      
+ 253   3                       }
+ 254   2                      if(RX_Flag==0x55)  //发送完，nrf2401 设置为接收模式
+ 255   2      
+ 256   2                              {
+ 257   3                                      
+ 258   3                                      RX_Flag=0;
+ 259   3      
+ 260   3                                      ifnnrf_rx_mode();
+ 261   3      
+ 262   3                              IRQ=1;
+ 263   3      
+ 264   3                              while(IRQ==0);
+ 265   3      
+ 266   3                              _delay_us(400);
+ 267   3      
+ 268   3              
+ 269   3                                      }
+ 270   2      
+ 271   2                
+ 272   2        }
+ 273   1      }
+ 274          
+ 275          
+ 276          /* define constants */
+ 277          
+ 278          #define SYSclk  22118400L     //18432000L
+ 279                                     
+ 280          #define MODE1T //Timer clock mode, comment this line is 12T mode, uncomment is 1T mode
+ 281          
+ 282          #ifdef MODE1T
+ 283          
+ 284                  #define T1MS (65536-SYSclk/1000) //1ms timer calculation method in 1T mode
+ 285          
+ 286          #else
+              
+                      #define T1MS (65536-SYSclk/12/1000) //1ms timer calculation method in 12T mode
+              
+              #endif
+ 291          
+ 292          
+ 293          
+ 294          
+ 295          /* define SFR */
+ 296          //sfr AUXR = 0x8e; //Auxiliary register
+ 297          //sbit TEST_LED = P0^0; //work LED, flash once per second
+ 298          /* define variables */
+ 299          
+ 300          
+ 301          void InitTime1(void)
+ 302          {
+ 303   1          
+C51 COMPILER V9.00   MAIN                                                                  09/24/2013 17:41:15 PAGE 6   
+
+ 304   1              
+ 305   1              //TMOD = 0x00; //set timer1 as mode0 (16-bit auto-reload)
+ 306   1      
+ 307   1              TL1 = T1MS; //initial timer1 low byte
+ 308   1              TH1 = T1MS >> 8; //initial timer1 high byte
+ 309   1              TR1 = 1; //timer1 start running
+ 310   1              ET1 = 1; //enable timer1 interrupt
+ 311   1              EA = 1; //open global interrupt switch
+ 312   1      
+ 313   1              count = 0; //initial counter
+ 314   1      
+ 315   1      }
+ 316          
+ 317          
+ 318          
+ 319          
+ 320          //-----------------------------------------------
+ 321          /* Timer1 interrupt routine */
+ 322          void tm1_isr() interrupt 3 using 1
+ 323          {
+ 324   1               if(count<5)
+ 325   1                {
+ 326   2      
+ 327   2                 count++;
+ 328   2      
+ 329   2                }
+ 330   1                if(count==5)
+ 331   1                {
+ 332   2                      
+ 333   2                      count++;
+ 334   2      
+ 335   2                      RX_Flag=0xaa;
+ 336   2      
+ 337   2      
+ 338   2                }
+ 339   1      
+ 340   1      
+ 341   1      
+ 342   1                if(LED_Time>0)
+ 343   1                {
+ 344   2                
+ 345   2                      led=0;
+ 346   2                      
+ 347   2                      LED_Time--;
+ 348   2      
+ 349   2                }
+ 350   1                else
+ 351   1                {
+ 352   2      
+ 353   2                      led=1;
+ 354   2      
+ 355   2      
+ 356   2                }
+ 357   1      
+ 358   1      }
+ 359          
+ 360          
+ 361          
+ 362          
+ 363          
+
+
+C51 COMPILER V9.00   MAIN                                                                  09/24/2013 17:41:15 PAGE 7   
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    408    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      5      19
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
